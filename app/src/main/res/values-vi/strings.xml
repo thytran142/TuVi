@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Vietnamese zodiac </string>
+    <string name="app_name">Tử vi Việt Nam </string>
     <string name="hello_world">This is the introduction </string>
     <string name="action_settings">Settings</string>
     <string name="activity1_label">Enter details for prediction</string>

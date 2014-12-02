@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-</LinearLayout>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+<TableRow>
+    <TextView
+         android:text="@string/name"
+        android:width="120dp" />
+    <EditText
+        android:id="@+id/txt_name"
+        android:width="200dp"/>
+</TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/buttonReading"
+            android:text="@string/view_result"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:onClick="goToActivity3"/>
+    </TableRow>
+</TableLayout>

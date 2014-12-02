@@ -5,18 +5,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.EditText;
 
 /**
  * Created by tranthy on 2/12/14.
  */
-public class Activity1 extends Activity {
+public class Activity3 extends Activity {
     Intent myIntent;
-
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity1);
+        setContentView(R.layout.activity3);
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -29,11 +27,6 @@ public class Activity1 extends Activity {
         }
         return super.onOptionsItemSelected(item);
     }
-    public void goToActivity3(View view){
-        myIntent = new Intent(this,Activity3.class);
-        EditText txtName=(EditText)view.findViewById(R.id.txt_name);
-        myIntent.putExtra("name",txtName.getText().toString());
-        startActivity(myIntent);
-    }
+
 
 }

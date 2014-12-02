@@ -19,6 +19,10 @@
         <activity android:name=".Activity1"
             android:label="@string/activity1_label"
             android:parentActivityName=".MyActivity"></activity>
+
+        <activity android:name=".Activity3"
+            android:label="@string/activity1_label"
+            android:parentActivityName=".Activity1"></activity>
     </application>
 
 </manifest>

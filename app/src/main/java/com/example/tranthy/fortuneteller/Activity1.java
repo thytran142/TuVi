@@ -1,29 +1,20 @@
 package com.example.tranthy.fortuneteller;
 
-import android.support.v7.app.ActionBarActivity;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.app.Activity;
 import android.content.Intent;
+import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 
-public class MyActivity extends ActionBarActivity {
-    Intent myIntent;
-
+/**
+ * Created by tranthy on 2/12/14.
+ */
+public class Activity1 extends Activity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my);
+        setContentView(R.layout.activity1);
     }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.my, menu);
-        return true;
-    }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -35,8 +26,5 @@ public class MyActivity extends ActionBarActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-    public void goToActivity1(View view){
-        myIntent = new Intent(this,Activity1.class);
 
-    }
 }

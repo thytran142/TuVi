@@ -29,6 +29,7 @@
         android:onClick="goToActivity1"
         android:text="@string/start_reading"
         android:typeface="serif"
+        android:background="@drawable/buttonstartreading"
         android:textStyle="italic" />
 
 

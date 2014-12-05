@@ -40,5 +40,5 @@
     <string name="chicken">Chicken (17h - 19h)</string>
     <string name="dog">Dog ( 19h - 21h)</string>
     <string name="pig">Pig ( 21h - 23h)</string>
-    <string name="time_hint">Hint: Nếu bạn sinh vào 19h00 thì bạn thuộc giờ Tuất thay vì giờ Dậu.</string>
+    <string name="time_hint">Hint: Nếu bạn sinh vào 19h00 thì bạn thuộc giờ Tuất thay vì giờ Dậu..</string>
 </resources>

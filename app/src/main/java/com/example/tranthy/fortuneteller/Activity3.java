@@ -19,7 +19,7 @@ public class Activity3 extends Activity {
         Toast.makeText(this,getIntent().getStringExtra("userName")+
                 " "+getIntent().getStringExtra("gender")+" "
                 +getIntent().getStringExtra("place")
-                +" "+getIntent().getStringExtra("year")+"-"+getIntent().getStringExtra("month")+"-"+getIntent().getStringExtra("day"),Toast.LENGTH_LONG).show();
+                +" "+getIntent().getStringExtra("year")+"-"+getIntent().getStringExtra("month")+"-"+getIntent().getStringExtra("day")+ "-"+getIntent().getStringExtra("time"),Toast.LENGTH_LONG).show();
 
 
 

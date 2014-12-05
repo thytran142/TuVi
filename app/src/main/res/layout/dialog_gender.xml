@@ -3,25 +3,40 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="@drawable/background">
-   <RadioGroup
+    android:background="@drawable/background"
+    android:baselineAligned="false"
+    android:clickable="false"
+    android:longClickable="false"
+    android:measureWithLargestChild="false"
+    android:weightSum="1"
+    android:gravity="center">
+
+    <RadioButton
+        android:id="@+id/male_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/male"
+        android:drawableStart="@drawable/male"
+        android:text="@string/male"
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+    <RadioGroup
        android:id="@+id/genderGroup"
-       android:layout_width="match_parent"
+       android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:orientation="vertical">
-       <RadioButton
-           android:id="@+id/male_radio"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:drawableLeft="@drawable/ic_launcher"
-           android:text="@string/male"
-           />
-       <RadioButton
+       android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <RadioButton
            android:id="@+id/female_radio"
-           android:layout_width="match_parent"
+           android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:drawableLeft="@drawable/ic_launcher"
-           android:text="@string/female"/>
+           android:drawableLeft="@drawable/female"
+           android:drawableStart="@drawable/female"
+           android:text="@string/female"
+           android:gravity="center"
+            android:layout_gravity="center" />
  </RadioGroup>
 
 

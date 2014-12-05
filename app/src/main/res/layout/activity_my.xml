@@ -9,8 +9,8 @@
     android:background="@drawable/background1"
     tools:context=".MyActivity">
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:background="@drawable/thaydo1"
         android:layout_above="@+id/hello_"
         android:id="@+id/imageView"
@@ -33,7 +33,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/startreading"
+        android:background="@drawable/start"
         android:onClick="goToActivity1"
         android:layout_below="@+id/hello_"
         tools:ignore="ContentDescription"/>

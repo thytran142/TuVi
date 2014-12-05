@@ -39,7 +39,7 @@
                 android:id="@+id/cat_radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/ic_launcher"
+                android:drawableLeft="@drawable/cat"
                 android:text="@string/cat"/>
             <RadioButton
                 android:id="@+id/dragon_radio"

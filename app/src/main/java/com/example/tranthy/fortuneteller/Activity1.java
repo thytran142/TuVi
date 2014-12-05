@@ -38,6 +38,7 @@ public class Activity1 extends Activity {
     public int year=0;
     public int month=0;
     public int day=0;
+    public String time="";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -115,13 +116,14 @@ public class Activity1 extends Activity {
                             if(hereOption.isChecked()){
                                 place="here";
                                 TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(place);
+                                item_name.setText(R.string.here);
                             }else if(thereOption.isChecked()){
                                 place="there";
                                 TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(place);
+                                item_name.setText(R.string.there);
                             }else {place="";
                             TextView item_name = (TextView) view.findViewById(R.id.item_content);
+
                             item_name.setText(place);}
                         }
                     }).setNegativeButton(R.string.cancel,new DialogInterface.OnClickListener() {
@@ -148,9 +150,92 @@ public class Activity1 extends Activity {
                         }
                     },mYear,mMonth,mDay);
                     datePickerDialog.show();
-                } else {
-
+                } else if(itemPosition==4){
+                    AlertDialog.Builder builder= new AlertDialog.Builder(Activity1.this);
+                    final View v=getLayoutInflater().inflate(R.layout.dialog_time,null);
+                    builder.setView(v).setPositiveButton("OK",new DialogInterface.OnClickListener(){
+                        @Override
+                        public void onClick(DialogInterface dialog, int id){
+                            RadioButton mouseOption=(RadioButton)v.findViewById(R.id.mouse_radio);
+                            RadioButton buffaloOption=(RadioButton)v.findViewById(R.id.buffalo_radio);
+                            RadioButton tigerOption=(RadioButton)v.findViewById(R.id.tiger_radio);
+                            RadioButton catOption=(RadioButton)v.findViewById(R.id.cat_radio);
+                            RadioButton dragonOption=(RadioButton)v.findViewById(R.id.tiger_radio);
+                            RadioButton snakeOption=(RadioButton)v.findViewById(R.id.snake_radio);
+                            RadioButton horseOption=(RadioButton)v.findViewById(R.id.horse_radio);
+                            RadioButton goatOption=(RadioButton)v.findViewById(R.id.goat_radio);
+                            RadioButton monkeyOption=(RadioButton)v.findViewById(R.id.monkey_radio);
+                            RadioButton chickenOption=(RadioButton)v.findViewById(R.id.chicken_radio);
+                            RadioButton dogOption=(RadioButton)v.findViewById(R.id.dog_radio);
+                            RadioButton pigOption=(RadioButton)v.findViewById(R.id.pig_radio);
+                            if(mouseOption.isChecked()){
+                                time="mouse";
+                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                                item_name.setText(R.string.mouse);
+                            }else if(buffaloOption.isChecked()){
+                               time="buffalo";
+                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                                item_name.setText(R.string.buffalo);
+                            }else if(tigerOption.isChecked()){
+                                time="tiger";
+                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                                item_name.setText(R.string.tiger);
+                            }else if(catOption.isChecked()){
+                                time="cat";
+                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                                item_name.setText(R.string.cat);
+                            }else if(dragonOption.isChecked()){
+                                time="dragon";
+                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                                item_name.setText(R.string.dragon);
+                            }else if(snakeOption.isChecked()){
+                                time="snake";
+                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                                item_name.setText(R.string.snake);
+                            }else if(horseOption.isChecked()){
+                                time="horse";
+                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                                item_name.setText(R.string.horse);
+                            }else if(goatOption.isChecked()){
+                                time="goat";
+                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                                item_name.setText(R.string.goat);
+                            }else if(monkeyOption.isChecked()){
+                                time="monkey";
+                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                                item_name.setText(R.string.monkey);
+                            }else if(chickenOption.isChecked()){
+                                time="chicken";
+                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                                item_name.setText(R.string.chicken);
+                            }else if(dogOption.isChecked()){
+                                time="dog";
+                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                                item_name.setText(R.string.dog);
+                            }
+                            else if(pigOption.isChecked()){
+                                time="dog";
+                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                                item_name.setText(R.string.pig);
+                            }else
+                            {
+                                time="";
+                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                                item_name.setText("");
+                            }
+                        }
+                    }).setNegativeButton(R.string.cancel,new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            dialogInterface.cancel();
+                        }
+                    });
+                    builder.create();
+                    builder.show();
                 }
+
+
+
             }
         });
         //end listView
@@ -189,13 +274,19 @@ public class Activity1 extends Activity {
                     if(year==0 || month==0 || day==0){
                         Toast.makeText(this,R.string.empty_date_of_birth,Toast.LENGTH_LONG).show();
                     }else {
-                        myIntent.putExtra("userName", userName);
-                        myIntent.putExtra("gender", gender);
-                        myIntent.putExtra("place",place);
-                        myIntent.putExtra("year",year);
-                        myIntent.putExtra("month",month);
-                        myIntent.putExtra("day",day);
-                        startActivity(myIntent);
+                        if(isEmptyString(time)){
+                            Toast.makeText(this,R.string.empty_time_of_birth,Toast.LENGTH_LONG).show();
+                        }else{
+                            myIntent.putExtra("userName", userName);
+                            myIntent.putExtra("gender", gender);
+                            myIntent.putExtra("place",place);
+                            myIntent.putExtra("year",year);
+                            myIntent.putExtra("month",month);
+                            myIntent.putExtra("day",day);
+                            myIntent.putExtra("time",time);
+                            startActivity(myIntent);
+                        }
+
                     }
 
                 }

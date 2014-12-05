@@ -17,7 +17,8 @@
             android:textSize="18dp"
             android:textColor="#FF3300"
             android:layout_height="wrap_content"
-            android:text="@string/enter_detail"/>
+            android:text="@string/enter_detail"
+            android:typeface="serif" />
         </LinearLayout>
         <LinearLayout
             android:id="@+id/linearlist"

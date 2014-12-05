@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -22,6 +23,8 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.view.ViewGroup.LayoutParams;
+import android.util.DisplayMetrics;
 
 import java.util.Calendar;
 
@@ -72,8 +75,11 @@ public class Activity1 extends Activity {
                             dialog.cancel();
                         }
                     });
-                    builder.create();
-                    builder.show();
+                    Dialog d=builder.create();
+
+
+                    d.show();
+
                 }//end itemposition1
                 else if (itemPosition == 1) {
                    AlertDialog.Builder builder=new AlertDialog.Builder(Activity1.this);

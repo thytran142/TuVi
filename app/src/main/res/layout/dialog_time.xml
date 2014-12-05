@@ -45,7 +45,7 @@
                 android:id="@+id/dragon_radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/ic_launcher"
+                android:drawableLeft="@drawable/dragon"
                 android:text="@string/dragon"/>
             <RadioButton
                 android:id="@+id/snake_radio"

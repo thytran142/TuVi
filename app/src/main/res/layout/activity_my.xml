@@ -27,16 +27,14 @@
         android:layout_alignParentLeft="true"
         android:typeface="serif"
         android:gravity="center_horizontal" />
-    <Button
-        android:layout_marginTop="20dp"
-        android:layout_below="@+id/hello_"
-        android:layout_width="match_parent"
+    <ImageView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="goToActivity1"
-        android:text="@string/start_reading"
-        android:typeface="serif"
-        android:background="@drawable/buttonstartreading"
-        android:textStyle="italic" />
+        android:background="@drawable/startreading"
+        android:layout_below="@+id/hello_"
+        android:layout_centerHorizontal="true"
+        android:onClick="goToActivity1"/>
+
 
 
 </RelativeLayout>

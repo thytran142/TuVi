@@ -34,7 +34,10 @@ public class Activity1 extends Activity {
     Button btn_submit;
     public String userName = "";
     public String gender = "";
-
+    public String place="";
+    public int year=0;
+    public int month=0;
+    public int day=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -81,10 +84,17 @@ public class Activity1 extends Activity {
                                 RadioButton femaleOption=(RadioButton)v.findViewById(R.id.female_radio);
                             if(maleOption.isChecked()){
                                 gender="Male";
+                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                                item_name.setText(gender);
                             }else if(femaleOption.isChecked()){
                                 gender="Female";
+                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                                item_name.setText(gender);
                             }
-                            else gender="";
+                            else {gender="";
+                            TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                            item_name.setText(gender);}
+
                         }
                     }).setNegativeButton(R.string.cancel,new DialogInterface.OnClickListener(){
                         public void onClick(DialogInterface dialog, int id){
@@ -95,11 +105,51 @@ public class Activity1 extends Activity {
                     builder.show();
                 }//end position gender
                 else if (itemPosition == 2) {
-                    Toast.makeText(getApplicationContext(), "You enter place of birth field", Toast.LENGTH_LONG).show();
+                   AlertDialog.Builder builder= new AlertDialog.Builder(Activity1.this);
+                   final View v=getLayoutInflater().inflate(R.layout.dialog_place,null);
+                    builder.setView(v).setPositiveButton("OK",new DialogInterface.OnClickListener(){
+                        @Override
+                    public void onClick(DialogInterface dialog, int id){
+                            RadioButton hereOption=(RadioButton)v.findViewById(R.id.here_radio);
+                            RadioButton thereOption=(RadioButton)v.findViewById(R.id.there_radio);
+                            if(hereOption.isChecked()){
+                                place="here";
+                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                                item_name.setText(place);
+                            }else if(thereOption.isChecked()){
+                                place="there";
+                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                                item_name.setText(place);
+                            }else {place="";
+                            TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                            item_name.setText(place);}
+                        }
+                    }).setNegativeButton(R.string.cancel,new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            dialogInterface.cancel();
+                        }
+                    });
+                      builder.create();
+                    builder.show();
                 } else if (itemPosition == 3) {
-                    Toast.makeText(getApplicationContext(), "You enter date of birth field", Toast.LENGTH_LONG).show();
+                  final Calendar c=Calendar.getInstance();
+                   int mYear=c.get(Calendar.YEAR);
+                    int mMonth=c.get(Calendar.MONTH);
+                    int mDay=c.get(Calendar.DAY_OF_MONTH);
+                    DatePickerDialog datePickerDialog=new DatePickerDialog(Activity1.this,new DatePickerDialog.OnDateSetListener(){
+                        @Override
+                    public void onDateSet(DatePicker view, int yearOfYear, int monthOfYear, int dayOfMonth){
+                            year=yearOfYear;
+                            month=monthOfYear+1;
+                            day=dayOfMonth;
+                            TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                            item_name.setText(dayOfMonth+"-"+(monthOfYear+1)+"-"+yearOfYear);
+                        }
+                    },mYear,mMonth,mDay);
+                    datePickerDialog.show();
                 } else {
-                    Toast.makeText(getApplicationContext(), "You enter time of birth field ", Toast.LENGTH_LONG).show();
+
                 }
             }
         });
@@ -128,14 +178,28 @@ public class Activity1 extends Activity {
     public void goToActivity3(View view) {
         myIntent = new Intent(this, Activity3.class);
         if (isEmptyString(userName)) {
-            Toast.makeText(this, "Please enter your name for the correct prediction", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.empty_name_error, Toast.LENGTH_LONG).show();
         } else {
             if (isEmptyString(gender)) {
-                Toast.makeText(this, "Please enter your gender for the correct prediction", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, R.string.empty_gender_error, Toast.LENGTH_LONG).show();
             } else {
-                myIntent.putExtra("userName", userName);
-                myIntent.putExtra("gender", gender);
-                startActivity(myIntent);
+                if(isEmptyString(place)){
+                    Toast.makeText(this,R.string.empty_place,Toast.LENGTH_LONG).show();
+                }else{
+                    if(year==0 || month==0 || day==0){
+                        Toast.makeText(this,R.string.empty_date_of_birth,Toast.LENGTH_LONG).show();
+                    }else {
+                        myIntent.putExtra("userName", userName);
+                        myIntent.putExtra("gender", gender);
+                        myIntent.putExtra("place",place);
+                        myIntent.putExtra("year",year);
+                        myIntent.putExtra("month",month);
+                        myIntent.putExtra("day",day);
+                        startActivity(myIntent);
+                    }
+
+                }
+
             }
         }
     }

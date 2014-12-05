@@ -139,7 +139,7 @@ public class Activity1 extends Activity {
                     int mDay=c.get(Calendar.DAY_OF_MONTH);
                     DatePickerDialog datePickerDialog=new DatePickerDialog(Activity1.this,new DatePickerDialog.OnDateSetListener(){
                         @Override
-                    public void onDateSet(DatePicker view, int yearOfYear, int monthOfYear, int dayOfMonth){
+                    public void onDateSet(DatePicker v, int yearOfYear, int monthOfYear, int dayOfMonth){
                             year=yearOfYear;
                             month=monthOfYear+1;
                             day=dayOfMonth;

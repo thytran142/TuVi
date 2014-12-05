@@ -27,7 +27,7 @@
                 android:id="@+id/buffalo_radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/ic_launcher"
+                android:drawableLeft="@drawable/buffalo"
                 android:text="@string/buffalo"/>
             <RadioButton
                 android:id="@+id/tiger_radio"

@@ -16,7 +16,8 @@ public class Activity3 extends Activity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity3);
-        Toast.makeText(this,getIntent().getStringExtra("userName"),Toast.LENGTH_LONG).show();
+        Toast.makeText(this,getIntent().getStringExtra("userName")+ " "+getIntent().getStringExtra("gender"),Toast.LENGTH_LONG).show();
+
 
     }
     @Override

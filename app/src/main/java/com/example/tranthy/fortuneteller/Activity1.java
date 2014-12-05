@@ -1,22 +1,84 @@
 package com.example.tranthy.fortuneteller;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.DatePickerDialog;
+import android.app.Dialog;
+import android.app.DialogFragment;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.RadioButton;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.Calendar;
 
 /**
  * Created by tranthy on 2/12/14.
  */
-public class Activity1 extends Activity {
+public class Activity1 extends Activity{
     Intent myIntent;
-
+    ListView listView;
+    Button btn_submit;
+    public String userName="";
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity1);
+        listView=(ListView)findViewById(R.id.list);
+        String[] values={"","","","",""};
+        ArrayAdapter listAdapter= new MyAdapter(this,R.layout.list_item,R.id.item_title,values,R.id.item_content);
+        listView.setAdapter(listAdapter);
+        //list view item click listener
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, final View view, int position, long id) {
+                int itemPosition=position;
+                if(itemPosition==0) {
+
+                    AlertDialog.Builder builder= new AlertDialog.Builder(Activity1.this);
+                    builder.setView(getLayoutInflater().inflate(R.layout.dialog_username,null))
+                            .setPositiveButton("OK",new DialogInterface.OnClickListener(){
+                                @Override
+                            public void onClick(DialogInterface dialog, int id){
+                                    final EditText txtname=(EditText)view.findViewById(R.id.username);
+                                    //do something
+                                }
+                            }).setNegativeButton(R.string.cancel,new DialogInterface.OnClickListener(){
+                        public void onClick(DialogInterface dialog, int id){
+                            dialog.cancel();
+                        }
+                    });
+                        builder.create();
+                        builder.show();
+                }//end itemposition1
+                else if(itemPosition==1){
+                    Toast.makeText(getApplicationContext(),"You enter gender field",Toast.LENGTH_LONG).show();
+                }
+                else if(itemPosition==2){
+                    Toast.makeText(getApplicationContext(),"You enter place of birth field",Toast.LENGTH_LONG).show();
+                }
+                else if(itemPosition==3){
+                    Toast.makeText(getApplicationContext(),"You enter date of birth field",Toast.LENGTH_LONG).show();
+                }
+                else{
+                   Toast.makeText(getApplicationContext(),"You enter time of birth field ",Toast.LENGTH_LONG).show();
+                }
+            }
+        });
+        //end listView
+
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -29,11 +91,26 @@ public class Activity1 extends Activity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    private boolean isEmpty(EditText input){
+        if(input.getText().toString().trim().length()>0){
+            return false;
+        }else return true;
+    }
+    private boolean isEmptyString(String str){
+        if(str.trim().length()>0) return false;
+        else return true;
+    }
     public void goToActivity3(View view){
         myIntent = new Intent(this,Activity3.class);
-        EditText txtName=(EditText)view.findViewById(R.id.txt_name);
-        myIntent.putExtra("name",txtName.getText().toString());
-        startActivity(myIntent);
+        if(isEmptyString(userName)){
+            Toast.makeText(this,"Please enter your name for the correct prediction",Toast.LENGTH_LONG).show();
+        }else{
+            myIntent.putExtra("userName",userName);
+            startActivity(myIntent);
+        }
+      }
+
     }
 
-}
+

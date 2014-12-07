@@ -57,31 +57,31 @@
                 android:id="@+id/horse_radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/ic_launcher"
+                android:drawableLeft="@drawable/horse"
                 android:text="@string/horse"/>
             <RadioButton
                 android:id="@+id/goat_radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/ic_launcher"
+                android:drawableLeft="@drawable/goat"
                 android:text="@string/goat"/>
             <RadioButton
                 android:id="@+id/monkey_radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/ic_launcher"
+                android:drawableLeft="@drawable/monkey"
                 android:text="@string/monkey"/>
             <RadioButton
                 android:id="@+id/chicken_radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/ic_launcher"
+                android:drawableLeft="@drawable/chicken"
                 android:text="@string/chicken"/>
             <RadioButton
                 android:id="@+id/dog_radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/ic_launcher"
+                android:drawableLeft="@drawable/dog"
                 android:text="@string/dog"/>
             <RadioButton
                 android:id="@+id/pig_radio"

@@ -47,7 +47,7 @@ public class Activity1 extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity1);
         listView = (ListView) findViewById(R.id.list);
-        String[] values = {"", "", "", "", ""};
+        final String[] values = {"", " ", "", "", ""};
         ArrayAdapter listAdapter = new MyAdapter(this, R.layout.list_item, R.id.item_title, values, R.id.item_content);
         listView.setAdapter(listAdapter);
         //list view item click listener
@@ -56,29 +56,23 @@ public class Activity1 extends Activity {
             public void onItemClick(AdapterView<?> adapterView, final View view, int position, long id) {
                 int itemPosition = position;
                 if (itemPosition == 0) {
-
-                    AlertDialog.Builder builder = new AlertDialog.Builder(Activity1.this);
-                    final View v = getLayoutInflater().inflate(R.layout.dialog_username, null);
-
-                    builder.setView(v)
-                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialog, int id) {
-
-                                    userName = ((EditText) v.findViewById(R.id.username)).getText().toString();
-                                    //check if username is empty and save the value to username string
-                                    TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                    item_name.setText(userName);
-                                }
-                            }).setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int id) {
+                    AlertDialog.Builder builder=new AlertDialog.Builder(Activity1.this);
+                    final View v=getLayoutInflater().inflate(R.layout.dialog_username,null);
+                    builder.setView(v).setPositiveButton("OK",new DialogInterface.OnClickListener(){
+                        @Override
+                        public void onClick(DialogInterface dialog, int id){
+                           EditText nameText=(EditText)v.findViewById(R.id.username_editText);
+                           userName=nameText.getText().toString();
+                           values[0]=userName;
+                        }
+                    }).setNegativeButton(R.string.cancel,new DialogInterface.OnClickListener(){
+                        public void onClick(DialogInterface dialog, int id){
                             dialog.cancel();
                         }
                     });
-                    Dialog d=builder.create();
+                    builder.create();
+                    builder.show();
 
-
-                    d.show();
 
                 }//end itemposition1
                 else if (itemPosition == 1) {
@@ -91,16 +85,16 @@ public class Activity1 extends Activity {
                                 RadioButton femaleOption=(RadioButton)v.findViewById(R.id.female_radio);
                             if(maleOption.isChecked()){
                                 gender="Male";
-                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(gender);
+                                TextView item_gender = (TextView) view.findViewById(R.id.item_content);
+                                item_gender.setText(gender);
                             }else if(femaleOption.isChecked()){
                                 gender="Female";
-                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(gender);
+                                TextView item_gender = (TextView) view.findViewById(R.id.item_content);
+                                item_gender.setText(gender);
                             }
                             else {gender="";
-                            TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                            item_name.setText(gender);}
+                            TextView item_gender = (TextView) view.findViewById(R.id.item_content);
+                            item_gender.setText(gender);}
 
                         }
                     }).setNegativeButton(R.string.cancel,new DialogInterface.OnClickListener(){
@@ -121,16 +115,16 @@ public class Activity1 extends Activity {
                             RadioButton thereOption=(RadioButton)v.findViewById(R.id.there_radio);
                             if(hereOption.isChecked()){
                                 place="here";
-                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(R.string.here);
+                                TextView item_place = (TextView) view.findViewById(R.id.item_content);
+                                item_place.setText(R.string.here);
                             }else if(thereOption.isChecked()){
                                 place="there";
-                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(R.string.there);
+                                TextView item_place = (TextView) view.findViewById(R.id.item_content);
+                                item_place.setText(R.string.there);
                             }else {place="";
-                            TextView item_name = (TextView) view.findViewById(R.id.item_content);
+                            TextView item_place = (TextView) view.findViewById(R.id.item_content);
 
-                            item_name.setText(place);}
+                            item_place.setText(place);}
                         }
                     }).setNegativeButton(R.string.cancel,new DialogInterface.OnClickListener() {
                         @Override
@@ -145,16 +139,18 @@ public class Activity1 extends Activity {
                    int mYear=c.get(Calendar.YEAR);
                     int mMonth=c.get(Calendar.MONTH);
                     int mDay=c.get(Calendar.DAY_OF_MONTH);
-                    DatePickerDialog datePickerDialog=new DatePickerDialog(Activity1.this,new DatePickerDialog.OnDateSetListener(){
+                    DatePickerDialog datePickerDialog=new DatePickerDialog(Activity1.this,R.style.datePickerStyle,new DatePickerDialog.OnDateSetListener(){
                         @Override
                     public void onDateSet(DatePicker v, int yearOfYear, int monthOfYear, int dayOfMonth){
                             year=yearOfYear;
                             month=monthOfYear+1;
                             day=dayOfMonth;
-                            TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                            item_name.setText(dayOfMonth+"-"+(monthOfYear+1)+"-"+yearOfYear);
+                            TextView item_day = (TextView) view.findViewById(R.id.item_content);
+                            item_day.setText(dayOfMonth+"-"+(monthOfYear+1)+"-"+yearOfYear);
                         }
                     },mYear,mMonth,mDay);
+
+
                     datePickerDialog.show();
                 } else if(itemPosition==4){
                     AlertDialog.Builder builder= new AlertDialog.Builder(Activity1.this);
@@ -166,7 +162,7 @@ public class Activity1 extends Activity {
                             RadioButton buffaloOption=(RadioButton)v.findViewById(R.id.buffalo_radio);
                             RadioButton tigerOption=(RadioButton)v.findViewById(R.id.tiger_radio);
                             RadioButton catOption=(RadioButton)v.findViewById(R.id.cat_radio);
-                            RadioButton dragonOption=(RadioButton)v.findViewById(R.id.tiger_radio);
+                            RadioButton dragonOption=(RadioButton)v.findViewById(R.id.dragon_radio);
                             RadioButton snakeOption=(RadioButton)v.findViewById(R.id.snake_radio);
                             RadioButton horseOption=(RadioButton)v.findViewById(R.id.horse_radio);
                             RadioButton goatOption=(RadioButton)v.findViewById(R.id.goat_radio);
@@ -176,58 +172,58 @@ public class Activity1 extends Activity {
                             RadioButton pigOption=(RadioButton)v.findViewById(R.id.pig_radio);
                             if(mouseOption.isChecked()){
                                 time="mouse";
-                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(R.string.mouse);
+                                TextView item_time= (TextView) view.findViewById(R.id.item_content);
+                                item_time.setText(R.string.mouse);
                             }else if(buffaloOption.isChecked()){
                                time="buffalo";
-                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(R.string.buffalo);
+                                TextView item_time= (TextView) view.findViewById(R.id.item_content);
+                                item_time.setText(R.string.buffalo);
                             }else if(tigerOption.isChecked()){
                                 time="tiger";
-                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(R.string.tiger);
+                                TextView item_time = (TextView) view.findViewById(R.id.item_content);
+                                item_time.setText(R.string.tiger);
                             }else if(catOption.isChecked()){
                                 time="cat";
-                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(R.string.cat);
+                                TextView item_time = (TextView) view.findViewById(R.id.item_content);
+                                item_time.setText(R.string.cat);
                             }else if(dragonOption.isChecked()){
                                 time="dragon";
-                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(R.string.dragon);
+                                TextView item_time= (TextView) view.findViewById(R.id.item_content);
+                                item_time.setText(R.string.dragon);
                             }else if(snakeOption.isChecked()){
                                 time="snake";
-                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(R.string.snake);
+                                TextView item_time = (TextView) view.findViewById(R.id.item_content);
+                                item_time.setText(R.string.snake);
                             }else if(horseOption.isChecked()){
                                 time="horse";
-                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(R.string.horse);
+                                TextView item_time = (TextView) view.findViewById(R.id.item_content);
+                                item_time.setText(R.string.horse);
                             }else if(goatOption.isChecked()){
                                 time="goat";
-                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(R.string.goat);
+                                TextView item_time = (TextView) view.findViewById(R.id.item_content);
+                                item_time.setText(R.string.goat);
                             }else if(monkeyOption.isChecked()){
                                 time="monkey";
-                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(R.string.monkey);
+                                TextView item_time = (TextView) view.findViewById(R.id.item_content);
+                                item_time.setText(R.string.monkey);
                             }else if(chickenOption.isChecked()){
                                 time="chicken";
-                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(R.string.chicken);
+                                TextView item_time = (TextView) view.findViewById(R.id.item_content);
+                                item_time.setText(R.string.chicken);
                             }else if(dogOption.isChecked()){
                                 time="dog";
-                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(R.string.dog);
+                                TextView item_time = (TextView) view.findViewById(R.id.item_content);
+                                item_time.setText(R.string.dog);
                             }
                             else if(pigOption.isChecked()){
-                                time="dog";
-                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText(R.string.pig);
+                                time="pig";
+                                TextView item_time = (TextView) view.findViewById(R.id.item_content);
+                                item_time.setText(R.string.pig);
                             }else
                             {
                                 time="";
-                                TextView item_name = (TextView) view.findViewById(R.id.item_content);
-                                item_name.setText("");
+                                TextView item_time = (TextView) view.findViewById(R.id.item_content);
+                                item_time.setText("");
                             }
                         }
                     }).setNegativeButton(R.string.cancel,new DialogInterface.OnClickListener() {
@@ -283,6 +279,7 @@ public class Activity1 extends Activity {
                         if(isEmptyString(time)){
                             Toast.makeText(this,R.string.empty_time_of_birth,Toast.LENGTH_LONG).show();
                         }else{
+
                             myIntent.putExtra("userName", userName);
                             myIntent.putExtra("gender", gender);
                             myIntent.putExtra("place",place);

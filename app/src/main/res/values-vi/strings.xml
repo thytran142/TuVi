@@ -1,8 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Tử vi Việt Nam </string>
-    <string name="hello_world">This is the introduction </string>
+    <string name="app_name">Vietnamese astrology</string>
+    <string name="hello_world">Vietnamese astrology was created to let you get a hold of your
+        destiny by using specific identification items such as your name, gender, date
+         and time of birth to foresee parts of your future. Want to know more details about your future
+        rather than common horoscope that you can find anywhere? Start reading now to  </string>
     <string name="action_settings">Settings</string>
-    <string name="activity1_label">Enter details for prediction</string>
+
     <string name="start_reading">Start your reading now</string>
+    <string name="name">Name</string>
+    <string name="view_result">View result</string>
+    <string name="empty_name">Empty name error</string>
+    <string name="empty_name_error">You must enter your name for the correct prediction.</string>
+    <string name="empty_gender_error">You must choose your gender for the correct prediction</string>
+    <string name="empty_date_of_birth">You must choose your date of birth for the correct prediction</string>
+    <string name="empty_time_of_birth">You must choose your time of birth for the correct prediction</string>
+    <string name="empty_place">You must choose your place of birth for the correct prediction</string>
+    <string name="gender">Biological Gender</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="place">Place of birth</string>
+    <string name="here">Vietnam or Laos or Cambodia</string>
+    <string name="there">Different places</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="changeDate">Change</string>
+    <string name="enter_detail">Enter your correct details so we can predict your future.</string>
+    <string name="name_field">Name field</string>
+    <string name="cancel">Cancel</string>
+    <!--hour-->
+    <string name="mouse">Mouse (23h - 1h)</string>
+    <string name="buffalo">Buffalo (1h - 3h)</string>
+    <string name="tiger">Tiger (3h - 5h)</string>
+    <string name="cat">Cat (5h - 7h)</string>
+    <string name="dragon">Dragon (7h - 9h)</string>
+    <string name="snake">Snake (9h - 11h)</string>
+    <string name="horse">Horse (11h - 13h)</string>
+    <string name="goat">Goat (13h - 15h)</string>
+    <string name="monkey">Monkey (15h - 17h)</string>
+    <string name="chicken">Chicken (17h - 19h)</string>
+    <string name="dog">Dog ( 19h - 21h)</string>
+    <string name="pig">Pig ( 21h - 23h)</string>
+    <string name="time_hint">Ghi chú : Nếu bạn sinh vào 19h00 thì bạn thuộc giờ Tuất thay vì giờ Dậu.</string>
+    <string name="was_born">Was born: </string>
+    <string name="life">Mệnh: </string>
+    <string name="canhthin">Canh Thìn</string>
+    <string name="tanty">Tân Tỵ</string>
+    <!--Waiting for translating-->
+
 </resources>

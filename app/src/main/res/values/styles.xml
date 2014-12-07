@@ -4,5 +4,8 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
-
+    <style name="datePickerStyle" parent="AppTheme">
+        <item name="android:endYear">2013</item>
+        <item name="android:startYear">1940</item>
+    </style>
 </resources>

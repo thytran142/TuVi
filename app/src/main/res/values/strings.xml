@@ -40,8 +40,8 @@
     <string name="chicken">Chicken (17h - 19h)</string>
     <string name="dog">Dog ( 19h - 21h)</string>
     <string name="pig">Pig ( 21h - 23h)</string>
-    <string name="time_hint">Ghi chú : Nếu bạn sinh vào 19h00 thì bạn thuộc giờ Tuất thay vì giờ Dậu.</string>
-    <string name="was_born">Was born: </string>
+    <string name="time_hint">Note : If you were born on exactly 19h then you belong to the Dog hour instead of the Chicken.</string>
+    <string name="was_born">Were born: </string>
     <string name="life">Mệnh: </string>
     <string name="canhthin">Dragon (Canh Thìn)</string>
     <string name="tanty">Snake (Tân Tỵ)</string>

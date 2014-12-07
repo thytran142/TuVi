@@ -17,8 +17,8 @@
     <string name="empty_time_of_birth">You must choose your time of birth for the correct prediction</string>
     <string name="empty_place">You must choose your place of birth for the correct prediction</string>
     <string name="gender">Biological Gender</string>
-    <string name="female">Nữ</string>
-    <string name="male">Nam</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
     <string name="place">Place of birth</string>
     <string name="here">Vietnam or Laos or Cambodia</string>
     <string name="there">Different places</string>

@@ -127,6 +127,7 @@
     <string name="giohoi">Time of the pig</string>
     <string name="duong">Yang</string>
     <string name="am">Yin</string>
+
     <string name="general1">Men born on the year of the horse or the goat with the life fate situated on the Mouse or Buffalo sign : There
     are a lot of difficulties in life you must face and there won't be much time you will be satisfied by the result.
     However if you can overcome the hard time then you will succeed. </string>
@@ -134,13 +135,32 @@
     <string name="general3"> Respected and loved by other people.</string>
     <string name="general4"> Lead a leisure life.</string>
     <string name="general5"> Very smart and sharp. Face a lot of difficulties when young.</string>
-    <string name="general6"> However there is the star of "Thien dia khong" on the same spot so you can live a long life.</string>
+    <string name="general6"> However there is the star of Thien dia khong on the same spot so you can live a long life.</string>
     <string name="general7"> You will have enough money for a normal style life.</string>
     <string name="general8"> You may not have a very good health. Be sure to have a healthy lifestyle.</string>
     <string name="general9"> Face lots of difficulties when young like a pure flower getting smashed by the wind.</string>
     <string name="general10"> Will get rich but don't have a very good health. </string>
     <string name="general11"> You may not be rich but you will live a long life. </string>
+    <string name="general12"> Cung mệnh có sao tuần triệt án ngữ là mệnh triệt thân tuần, nhưng do vô chính diệu nên uốt đời  được xứng ý toại lòng, được tăng thêm tuổi thọ , về già lại được sung sướng. </string>
+    <string name="general13">Cung mệnh có sao Địa không, cung Thân có sao địa kiếp, nên gọi là Mệnh không thân kiếp, người này rất
+    khôn ngoan sắc sảo, nhưng đời vui ít buồn nhiều, mưu sự thành bại thất thường, làm việc gì cũng chẳng được lâu bền. </string>
 
     <!--Should copy the string to vietnamese string first then translate this file to prevent duplicate-->
-
+    <string name="general14">Tuy nhiên do có sao đại hao, tiểu hao lại là cung mệnh vô chính diệu, nên tuy ít học, cũng lập
+    được công danh, sự nghiệp khá hiển hách. </string>
+    <string name="general15"> Do cung mệnh hay cung thân của bạn có sao Thiên Đồng, hay Thiên Lương hay Phá Quân toạ thủ, nên không sống lâu được. </string>
+    <string name="general16">Cung mệnh có Địa Kiếp toạ thủ, cung thân có địa không toạ thủ, bạn rất khôn ngoan sắc sảo. Nhưng trong đời
+    vui ít buồn nhiềi, mưu sự thành bại thất thường mà chẳng được lâu bền. </string>
+    <string name="general17">Cung mệnh của bạn vô chính diệu, trong trường hợp này lúc thiếu thời bạn rất vất vả gian nan. </string>
+    <string name="general18">Thân cư thiên di, bạn lập nghiệp ở phương xa, rất thịnh vượng. </string>
+    <string name="general19">Tuy nhiên, do thiên di có tuần triệt, chết ở xa nhà. </string>
+    <string name="general20">Thân cư thê thiếp(phu quân), có sao Thái Âm(mặt trăng) toạ thủ nên rất sợ vợ, phải nhờ vả nhà vợ. </string>
+    <string name="general21">Thân cư thê thiếp (phu quân), có sao Tuần Triệt án ngữ, nên trắc trở về hôn phối. </string>
+    <string name="general22">Thân cư tài bạch, nên bạn là người rất chăm chỉ làm việc để tích luỹ tiền bạc. </string>
+    <string name="general23">Có danh giá trước có tiền tài sau. </string>
+    <string name="general24">Buôn bán mà trở nên giàu có.</string>
+    <string name="general25">Nếu kiếm ăn bằng nghề đánh cá hay buôn bán qua lại trên sông nước thì khó trảnh khỏi tai nạn. </string>
 </resources>
+
+
+

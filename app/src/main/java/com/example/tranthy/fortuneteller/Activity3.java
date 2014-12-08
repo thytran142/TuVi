@@ -42,6 +42,120 @@ public class Activity3 extends Activity {
     public String cungTheThiep="";
     public String cungHuynhDe="";
     public String cungThan="";
+    public String cuc="";
+    public String saoTuVi="";
+    public String saoLiemTrinh="";
+    public String saoThienDong="";
+    public String saoVuKhuc="";
+    public String saoThienCo="";
+    public String saoThaiDuong="";
+    public String saoThienPhu="";
+    public String saoThaiAm="";
+    public String saoThamLang="";
+    public String saoCumon="";
+    public String saoThienTuong="";
+    public String saoThienLuong="";
+    public String saoThatSat="";
+    public String saoPhaQuan="";
+    public String saoThaiTue="";
+    public String saoThieuDuong="";
+    public String saoTangMon="";
+    public String saoThieuAm="";
+    public String saoQuanPhu="";
+    public String saoTuPhu="";
+    public String saoTuePha="";
+    public String saoLongDuc="";
+    public String saoBachTo="";
+    public String saoPhucDuc="";
+    public String saoDieuKhach="";
+    public String saoTrucPhu="";
+    public String saoLocTon="";
+    public String saoLucSi="";
+    public String saoThanhLong="";
+    public String saoTieuHao="";
+    public String saoTuongQuan="";
+    public String saoTauThu="";
+    public String saoPhiLiem="";
+    public String saoHiThan="";
+    public String saoBenhPhu="";
+    public String saoDaiHao="";
+    public String saoPhucBinh="";
+    public String saoQuanPhu2="";
+    public String saoTruongSinh="";
+    public String saoMocDuc="";
+    public String saoQuanDoi="";
+    public String saoLamQuan="";
+    public String saoDeVuong="";
+    public String saoSuy="";
+    public String saoBenh="";
+    public String saoTu="";
+    public String saoMo="";
+    public String saoTuyet="";
+    public String saoThai="";
+    public String saoDuong="";
+    public String saoKinhDuong="";
+    public String saoDala="";
+    public String saoDiaKiep="";
+    public String saoDiaKhong="";
+    public String saoHoaTinh="";
+    public String saoLinhTinh="";
+    public String saoTaPhu="";
+    public String saoHuuBat="";
+    public String saoVanXuong="";
+    public String saoVanKhuc="";
+    public String saoLongTri="";
+    public String saoPhuongCac="";
+    public String saoThienKhoi="";
+    public String saoThienViet="";
+    public String saoThienKhoc="";
+    public String saoThienHu="";
+    public String saoTamThai="";
+    public String saoBatToa="";
+    public String saoAnQuang="";
+    public String saoThienQui="";
+    public String saoThienDuc="";
+    public String saoNguyetDuc="";
+    public String saoThienHinh="";
+    public String saoThienRieu="";
+    public String saoThienY="";
+    public String saoHongLoan="";
+    public String saoThienHi="";
+    public String saoQuocAn="";
+    public String saoDuongPhu="";
+    public String saoThienGiai="";
+    public String saoDiaGiai="";
+    public String saoGiaiThan="";
+    public String saoThaiPhu="";
+    public String saoPhongCao="";
+    public String saoThienTai="";
+    public String saoThienTho="";
+    public String saoThienThuong="";
+    public String saoThienSu="";
+    public String saoThienLa="";
+    public String saoDiaVong="";
+    public String saoHoaLoc="";
+    public String saoHoaQuyen="";
+    public String saoHoaKhoa="";
+    public String saoHoaKy="";
+    public String saoCoThan="";
+    public String saoQuaTu="";
+    public String saoThienQuan="";
+   public String saoThienPhuc="";
+    public String saoDaoHoa="";
+    public String saoThienMa="";
+    public String saoPhaToai="";
+    public String saoKiepSat="";
+    public String saoHoaCai="";
+    public String saoLuuHa="";
+    public String saoThienTru="";
+    public String saoLuuNienVanTinh="";
+    public String saoBacSi="";
+    public String saoDauQuan="";
+    public String saoThienKhong="";
+    public String saoTuan="";
+    public String saoTuan1="";
+    public String saoTriet="";
+    public String saoTriet1="";
     //THIS IS VARIABLE FOR THE LUNAR CALENDAR CONVERT
     private int gregorianYear;
     private int gregorianMonth;
@@ -105,11 +219,78 @@ public class Activity3 extends Activity {
         anCungKhac(temp+1);
         TextView ancungkhac=(TextView)findViewById(R.id.ancungText);
         anCungThan(chineseMonth,sogio(gioSinh(time)));
+        lapcuc(cungMenh,yearOfAnimal(year,month,day));
+        anTuvitinhhe(cuc,chineseDate);
+        anThienphutinhhe(saoTuVi);
+        anThaitinhhe();
+        anLoctontinhhe();
+        anTruongsinhtinhhe();
+        anLucSat();
+        anTahuu();
+        anXuongkhuc();
+        anLongphuong();
+        anKhoiviet();
+        anKhochu();
+        anThaitoa();
+        anQuangqui();
+        anThiennguyetduc();
+        anHinhrieuy();
+        anHonghi();
+        anAnphu();
+        anThiendiagiaithan();
+        anPhucao();
+        anTaitho();
+        anThuongsu();
+        anLavong();
+        anTuhoa();
+        anCoqua();
+        anQuanphuc();
+        anDaohoa();
+        anThienma();
+        anPhatoai();
+        anKiepsat();
+        anHoacai();
+        anLuuha();
+        anThientru();
+        anLuunienvantinh();
+        anBacsi();
+        anDauquan();
+        anThienkhong();
+        anTuantriet();
         ancungkhac.setText("An cung menh o "+cungMenh+", an cung phu mau o "+cungPhuMau+", an cung Phuc duc o "+cungPhucDuc
                 + ", an cung Dien Trach o "+cungDienTrach+ ", an cung Quan loc o "+ cungQuanloc+ ", an cung No boc o "+cungNoBoc
                 +", an cung Thien di o "+cungThienDi+", an cung tat ach o "+cungTatAch+", an cung tai bach o "+cungTaiBach
-                +", an cung Tu tuc o "+cungTuTuc+", an cung The thiep o "+cungTheThiep+". An cung than tai "+cungThan);
+                +", an cung Tu tuc o "+cungTuTuc+", an cung The thiep o "+cungTheThiep+". An cung than tai "+cungThan+". Cuc: "+cuc+". Sao Tu vi an tai: "+saoTuVi +". Sao Liem Trinh an tai: "+saoLiemTrinh
 
+        +". Sao Thien dong an tai: "+saoThienDong+ ". Sao Vu khuc an tai "+saoVuKhuc + ". Sao Thai Duong an tai: "+saoThaiDuong
+        +". Sao Thien co an tai: "+saoThienCo+". Sao Thien Phu an tai: "+saoThienPhu+", sao thai am an tai: "+saoThaiAm+", sao Tham lang an tai: "+saoThamLang
+        +", sao Cu Mon an tai: "+saoCumon + ", sao Thien Tuong an tai: "+saoThienTuong+", sao Thien Luong: "+saoThienLuong
+        +", sao That sat:  "+saoThatSat+", sao Pha quan: "+saoPhaQuan+". Thai tue: "+saoThaiTue
+        +", Thieu Duong: "+saoThieuDuong+", Tang mon: "+saoTangMon+", Thieu am: "+saoThieuAm+", Quan phu: "+saoQuanPhu
+        +", Tu Phu: "+saoTuPhu +", Tue Pha: "+saoTuePha+", Long Duc: "+saoLongDuc+", Bach to:"+saoBachTo
+        +", Phuc Duc: "+saoPhucDuc+", Dieu Khach: "+saoDieuKhach+",Truc Phu: "+saoTrucPhu+". Loc ton: "+saoLocTon
+        +", Luc si: "+saoLucSi+ ", Thanh Long: "+saoThanhLong+", Tieu Hao: "+saoTieuHao+", Tuong Quan: "+saoTuongQuan
+        +", Tau Thu: "+saoTauThu+", Phi Liem: "+saoPhiLiem+", Hi Than: "+saoHiThan+", Benh phu: "+saoBenhPhu+",Dai hao: "+saoDaiHao
+        +", Phuc binh: "+saoPhucBinh+", Quan phu: "+saoQuanPhu2+". Truong Sinh: "+saoTruongSinh+", Moc duc: "+saoMocDuc
+        +", Quan doi: "+saoQuanDoi +", Lam quan: "+saoLamQuan+", De Vuong: "+saoDeVuong+",Benh: "+saoBenh+", Tu: "+saoTu
+        +", Mo: "+saoMo+", Tuyet: "+saoTuyet+", Thai: "+saoThai+", Duong: "+saoDuong+", Suy: "+saoSuy
+        +", Kinh Duong: "+saoKinhDuong+", Da la: "+saoDala+", Dia kiep: "+saoDiaKiep+", Dia khong: "+saoDiaKhong
+        +", Hoa tinh: "+saoHoaTinh+", Linh tinh: "+saoLinhTinh+". Ta phu: "+saoTaPhu+",Huu bat: "+saoHuuBat
+        +". Van Xuong: "+saoVanXuong+". Van Khuc: "+saoVanKhuc+". Long Tri: "+saoLongTri+". Phuong Cac: "+saoPhuongCac
+        +". Thien Khoi: "+saoThienKhoi+". Thien Viet: "+saoThienViet+". Thien khoc: "+saoThienKhoc + ",Thien hu: "+saoThienHu
+        +". Tam Thai: "+saoTamThai+". Bat toa: "+saoBatToa+". An Quang: "+saoAnQuang+". Thien Qui: "+saoThienQui
+        +". Thien Duc: "+saoThienDuc+". Nguyet Duc: "+saoNguyetDuc+". Thien Hinh: "+saoThienHinh+".Thien Rieu, Thien Y: "+saoThienRieu
+        +". Hong loan: "+saoHongLoan+". Thien hi: "+saoThienHi +". Quoc an: "+saoQuocAn+". Duong Phu: "+saoDuongPhu
+        +".Thien giai: "+saoThienGiai+". Dia giai: "+saoDiaGiai + ".Giai Than: "+saoGiaiThan
+        +"\n Sao Thai phu: "+ saoThaiPhu+". Sao Phong Cao: "+saoPhongCao+". Thien tai: "+saoThienTai+". Thien Tho: "+saoThienTho
+       +"\n Thien Thuong: "+saoThienThuong+", Thien Su: "+saoThienSu
+        +"\n Thien La: "+saoThienLa+". Dia vong: "+saoDiaVong
+        +"\n Hoa Loc: "+saoHoaLoc+". Hoa Quyen "+saoHoaQuyen +". Hoa KHoa: "+saoHoaKhoa + ". Hoa Ky: "+saoHoaKy
+        +"\n Co than:"+ saoCoThan+". Qua tu: "+saoQuaTu
+        +"\n Thien Quan: "+saoThienQuan+".Thien Phuc: "+saoThienPhuc
+        +"\n Dao hoa: "+saoDaoHoa
+        +"\n Thien ma: "+saoThienMa+". Pha toai: "+saoPhaToai+". Kiep sat: "+saoKiepSat+".Hoa Cai: "+saoHoaCai +". Luu ha: "+saoLuuHa+". Thien Tru: "+saoThienTru
+        +"\n Dau quan: "+saoDauQuan+".Thien khong: "+saoThienKhong+". Bac si: "+saoBacSi+".Tuan tai: "+saoTuan+","+saoTuan1+". Triet tai: "+saoTriet+","+saoTriet1);
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -1500,7 +1681,9 @@ public class Activity3 extends Activity {
         int temp=position - times +1;
         if(temp>=0)
             return temp;
-        else return(12+temp);
+        else if(12+temp>=0) return 12+temp;
+        else return 24+temp;
+
     }
     public int sogio(int giosinh){
         if(giosinh==R.string.gioty)
@@ -1563,5 +1746,1134 @@ public class Activity3 extends Activity {
         int temp=counterClockwise(counterClockwise(2,thangsinh),giosinh);
         cungThan=cung[temp];
       }
+    public void lapcuc(String menh,int d){
+        if(d==R.string.giapngo || d==R.string.giapthin || d==R.string.giaptuat || d==R.string.giapdan || d==R.string.giapthan || d==R.string.giapty
+        || d==R.string.kydau || d==R.string.kymao || d==R.string.kysuu || d==R.string.kymui || d==R.string.kyhoi || d==R.string.kyty
+        )
+        {
+         if(menh.equalsIgnoreCase("Ty1") || menh.equalsIgnoreCase("Suu"))
+             cuc="Thuy nhi cuc";
+         else if (menh.equalsIgnoreCase("Dan")|| menh.equalsIgnoreCase("Mao") || menh.equalsIgnoreCase("Tuat") || menh.equalsIgnoreCase("Hoi"))
+             cuc="Hoa luc cuc";
+         else if(menh.equalsIgnoreCase("Thin") || menh.equalsIgnoreCase("Ty5"))
+             cuc="Moc tam cuc";
+         else if(menh.equalsIgnoreCase("Ngo") || menh.equalsIgnoreCase("Mui"))
+             cuc="Tho ngu cuc";
+         else if(menh.equalsIgnoreCase("Than") || menh.equalsIgnoreCase("Dau"))
+             cuc="Kim tu cuc";
+        }
+        else if (d==R.string.atty || d==R.string.athoi || d==R.string.atdau || d==R.string.atmao || d==R.string.atmui || d==R.string.atsuu
+         || d==R.string.canhtuat || d==R.string.canhty || d==R.string.canhngo || d==R.string.canhthan || d==R.string.canhdan || d==R.string.canhthin)
+        {
+          if(menh.equalsIgnoreCase("Ty1") || menh.equalsIgnoreCase("Suu"))
+              cuc="Hoa luc cuc";
+          else if(menh.equalsIgnoreCase("Dan") || menh.equalsIgnoreCase("Mao") || menh.equalsIgnoreCase("Tuat") || menh.equalsIgnoreCase("Hoi"))
+              cuc="Tho ngu cuc";
+          else if(menh.equalsIgnoreCase("Thin") || menh.equalsIgnoreCase("Ty5"))
+              cuc="Kim tu cuc";
+            else if(menh.equalsIgnoreCase("Ngo") || menh.equalsIgnoreCase("Mui"))
+              cuc="Moc tam cuc";
+            else if(menh.equalsIgnoreCase("Than") || menh.equalsIgnoreCase("Dau"))
+              cuc="Thuy nhi cuc";
+        }
+        else if(d==R.string.binhthin || d==R.string.binhtuat || d==R.string.binhthan || d==R.string.binhngo || d==R.string.binhdan || d==R.string.binhty
+                || d==R.string.tansuu || d==R.string.tanmui || d==R.string.tandau || d==R.string.tanmao || d==R.string.tanhoi || d==R.string.tanty)
+        {
+            if(menh.equalsIgnoreCase("Ty1") || menh.equalsIgnoreCase("Suu"))
+                cuc="Tho ngu cuc";
+            else if(menh.equalsIgnoreCase("Dan") || menh.equalsIgnoreCase("Mao") || menh.equalsIgnoreCase("Tuat") || menh.equalsIgnoreCase("Hoi"))
+                cuc="Moc tam cuc";
+            else if(menh.equalsIgnoreCase("Thin") || menh.equalsIgnoreCase("Ty5"))
+                cuc="Thuy nhi cuc";
+            else if(menh.equalsIgnoreCase("Ngo") || menh.equalsIgnoreCase("Mui"))
+                cuc="Kim tu cuc";
+            else if(menh.equalsIgnoreCase("Than") || menh.equalsIgnoreCase("Dau"))
+                cuc="Hoa luc cuc";
+        }
+        else if(d==R.string.dinhhoi || d==R.string.dinhty || d==R.string.dinhdau || d==R.string.dinhmao || d==R.string.dinhmui || d==R.string.dinhsuu
+                || d==R.string.nhamtuat || d==R.string.nhamthin || d==R.string.nhamty || d==R.string.nhamngo || d==R.string.nhamdan || d==R.string.nhamthan)
+        {
+            if(menh.equalsIgnoreCase("Ty1") || menh.equalsIgnoreCase("Suu"))
+                cuc="Moc tam cuc";
+            else if(menh.equalsIgnoreCase("Dan") || menh.equalsIgnoreCase("Mao") || menh.equalsIgnoreCase("Tuat") || menh.equalsIgnoreCase("Hoi"))
+                cuc="Kim tu cuc";
+            else if(menh.equalsIgnoreCase("Thin") || menh.equalsIgnoreCase("Ty5"))
+                cuc="Hoa luc cuc";
+            else if(menh.equalsIgnoreCase("Ngo") || menh.equalsIgnoreCase("Mui"))
+                cuc="Thuy nhi cuc";
+            else if(menh.equalsIgnoreCase("Than")|| menh.equalsIgnoreCase("Dau"))
+                cuc="Tho ngu cuc";
+        }
+        else if(d==R.string.mauthan || d==R.string.maudan || d==R.string.mauty || d==R.string.maungo || d==R.string.mauthin || d==R.string.mautuat
+                || d==R.string.quyty || d==R.string.quysuu || d==R.string.quymui || d==R.string.quymao || d==R.string.quydau || d==R.string.quyhoi)
+        {
+            if(menh.equalsIgnoreCase("Ty1") || menh.equalsIgnoreCase("Suu"))
+                cuc="Kim tu cuc";
+            else if(menh.equalsIgnoreCase("Dan") || menh.equalsIgnoreCase("Mao") || menh.equalsIgnoreCase("Tuat") || menh.equalsIgnoreCase("Hoi"))
+                cuc="Thuy nhi cuc";
+            else if(menh.equalsIgnoreCase("Thin") || menh.equalsIgnoreCase("Ty5"))
+                cuc="Tho ngu cuc";
+            else if(menh.equalsIgnoreCase("Ngo")|| menh.equalsIgnoreCase("Mui"))
+                cuc="Hoa luc cuc";
+            else if(menh.equalsIgnoreCase("Than") || menh.equalsIgnoreCase("Dau"))
+                cuc="Moc tam cuc";
+        }
+    }
+    public void anTuvitinhhe(String cuc, int ngaySinh)
+    {
+        //an saoTuVi
+        if(cuc.equalsIgnoreCase("Thuy nhi cuc"))
+        {
+            if(ngaySinh==22 || ngaySinh==23) saoTuVi=cung[0];
+            else if(ngaySinh==1 || ngaySinh==25 || ngaySinh==24) saoTuVi=cung[1];
+            else if(ngaySinh==2 || ngaySinh==3 || ngaySinh==26 || ngaySinh==27) saoTuVi=cung[2];
+            else if(ngaySinh==4 || ngaySinh==5 || ngaySinh==28 || ngaySinh==29) saoTuVi=cung[3];
+            else if(ngaySinh==6 || ngaySinh==7 || ngaySinh==30) saoTuVi=cung[4];
+            else if(ngaySinh==8 || ngaySinh==9) saoTuVi=cung[5];
+            else if(ngaySinh==10 || ngaySinh==11) saoTuVi=cung[6];
+            else if(ngaySinh==12 || ngaySinh==13) saoTuVi=cung[7];
+            else if(ngaySinh==14 || ngaySinh==15) saoTuVi=cung[8];
+            else if(ngaySinh==16 || ngaySinh==17) saoTuVi=cung[9];
+            else if(ngaySinh==18 || ngaySinh==19) saoTuVi=cung[10];
+            else if(ngaySinh==20 || ngaySinh==21) saoTuVi=cung[11];
+        }
+        else if(cuc.equalsIgnoreCase("Moc tam cuc"))
+        {
+            if(ngaySinh==25) saoTuVi=cung[0];
+            else if(ngaySinh==2 || ngaySinh==28) saoTuVi=cung[1];
+            else if(ngaySinh==3 || ngaySinh==5) saoTuVi=cung[2];
+            else if(ngaySinh==6 || ngaySinh==8) saoTuVi=cung[3];
+            else if(ngaySinh==1 || ngaySinh==9 || ngaySinh==11) saoTuVi=cung[4];
+            else if(ngaySinh==4 || ngaySinh==12 || ngaySinh==14) saoTuVi=cung[5];
+            else if(ngaySinh==7 || ngaySinh==15 || ngaySinh==17) saoTuVi=cung[6];
+            else if(ngaySinh==10 || ngaySinh==18 || ngaySinh==20) saoTuVi=cung[7];
+            else if(ngaySinh==13 || ngaySinh==21 || ngaySinh==23) saoTuVi=cung[8];
+            else if(ngaySinh==16 || ngaySinh==24 || ngaySinh==26) saoTuVi=cung[9];
+            else if(ngaySinh==19 || ngaySinh==27 || ngaySinh==29) saoTuVi=cung[10];
+            else if(ngaySinh==22 || ngaySinh==30) saoTuVi=cung[11];
+        }
+        else if(cuc.equalsIgnoreCase("Kim tu cuc"))
+        {
+            if(ngaySinh==5) saoTuVi=cung[0];
+            else if(ngaySinh==3 || ngaySinh==9) saoTuVi=cung[1];
+            else if(ngaySinh==4 || ngaySinh==7 || ngaySinh==13) saoTuVi=cung[2];
+            else if(ngaySinh==8 || ngaySinh==11 || ngaySinh==17) saoTuVi=cung[3];
+            else if(ngaySinh==2 || ngaySinh==12 || ngaySinh==15 || ngaySinh==21) saoTuVi=cung[4];
+            else if(ngaySinh==6 || ngaySinh==16 || ngaySinh==19 || ngaySinh==25) saoTuVi=cung[5];
+            else if(ngaySinh==10 || ngaySinh==20 || ngaySinh==23 || ngaySinh==29) saoTuVi=cung[6];
+            else if(ngaySinh==14 || ngaySinh==24 || ngaySinh==27) saoTuVi=cung[7];
+            else if(ngaySinh==18 || ngaySinh==28) saoTuVi=cung[8];
+            else if(ngaySinh==22) saoTuVi=cung[9];
+            else if(ngaySinh==26) saoTuVi=cung[10];
+            else if(ngaySinh==1 || ngaySinh==30) saoTuVi=cung[11];
+        }
+        else if(cuc.equalsIgnoreCase("Tho ngu cuc"))
+        {
+            if(ngaySinh==7) saoTuVi=cung[0];
+            else if(ngaySinh==4 || ngaySinh==12) saoTuVi=cung[1];
+            else if(ngaySinh==5 || ngaySinh==9 || ngaySinh==17) saoTuVi=cung[2];
+            else if(ngaySinh==10 || ngaySinh==14 || ngaySinh==22) saoTuVi=cung[3];
+            else if(ngaySinh==3 || ngaySinh==15 || ngaySinh==19 || ngaySinh==27) saoTuVi=cung[4];
+            else if(ngaySinh==8 || ngaySinh==20 || ngaySinh==24) saoTuVi=cung[5];
+            else if(ngaySinh==1 || ngaySinh==13 || ngaySinh==25 || ngaySinh==29) saoTuVi=cung[6];
+            else if(ngaySinh==6 || ngaySinh==18 || ngaySinh==30) saoTuVi=cung[7];
+            else if(ngaySinh==11 || ngaySinh==23) saoTuVi=cung[8];
+            else if(ngaySinh==16 || ngaySinh==28) saoTuVi=cung[9];
+            else if(ngaySinh==21) saoTuVi=cung[10];
+            else if(ngaySinh==2 || ngaySinh==26) saoTuVi=cung[11];
+        }
+        else if(cuc.equalsIgnoreCase("Hoa luc cuc"))
+        {
+            if(ngaySinh==9 || ngaySinh==19) saoTuVi=cung[0];
+            else if(ngaySinh==5 || ngaySinh==15 || ngaySinh==25) saoTuVi=cung[1];
+            else if(ngaySinh==6 || ngaySinh==11 || ngaySinh==21) saoTuVi=cung[2];
+            else if(ngaySinh==12 || ngaySinh==17 || ngaySinh==27) saoTuVi=cung[3];
+            else if(ngaySinh==4 || ngaySinh==18 || ngaySinh==23) saoTuVi=cung[4];
+            else if(ngaySinh==10 || ngaySinh==24 || ngaySinh==29) saoTuVi=cung[5];
+            else if(ngaySinh==2 || ngaySinh==16 || ngaySinh==30) saoTuVi=cung[6];
+            else if(ngaySinh==8 || ngaySinh==22 ) saoTuVi=cung[7];
+            else if(ngaySinh==14 || ngaySinh==28) saoTuVi=cung[8];
+            else if(ngaySinh==1 || ngaySinh==20) saoTuVi=cung[9];
+            else if(ngaySinh==7 || ngaySinh==26) saoTuVi=cung[10];
+            else if(ngaySinh==3 || ngaySinh==13) saoTuVi=cung[11];
+        }
+        int temp=convertCungToNumber(saoTuVi);
+        temp=counterClockwise(temp,5);
+        saoLiemTrinh=cung[temp];
+        temp=convertCungToNumber(saoLiemTrinh);
+        temp=counterClockwise(temp,4);
+        saoThienDong=cung[temp];
+        temp=convertCungToNumber(saoThienDong);
+        temp=counterClockwise(temp,2);
+        saoVuKhuc=cung[temp];
+        temp=convertCungToNumber(saoVuKhuc);
+        temp=counterClockwise(temp,2);
+        saoThaiDuong=cung[temp];
+        temp=convertCungToNumber(saoThaiDuong);
+        temp=counterClockwise(temp,3);
+        saoThienCo=cung[temp];
+
+    }
+    public int convertCungToNumber(String cung){
+        if(cung.equalsIgnoreCase("Ty1")) return 0;
+        else if(cung.equalsIgnoreCase("Suu")) return 1;
+        else if(cung.equalsIgnoreCase("Dan")) return 2;
+        else if(cung.equalsIgnoreCase("Mao")) return 3;
+        else if(cung.equalsIgnoreCase("Thin")) return 4;
+        else if(cung.equalsIgnoreCase("Ty5")) return 5;
+        else if(cung.equalsIgnoreCase("Ngo")) return 6;
+        else if(cung.equalsIgnoreCase("Mui")) return 7;
+        else if(cung.equalsIgnoreCase("Than")) return 8;
+        else if(cung.equalsIgnoreCase("Dau")) return 9;
+        else if(cung.equalsIgnoreCase("Tuat")) return 10;
+        else if(cung.equalsIgnoreCase("Hoi")) return 11;
+        else return 0;
+    }
+    public void anThienphutinhhe(String tuvi){
+        int index=convertCungToNumber(tuvi);
+        if(index==0) saoThienPhu=cung[4];
+        else if(index==1) saoThienPhu=cung[3];
+        else if(index==2) saoThienPhu=cung[2];
+        else if(index==3) saoThienPhu=cung[1];
+        else if(index==4) saoThienPhu=cung[0];
+        else if(index==5) saoThienPhu=cung[11];
+        else if(index==6) saoThienPhu=cung[10];
+        else if(index==7) saoThienPhu=cung[9];
+        else if(index==8) saoThienPhu=cung[8];
+        else if(index==9) saoThienPhu=cung[7];
+        else if(index==10) saoThienPhu=cung[6];
+        else if(index==11) saoThienPhu=cung[5];
+        index=convertCungToNumber(saoThienPhu);
+        index=counterClockwise(index,2);
+        saoThaiAm=cung[index];
+        index=convertCungToNumber(saoThaiAm);
+        index=counterClockwise(index,2);
+        saoThamLang=cung[index];
+        index=convertCungToNumber(saoThamLang);
+        index=counterClockwise(index,2);
+        saoCumon=cung[index];
+        index=convertCungToNumber(saoCumon);
+        index=counterClockwise(index,2);
+        saoThienTuong=cung[index];
+        index=convertCungToNumber(saoThienTuong);
+        index=counterClockwise(index,2);
+        saoThienLuong=cung[index];
+        index=convertCungToNumber(saoThienLuong);
+        index=counterClockwise(index,2);
+        saoThatSat=cung[index];
+        index=convertCungToNumber(saoThatSat);
+        index=counterClockwise(index,5);
+        saoPhaQuan=cung[index];
+    }
+    public void anThaitinhhe(){
+        int index=yearOfAnimal(year,month,day);
+        if(index==R.string.giapty || index==R.string.nhamty || index==R.string.binhty ||index==R.string.mauty ||index==R.string.canhty)
+            saoThaiTue=cung[0];
+        else if(index==R.string.atsuu || index==R.string.quysuu || index==R.string.dinhsuu || index==R.string.kysuu|| index==R.string.tansuu)
+            saoThaiTue=cung[1];
+        else if(index==R.string.nhamdan || index==R.string.canhdan || index==R.string.giapdan || index==R.string.binhdan || index==R.string.maudan)
+            saoThaiTue=cung[2];
+        else if(index==R.string.quymao || index==R.string.tanmao || index==R.string.atmao || index==R.string.dinhmao || index==R.string.kymao)
+            saoThaiTue=cung[3];
+        else if(index==R.string.canhthin || index==R.string.mauthin || index==R.string.nhamthin || index==R.string.giapthin || index==R.string.binhthin)
+            saoThaiTue=cung[4];
+        else if(index==R.string.tanty || index==R.string.kyty || index==R.string.quyty || index==R.string.atty || index==R.string.dinhty)
+            saoThaiTue=cung[5];
+        else if(index==R.string.giapngo || index==R.string.nhamngo || index==R.string.binhngo || index==R.string.maungo || index==R.string.canhngo)
+            saoThaiTue=cung[6];
+        else if(index==R.string.atmui || index==R.string.quymui || index==R.string.dinhmui || index==R.string.kymui || index==R.string.tanmui)
+            saoThaiTue=cung[7];
+        else if(index==R.string.nhamthan || index==R.string.canhthan || index==R.string.giapthan || index==R.string.binhthan || index==R.string.mauthan)
+            saoThaiTue=cung[8];
+        else if(index==R.string.quydau || index==R.string.tandau || index==R.string.atdau || index==R.string.dinhdau || index==R.string.kydau)
+            saoThaiTue=cung[9];
+        else if(index==R.string.canhtuat || index==R.string.mautuat || index==R.string.nhamtuat || index==R.string.giaptuat || index==R.string.binhtuat)
+            saoThaiTue=cung[10];
+        else saoThaiTue=cung[11];
+        index=convertCungToNumber(saoThaiTue);
+        index=counterClockwise(index,2);
+        saoThieuDuong=cung[index];
+        index=convertCungToNumber(saoThieuDuong);
+        index=counterClockwise(index,2);
+        saoTangMon=cung[index];
+        index=convertCungToNumber(saoTangMon);
+        index=counterClockwise(index,2);
+        saoThieuAm=cung[index];
+        index=convertCungToNumber(saoThieuAm);
+        index=counterClockwise(index,2);
+        saoQuanPhu=cung[index];
+        index=convertCungToNumber(saoQuanPhu);
+        index=counterClockwise(index,2);
+        saoTuPhu=cung[index];
+        index=convertCungToNumber(saoTuPhu);
+        index=counterClockwise(index,2);
+        saoTuePha=cung[index];
+        index=convertCungToNumber(saoTuePha);
+        index=counterClockwise(index,2);
+        saoLongDuc=cung[index];
+        index=convertCungToNumber(saoLongDuc);
+        index=counterClockwise(index,2);
+        saoBachTo=cung[index];
+        index=convertCungToNumber(saoBachTo);
+        index=counterClockwise(index,2);
+        saoPhucDuc=cung[index];
+        index=convertCungToNumber(saoPhucDuc);
+        index=counterClockwise(index,2);
+        saoDieuKhach=cung[index];
+        index=convertCungToNumber(saoDieuKhach);
+        index=counterClockwise(index,2);
+        saoTrucPhu=cung[index];
+
+    }
+    public void anLoctontinhhe() {
+        int index = yearOfAnimal(year, month, day);
+        if (index == R.string.giapthin || index == R.string.giaptuat || index == R.string.giapthan || index == R.string.giapngo || index == R.string.giapdan || index == R.string.giapty)
+            saoLocTon = cung[2];
+        else if (index == R.string.atdau || index == R.string.atty || index == R.string.atmao || index == R.string.atsuu || index == R.string.athoi || index == R.string.atmui)
+            saoLocTon = cung[3];
+        else if (index == R.string.binhtuat || index == R.string.binhthan || index == R.string.binhngo || index == R.string.binhthin || index == R.string.binhdan || index == R.string.binhty
+                || index == R.string.mautuat || index == R.string.mauthan || index == R.string.maungo || index == R.string.mauthin || index == R.string.maudan || index == R.string.mauty)
+            saoLocTon = cung[5];
+        else if (index == R.string.dinhdau || index == R.string.dinhmui || index == R.string.dinhty || index == R.string.dinhmao || index == R.string.dinhhoi || index == R.string.dinhsuu
+                || index == R.string.kydau || index == R.string.kymui || index == R.string.kyty || index == R.string.kymao || index == R.string.kyhoi || index == R.string.kysuu)
+            saoLocTon = cung[6];
+        else if (index == R.string.canhtuat || index == R.string.canhthan || index == R.string.canhngo || index == R.string.canhthin || index == R.string.canhdan || index == R.string.canhty)
+            saoLocTon = cung[8];
+        else if (index == R.string.tandau || index == R.string.tanmui || index == R.string.tanty || index == R.string.tanmao || index == R.string.tanhoi || index == R.string.tansuu)
+            saoLocTon = cung[9];
+        else if (index == R.string.nhamtuat || index == R.string.nhamthan || index == R.string.nhamngo || index == R.string.nhamthin || index == R.string.nhamty || index == R.string.nhamdan)
+            saoLocTon = cung[11];
+        else if (index == R.string.quydau || index == R.string.quymui || index == R.string.quyty || index == R.string.quymao || index == R.string.quyhoi || index == R.string.quysuu)
+            saoLocTon = cung[0];
+        int amhayduong = amduong(yearOfAnimal(year, month, day));
+        if ((gender.equalsIgnoreCase("Male") && amhayduong == R.string.duong) || (gender.equalsIgnoreCase("Female") && amhayduong == R.string.am)) {
+            //duong nam am nu
+            index = convertCungToNumber(saoLocTon);
+            //theo chieu thuan
+            index = counterClockwise(index, 2);
+            saoLucSi = cung[index];
+            index = convertCungToNumber(saoLucSi);
+            index = counterClockwise(index, 2);
+            saoThanhLong = cung[index];
+            index = convertCungToNumber(saoThanhLong);
+            index = counterClockwise(index, 2);
+            saoTieuHao = cung[index];
+            index = convertCungToNumber(saoTieuHao);
+            index = counterClockwise(index, 2);
+            saoTuongQuan = cung[index];
+            index = convertCungToNumber(saoTuongQuan);
+            index = counterClockwise(index, 2);
+            saoTauThu = cung[index];
+            index = convertCungToNumber(saoTauThu);
+            index = counterClockwise(index, 2);
+            saoPhiLiem = cung[index];
+            index = convertCungToNumber(saoPhiLiem);
+            index = counterClockwise(index, 2);
+            saoHiThan = cung[index];
+            index = convertCungToNumber(saoHiThan);
+            index = counterClockwise(index, 2);
+            saoBenhPhu = cung[index];
+            index = convertCungToNumber(saoBenhPhu);
+            index = counterClockwise(index, 2);
+            saoDaiHao = cung[index];
+            index = convertCungToNumber(saoDaiHao);
+            index = counterClockwise(index, 2);
+            saoPhucBinh = cung[index];
+            index = convertCungToNumber(saoPhucBinh);
+            index = counterClockwise(index, 2);
+            saoQuanPhu2 = cung[index];
+        } else {
+            index = convertCungToNumber(saoLocTon);
+            index = antiClockwise(index, 2);
+            saoLucSi = cung[index];
+            index = convertCungToNumber(saoLucSi);
+            index = antiClockwise(index, 2);
+            saoThanhLong = cung[index];
+            index = convertCungToNumber(saoThanhLong);
+            index = antiClockwise(index, 2);
+            saoTieuHao = cung[index];
+            index = convertCungToNumber(saoTieuHao);
+            index = antiClockwise(index, 2);
+            saoTuongQuan = cung[index];
+            index = convertCungToNumber(saoTuongQuan);
+            index = antiClockwise(index, 2);
+            saoTauThu = cung[index];
+            index = convertCungToNumber(saoTauThu);
+            index = antiClockwise(index, 2);
+            saoPhiLiem = cung[index];
+            index = convertCungToNumber(saoPhiLiem);
+            index = antiClockwise(index, 2);
+            saoHiThan = cung[index];
+            index = convertCungToNumber(saoHiThan);
+            index = antiClockwise(index, 2);
+            saoBenhPhu = cung[index];
+            index = convertCungToNumber(saoBenhPhu);
+            index = antiClockwise(index, 2);
+            saoDaiHao = cung[index];
+            index = convertCungToNumber(saoDaiHao);
+            index = antiClockwise(index, 2);
+            saoPhucBinh = cung[index];
+            index = convertCungToNumber(saoPhucBinh);
+            index = antiClockwise(index, 2);
+            saoQuanPhu2 = cung[index];
+        }
+    }
+        public void anTruongsinhtinhhe(){
+        //an sao truong sinh
+            if(cuc.equalsIgnoreCase("Kim tu cuc"))
+                saoTruongSinh=cung[5];
+            else if(cuc.equalsIgnoreCase("Moc tam cuc"))
+                saoTruongSinh=cung[11];
+            else if(cuc.equalsIgnoreCase("Hoa luc cuc"))
+                saoTruongSinh=cung[2];
+            else if(cuc.equalsIgnoreCase("Thuy nhi cuc"))
+                saoTruongSinh=cung[8];
+            else
+                saoTruongSinh=cung[8];
+            int amhayduong = amduong(yearOfAnimal(year, month, day));
+            if ((gender.equalsIgnoreCase("Male") && amhayduong == R.string.duong) || (gender.equalsIgnoreCase("Female") && amhayduong == R.string.am)) {
+                //duong nam am nu theo chieu thuan
+                int index=convertCungToNumber(saoTruongSinh);
+                index=counterClockwise(index,2);
+                saoMocDuc=cung[index];
+                index=convertCungToNumber(saoMocDuc);
+                index=counterClockwise(index,2);
+                saoQuanDoi=cung[index];
+                index=convertCungToNumber(saoQuanDoi);
+                index=counterClockwise(index,2);
+                saoLamQuan=cung[index];
+                index=convertCungToNumber(saoLamQuan);
+                index=counterClockwise(index,2);
+                saoDeVuong=cung[index];
+                index=convertCungToNumber(saoDeVuong);
+                index=counterClockwise(index,2);
+                saoSuy=cung[index];
+                index=convertCungToNumber(saoSuy);
+                index=counterClockwise(index,2);
+                saoBenh=cung[index];
+                index=convertCungToNumber(saoBenh);
+                index=counterClockwise(index,2);
+                saoTu=cung[index];
+                index=convertCungToNumber(saoTu);
+                index=counterClockwise(index,2);
+                saoMo=cung[index];
+                index=convertCungToNumber(saoMo);
+                index=counterClockwise(index,2);
+                saoTuyet=cung[index];
+                index=convertCungToNumber(saoTuyet);
+                index=counterClockwise(index,2);
+                saoThai=cung[index];
+                index=convertCungToNumber(saoThai);
+                index=counterClockwise(index,2);
+                saoDuong=cung[index];
+
+            }
+            else{
+                //duong nu, am nam
+                int index=convertCungToNumber(saoTruongSinh);
+                index=antiClockwise(index,2);
+                saoMocDuc=cung[index];
+                index=convertCungToNumber(saoMocDuc);
+                index=antiClockwise(index,2);
+                saoQuanDoi=cung[index];
+                index=convertCungToNumber(saoQuanDoi);
+                index=antiClockwise(index,2);
+                saoLamQuan=cung[index];
+                index=convertCungToNumber(saoLamQuan);
+                index=antiClockwise(index,2);
+                saoDeVuong=cung[index];
+                index=convertCungToNumber(saoDeVuong);
+                index=antiClockwise(index,2);
+                saoSuy=cung[index];
+                index=convertCungToNumber(saoSuy);
+                index=antiClockwise(index,2);
+                saoBenh=cung[index];
+                index=convertCungToNumber(saoBenh);
+                index=antiClockwise(index,2);
+                saoTu=cung[index];
+                index=convertCungToNumber(saoTu);
+                index=antiClockwise(index,2);
+                saoMo=cung[index];
+                index=convertCungToNumber(saoMo);
+                index=antiClockwise(index,2);
+                saoTuyet=cung[index];
+                index=convertCungToNumber(saoTuyet);
+                index=antiClockwise(index,2);
+                saoThai=cung[index];
+                index=convertCungToNumber(saoThai);
+                index=antiClockwise(index,2);
+                saoDuong=cung[index];
+            }
+    }
+    public void anLucSat(){
+        int index=convertCungToNumber(saoLocTon);
+        index=counterClockwise(index,2);
+        saoKinhDuong=cung[index];
+        index=convertCungToNumber(saoLocTon);
+        index=counterClockwise(index,2);
+        saoDala=cung[index];
+        //an dia kiep: hoi theo chieu thuan den h sinh
+        index=antiClockwise(11,sogio(gioSinh(time)));
+        saoDiaKiep=cung[index];
+        index=antiClockwise(11,sogio(gioSinh(time)));
+        saoDiaKhong=cung[index];
+        int amhayduong = amduong(yearOfAnimal(year, month, day));
+        if ((gender.equalsIgnoreCase("Male") && amhayduong == R.string.duong) || (gender.equalsIgnoreCase("Female") && amhayduong == R.string.am)) {
+        //duong nam am nu
+            index=yearOfAnimal(year,month,day);
+            if(index==R.string.giapdan || index==R.string.nhamdan || index==R.string.canhdan || index==R.string.binhdan || index==R.string.maudan
+                    || index==R.string.giapngo || index==R.string.nhamngo || index==R.string.binhngo || index==R.string.maungo || index==R.string.canhngo
+                    || index==R.string.canhtuat || index==R.string.mautuat || index==R.string.nhamtuat || index==R.string.giaptuat || index==R.string.binhtuat)
+            {
+                int temp=counterClockwise(1,sogio(gioSinh(time)));
+                saoHoaTinh=cung[temp];
+                temp=antiClockwise(3,sogio(gioSinh(time)));
+                saoLinhTinh=cung[temp];
+            }
+            else if(index==R.string.nhamthan || index==R.string.canhthan || index==R.string.giapthan || index==R.string.binhthan || index==R.string.mauthan
+                    || index==R.string.giapty || index==R.string.nhamty || index==R.string.binhty || index==R.string.mauty || index==R.string.canhty
+                    || index==R.string.canhthin || index==R.string.mauthin || index==R.string.nhamthin || index==R.string.giapthin || index==R.string.binhthin)
+            {
+                int temp=counterClockwise(2,sogio(gioSinh(time)));
+                saoHoaTinh=cung[temp];
+                temp=antiClockwise(10,sogio(gioSinh(time)));
+                saoLinhTinh=cung[temp];
+            }
+            else if(index==R.string.tanty || index==R.string.kyty || index==R.string.quyty || index==R.string.atty || index==R.string.dinhty
+                    || index==R.string.quydau || index==R.string.tandau || index==R.string.atdau || index==R.string.dinhdau || index==R.string.kydau
+                    || index==R.string.atsuu || index==R.string.quysuu || index==R.string.dinhsuu || index==R.string.kysuu || index==R.string.tansuu )
+            {
+                int temp=counterClockwise(3,sogio(gioSinh(time)));
+                saoHoaTinh=cung[temp];
+                temp=antiClockwise(10,sogio(gioSinh(time)));
+                saoLinhTinh=cung[temp];
+            }
+            else if(index==R.string.tanhoi || index==R.string.kyhoi || index==R.string.quyhoi || index==R.string.athoi || index==R.string.dinhhoi
+                    || index==R.string.quymao || index==R.string.tanmao || index==R.string.atmao || index==R.string.dinhmao || index==R.string.kymao
+                    || index==R.string.atmui || index==R.string.quymui || index==R.string.dinhmui || index==R.string.kymui || index==R.string.tanmui)
+            {
+                int temp=counterClockwise(2,sogio(gioSinh(time)));
+                saoHoaTinh=cung[temp];
+                temp=antiClockwise(10,sogio(gioSinh(time)));
+                saoLinhTinh=cung[temp];
+            }
+
+        }else{
+            index=yearOfAnimal(year,month,day);
+            if(index==R.string.giapdan || index==R.string.nhamdan || index==R.string.canhdan || index==R.string.binhdan || index==R.string.maudan
+                    || index==R.string.giapngo || index==R.string.nhamngo || index==R.string.binhngo || index==R.string.maungo || index==R.string.canhngo
+                    || index==R.string.canhtuat || index==R.string.mautuat || index==R.string.nhamtuat || index==R.string.giaptuat || index==R.string.binhtuat)
+            {
+                int temp=antiClockwise(1,sogio(gioSinh(time)));
+                saoHoaTinh=cung[temp];
+                temp=counterClockwise(3,sogio(gioSinh(time)));
+                saoLinhTinh=cung[temp];
+            }
+            else if(index==R.string.nhamthan || index==R.string.canhthan || index==R.string.giapthan || index==R.string.binhthan || index==R.string.mauthan
+                    || index==R.string.giapty || index==R.string.nhamty || index==R.string.binhty || index==R.string.mauty || index==R.string.canhty
+                    || index==R.string.canhthin || index==R.string.mauthin || index==R.string.nhamthin || index==R.string.giapthin || index==R.string.binhthin)
+            {
+                int temp=antiClockwise(2,sogio(gioSinh(time)));
+                saoHoaTinh=cung[temp];
+                temp=counterClockwise(10,sogio(gioSinh(time)));
+                saoLinhTinh=cung[temp];
+            }
+            else if(index==R.string.tanty || index==R.string.kyty || index==R.string.quyty || index==R.string.atty || index==R.string.dinhty
+                    || index==R.string.quydau || index==R.string.tandau || index==R.string.atdau || index==R.string.dinhdau || index==R.string.kydau
+                    || index==R.string.atsuu || index==R.string.quysuu || index==R.string.dinhsuu || index==R.string.kysuu || index==R.string.tansuu )
+            {
+                int temp=antiClockwise(3,sogio(gioSinh(time)));
+                saoHoaTinh=cung[temp];
+                temp=counterClockwise(10,sogio(gioSinh(time)));
+                saoLinhTinh=cung[temp];
+            }
+            else if(index==R.string.tanhoi || index==R.string.kyhoi || index==R.string.quyhoi || index==R.string.athoi || index==R.string.dinhhoi
+                    || index==R.string.quymao || index==R.string.tanmao || index==R.string.atmao || index==R.string.dinhmao || index==R.string.kymao
+                    || index==R.string.atmui || index==R.string.quymui || index==R.string.dinhmui || index==R.string.kymui || index==R.string.tanmui)
+            {
+                int temp=antiClockwise(2,sogio(gioSinh(time)));
+                saoHoaTinh=cung[temp];
+                temp=counterClockwise(10,sogio(gioSinh(time)));
+                saoLinhTinh=cung[temp];
+            }
+        }//end else
+
+    }
+    public void anTahuu(){
+        int temp=counterClockwise(4,chineseMonth);
+        saoTaPhu=cung[temp];
+        temp=antiClockwise(10,chineseMonth);
+        saoHuuBat=cung[temp];
+    }
+    public void anXuongkhuc(){
+        int temp=antiClockwise(10,sogio(gioSinh(time)));
+        saoVanXuong=cung[temp];
+        temp=counterClockwise(4,sogio(gioSinh(time)));
+        saoVanKhuc=cung[temp];
+    }
+    public int convertFromNamSinh(int index){
+        if(index==R.string.giapty || index==R.string.nhamty || index==R.string.binhty || index==R.string.mauty || index==R.string.canhty)
+            return 0;
+        else if(index==R.string.atsuu || index==R.string.quysuu || index==R.string.dinhsuu || index==R.string.kysuu || index==R.string.tansuu)
+            return 1;
+        else if(index==R.string.nhamdan || index==R.string.canhdan || index==R.string.giapdan || index==R.string.binhdan || index==R.string.maudan)
+            return 2;
+        else if(index==R.string.quymao || index==R.string.tanmao || index==R.string.atmao || index==R.string.dinhmao || index==R.string.kymao)
+            return 3;
+        else if(index==R.string.canhthin || index==R.string.mauthin || index==R.string.nhamthin || index==R.string.giapthin || index==R.string.binhthin)
+            return 4;
+        else if(index==R.string.tanty || index==R.string.kyty || index==R.string.quyty || index==R.string.atty || index==R.string.dinhty)
+            return 5;
+        else if(index==R.string.giapngo || index==R.string.nhamngo || index==R.string.binhngo || index==R.string.maungo || index==R.string.canhngo)
+            return 6;
+        else if(index==R.string.atmui || index==R.string.quymui || index==R.string.dinhmui || index==R.string.kysuu || index==R.string.tanmui)
+            return 7;
+        else if(index==R.string.nhamthan || index==R.string.canhthan || index==R.string.giapthan || index==R.string.binhthan || index==R.string.mauthan)
+            return 8;
+        else if(index==R.string.quydau || index==R.string.tandau || index==R.string.atdau || index==R.string.dinhdau || index==R.string.kydau)
+            return 9;
+        else if(index==R.string.canhtuat || index==R.string.mautuat || index==R.string.nhamtuat || index==R.string.giaptuat || index==R.string.binhtuat)
+            return 10;
+        else
+            return 11;
+       }
+    public void anLongphuong(){
+        int temp=counterClockwise(4,convertFromNamSinh(yearOfAnimal(year,month,day))+1);
+        saoLongTri=cung[temp];
+        temp=antiClockwise(10,convertFromNamSinh(yearOfAnimal(year,month,day))+1);
+        saoPhuongCac=cung[temp];
+    }
+    public void anKhoiviet(){
+        int index=yearOfAnimal(year,month,day);
+        if(index==R.string.giapdan || index==R.string.giaptuat || index==R.string.giapthin || index==R.string.giapthan || index==R.string.giapngo || index==R.string.giapty
+                || index==R.string.mauthan || index==R.string.mautuat || index==R.string.maungo || index==R.string.mauthin || index==R.string.maudan || index==R.string.mauty)
+        {
+            saoThienKhoi=cung[1];
+            saoThienViet=cung[7];
+        }
+        else if(index==R.string.atdau || index==R.string.atmui || index==R.string.atty || index==R.string.atmao || index==R.string.athoi || index==R.string.atsuu
+                || index==R.string.kysuu || index==R.string.kyty || index==R.string.kymao || index==R.string.kymui || index==R.string.kyhoi || index==R.string.kydau)
+        {
+            saoThienKhoi=cung[0];
+            saoThienViet=cung[8];
+        }
+        else if(index==R.string.canhthan || index==R.string.canhngo || index==R.string.canhthin || index==R.string.canhdan || index==R.string.canhtuat || index==R.string.canhty
+                || index==R.string.tandau || index==R.string.tanmui || index==R.string.tanty || index==R.string.tanmao || index==R.string.tanhoi || index==R.string.tansuu)
+        {
+            saoThienKhoi=cung[6];
+            saoThienViet=cung[2];
+        }
+        else if(index==R.string.binhtuat || index==R.string.binhthan || index==R.string.binhngo || index==R.string.binhthin || index==R.string.binhdan || index==R.string.binhty
+                || index==R.string.dinhdau || index==R.string.dinhmui || index==R.string.dinhty || index==R.string.dinhmao || index==R.string.dinhhoi || index==R.string.dinhty)
+        {
+            saoThienKhoi=cung[11];
+            saoThienViet=cung[9];
+        }
+        else if(index==R.string.nhamdan || index==R.string.nhamtuat || index==R.string.nhamthan || index==R.string.nhamngo || index==R.string.nhamthin || index==R.string.nhamty
+                || index==R.string.quydau || index==R.string.quymui || index==R.string.quyty || index==R.string.quymao || index==R.string.quyhoi || index==R.string.quysuu)
+        {
+            saoThienKhoi=cung[3];
+            saoThienViet=cung[5];
+        }
+    }
+    public void anKhochu(){
+        int index=counterClockwise(6,convertFromNamSinh(yearOfAnimal(year,month,day))+1);
+        saoThienKhoc=cung[index];
+        index=convertCungToNumber(saoTuePha);
+        saoThienHu=cung[index];
+     }
+    public void anThaitoa(){
+        int index=convertCungToNumber(saoTaPhu);
+        index=counterClockwise(index,chineseDate);
+        saoTamThai=cung[index];
+        int temp=convertCungToNumber(saoHuuBat);
+        temp=antiClockwise(temp,chineseDate);
+        saoBatToa=cung[temp];
+    }
+    public void anQuangqui(){
+        int index=convertCungToNumber(saoVanXuong);
+        index=counterClockwise(index,chineseDate-1);
+        saoAnQuang=cung[index];
+        index=convertCungToNumber(saoVanKhuc);
+        index=antiClockwise(index,chineseDate-1);
+        saoThienQui=cung[index];
+    }
+    public void anThiennguyetduc(){
+        int index=convertFromNamSinh(yearOfAnimal(year,month,day));
+        int temp=counterClockwise(9,index+1);
+        saoThienDuc=cung[temp];
+        temp=counterClockwise(5,index+1);
+        saoNguyetDuc=cung[temp];
+     }
+    public void anHinhrieuy(){
+        int index=counterClockwise(9,chineseMonth);
+        saoThienHinh=cung[index];
+        index=counterClockwise(0,chineseMonth+1);
+        saoThienRieu=cung[index];
+        saoThienY=cung[index];
+
+    }
+    public int cungDoi(int index){
+        if(index==0) return 6;
+        else if(index==1) return 7;
+        else if(index==2) return 8;
+        else if(index==3) return 9;
+        else if(index==4) return 10;
+        else if(index==5) return 11;
+        else if(index==6) return 0;
+        else if(index==7) return 1;
+        else if(index==8) return 2;
+        else if(index==9) return 3;
+        else if(index==10) return 4;
+        else return 5;
+    }
+    public void anHonghi(){
+        int index=antiClockwise(3,convertFromNamSinh(yearOfAnimal(year,month,day))+1);
+        saoHongLoan=cung[index];
+        index=cungDoi(index);
+        saoThienHi=cung[index];
+    }
+    public void anAnphu(){
+        int index=convertCungToNumber(saoLocTon);
+        index=counterClockwise(index,9);
+        saoQuocAn=cung[index];
+        index=convertCungToNumber(saoLocTon);
+        index=antiClockwise(index,8);
+        saoDuongPhu=cung[index];
+    }
+    public void anThiendiagiaithan(){
+        int index=counterClockwise(8,chineseMonth);
+        saoThienGiai=cung[index];
+        index=counterClockwise(7,chineseMonth);
+        saoDiaGiai=cung[index];
+        index=convertCungToNumber(saoPhuongCac);
+        saoGiaiThan=cung[index];
+    }
+    public void anPhucao(){
+        int index=convertCungToNumber(saoVanKhuc);
+        index=counterClockwise(index,3);
+        saoThaiPhu=cung[index];
+        index=convertCungToNumber(saoVanKhuc);
+        index=antiClockwise(index,3);
+        saoPhongCao=cung[index];
+    }
+    public void anTaitho(){
+        int index=convertCungToNumber(cungMenh);
+        index=counterClockwise(index,convertFromNamSinh(yearOfAnimal(year,month,day))+1);
+        saoThienTai=cung[index];
+        index=convertCungToNumber(cungThan);
+        index=counterClockwise(index,convertFromNamSinh(yearOfAnimal(year,month,day))+1);
+        saoThienTho=cung[index];
+    }
+    public void anThuongsu(){
+        int index=convertCungToNumber(cungNoBoc);
+        saoThienThuong=cung[index];
+        index=convertCungToNumber(cungTatAch);
+        saoThienSu=cung[index];
+    }
+    public void anLavong(){
+        saoThienLa=cung[4];
+        saoDiaVong=cung[10];
+    }
+    public void anTuhoa(){
+        int index=yearOfAnimal(year,month,day);
+        if(index==R.string.giapdan || index==R.string.giapty || index==R.string.giapthin || index==R.string.giapngo || index==R.string.giapthan || index==R.string.giaptuat){
+            int temp=convertCungToNumber(saoLiemTrinh);
+            saoHoaLoc=cung[temp];
+            temp=convertCungToNumber(saoPhaQuan);
+            saoHoaQuyen=cung[temp];
+            temp=convertCungToNumber(saoVuKhuc);
+            saoHoaKhoa=cung[temp];
+            temp=convertCungToNumber(saoThaiDuong);
+            saoHoaKy=cung[temp];
+        }
+        else if(index==R.string.atsuu || index==R.string.athoi || index==R.string.atmao || index==R.string.atty || index==R.string.atdau || index==R.string.atmui)
+        {
+            int temp=convertCungToNumber(saoThienCo);
+            saoHoaLoc=cung[temp];
+            temp=convertCungToNumber(saoThienLuong);
+            saoHoaQuyen=cung[temp];
+            temp=convertCungToNumber(saoTuVi);
+            saoHoaKhoa=cung[temp];
+            temp=convertCungToNumber(saoThaiAm);
+            saoHoaKy=cung[temp];
+        }
+        else if(index==R.string.binhty || index==R.string.binhdan || index==R.string.binhthin || index==R.string.binhngo || index==R.string.binhthan || index==R.string.binhtuat){
+            int temp=convertCungToNumber(saoThienDong);
+            saoHoaLoc=cung[temp];
+            temp=convertCungToNumber(saoThienCo);
+            saoHoaQuyen=cung[temp];
+            temp=convertCungToNumber(saoVanXuong);
+            saoHoaKhoa=cung[temp];
+            temp=convertCungToNumber(saoLiemTrinh);
+            saoHoaKy=cung[temp];
+        }
+        else if(index==R.string.dinhhoi || index==R.string.dinhmao || index==R.string.dinhty || index==R.string.dinhmui || index==R.string.dinhdau || index==R.string.dinhsuu){
+            int temp=convertCungToNumber(saoThaiAm);
+            saoHoaLoc=cung[temp];
+            temp=convertCungToNumber(saoThienDong);
+            saoHoaQuyen=cung[temp];
+            temp=convertCungToNumber(saoThienCo);
+            saoHoaKhoa=cung[temp];
+            temp=convertCungToNumber(saoCumon);
+            saoHoaKy=cung[temp];
+        }
+        else if(index==R.string.mauthan || index==R.string.mauty || index==R.string.maudan || index==R.string.mauthin || index==R.string.maungo || index==R.string.mautuat){
+            int temp=convertCungToNumber(saoThamLang);
+            saoHoaLoc=cung[temp];
+            temp=convertCungToNumber(saoThaiAm);
+            saoHoaQuyen=cung[temp];
+            temp=convertCungToNumber(saoHuuBat);
+            saoHoaKhoa=cung[temp];
+            temp=convertCungToNumber(saoThienCo);
+            saoHoaKy=cung[temp];
+        }
+        else if(index==R.string.kydau || index==R.string.kyhoi || index==R.string.kymui || index==R.string.kymao || index==R.string.kysuu || index==R.string.kyty){
+            int temp=convertCungToNumber(saoVuKhuc);
+            saoHoaLoc=cung[temp];
+            temp=convertCungToNumber(saoThamLang);
+            saoHoaQuyen=cung[temp];
+            temp=convertCungToNumber(saoThienLuong);
+            saoHoaKhoa=cung[temp];
+            temp=convertCungToNumber(saoVuKhuc);
+            saoHoaKy=cung[temp];
+        }
+        else if(index==R.string.canhty || index==R.string.canhtuat || index==R.string.canhdan || index==R.string.canhthin || index==R.string.canhngo || index==R.string.canhthan){
+            int temp=convertCungToNumber(saoThaiDuong);
+            saoHoaLoc=cung[temp];
+            temp=convertCungToNumber(saoVuKhuc);
+            saoHoaQuyen=cung[temp];
+            temp=convertCungToNumber(saoThaiAm);
+            saoHoaKhoa=cung[temp];
+            temp=convertCungToNumber(saoThienDong);
+            saoHoaKy=cung[temp];
+        }
+        else if(index==R.string.tansuu || index==R.string.tanhoi || index==R.string.tanmao || index==R.string.tanty || index==R.string.tandau || index==R.string.tanmui){
+            int temp=convertCungToNumber(saoCumon);
+            saoHoaLoc=cung[temp];
+            temp=convertCungToNumber(saoThienLuong);
+            saoHoaQuyen=cung[temp];
+            temp=convertCungToNumber(saoVuKhuc);
+            saoHoaKhoa=cung[temp];
+            temp=convertCungToNumber(saoVanXuong);
+            saoHoaKy=cung[temp];
+        }
+        else if(index==R.string.nhamdan || index==R.string.nhamty || index==R.string.nhamthin || index==R.string.nhamngo || index==R.string.nhamthan || index==R.string.nhamtuat){
+            int temp=convertCungToNumber(saoThienLuong);
+            saoHoaLoc=cung[temp];
+            temp=convertCungToNumber(saoTuVi);
+            saoHoaQuyen=cung[temp];
+            temp=convertCungToNumber(saoTaPhu);
+            saoHoaKhoa=cung[temp];
+            temp=convertCungToNumber(saoVuKhuc);
+            saoHoaKy=cung[temp];
+        }
+        else{
+            int temp=convertCungToNumber(saoPhaQuan);
+            saoHoaLoc=cung[temp];
+            temp=convertCungToNumber(saoCumon);
+            saoHoaQuyen=cung[temp];
+            temp=convertCungToNumber(saoThaiAm);
+            saoHoaKhoa=cung[temp];
+            temp=convertCungToNumber(saoThamLang);
+            saoHoaKy=cung[temp];
+        }
+    }
+    public void anCoqua(){
+        int index=convertFromNamSinh(yearOfAnimal(year,month,day));
+        if(index==11 || index==0 || index==1){
+            saoCoThan=cung[2];
+            saoQuaTu=cung[10];
+        }
+        else if(index==2 || index==3 || index==4){
+            saoCoThan=cung[5];
+            saoQuaTu=cung[1];
+        }else if(index==5 || index==6 || index==7){
+            saoCoThan=cung[8];
+            saoQuaTu=cung[4];
+        }
+        else{
+            saoCoThan=cung[11];
+            saoQuaTu=cung[7];
+        }
+     }
+    public void anQuanphuc(){
+        int index=yearOfAnimal(year,month,day);
+        if(index==R.string.giapdan || index==R.string.giapty || index==R.string.giapthin || index==R.string.giapngo || index==R.string.giapthan || index==R.string.giaptuat){
+           saoThienQuan=cung[7];
+           saoThienPhuc=cung[9];
+        }
+        else if(index==R.string.atsuu || index==R.string.athoi || index==R.string.atmao || index==R.string.atty || index==R.string.atdau || index==R.string.atmui)
+        {
+            saoThienQuan=cung[4];
+            saoThienPhuc=cung[8];
+        }
+        else if(index==R.string.binhty || index==R.string.binhdan || index==R.string.binhthin || index==R.string.binhngo || index==R.string.binhthan || index==R.string.binhtuat){
+            saoThienQuan=cung[5];
+            saoThienPhuc=cung[0];
+        }
+        else if(index==R.string.dinhhoi || index==R.string.dinhmao || index==R.string.dinhty || index==R.string.dinhmui || index==R.string.dinhdau || index==R.string.dinhsuu){
+            saoThienQuan=cung[2];
+            saoThienPhuc=cung[11];
+        }
+        else if(index==R.string.mauthan || index==R.string.mauty || index==R.string.maudan || index==R.string.mauthin || index==R.string.maungo || index==R.string.mautuat){
+            saoThienQuan=cung[3];
+            saoThienPhuc=cung[3];
+        }
+        else if(index==R.string.kydau || index==R.string.kyhoi || index==R.string.kymui || index==R.string.kymao || index==R.string.kysuu || index==R.string.kyty){
+            saoThienQuan=cung[9];
+            saoThienPhuc=cung[2];
+        }
+        else if(index==R.string.canhty || index==R.string.canhtuat || index==R.string.canhdan || index==R.string.canhthin || index==R.string.canhngo || index==R.string.canhthan){
+            saoThienQuan=cung[11];
+            saoThienPhuc=cung[6];
+        }
+        else if(index==R.string.tansuu || index==R.string.tanhoi || index==R.string.tanmao || index==R.string.tanty || index==R.string.tandau || index==R.string.tanmui) {
+            saoThienQuan = cung[9];
+            saoThienPhuc = cung[5];
+        }
+        else if(index==R.string.nhamdan || index==R.string.nhamty || index==R.string.nhamthin || index==R.string.nhamngo || index==R.string.nhamthan || index==R.string.nhamtuat){
+            saoThienQuan=cung[10];
+            saoThienPhuc=cung[6];
+        }
+        else{
+            saoThienQuan=cung[6];
+            saoThienPhuc=cung[5];
+        }
+    }
+    public void anDaohoa(){
+        int index=convertFromNamSinh(yearOfAnimal(year,month,day));
+        if(index==5 || index==9 || index==1) saoDaoHoa=cung[6];
+        else if(index==11 || index==3 || index==7) saoDaoHoa=cung[0];
+        else if(index==8 || index==0 || index==4) saoDaoHoa=cung[9];
+        else saoDaoHoa=cung[3];
+    }
+    public void anThienma(){
+        int index=convertFromNamSinh(yearOfAnimal(year,month,day));
+        if(index==5 || index==9 || index==1) saoThienMa=cung[11];
+        else if(index==11 || index==3 || index==7) saoThienMa=cung[5];
+        else if(index==8 || index==0 || index==4) saoThienMa=cung[2];
+        else saoThienMa=cung[8];
+    }
+    public void anPhatoai(){
+        int index=convertFromNamSinh(yearOfAnimal(year,month,day));
+        if(index==0 || index==6 || index==3 || index==9) saoPhaToai=cung[5];
+        else if(index==2 || index==8 || index==5 || index==11) saoPhaToai=cung[9];
+        else saoPhaToai=cung[1];
+    }
+    public void anKiepsat(){
+        int index=convertFromNamSinh(yearOfAnimal(year,month,day));
+        if(index==5 || index==9 || index==11) saoKiepSat=cung[2];
+        else if(index==11 || index==3 || index==7) saoKiepSat=cung[8];
+        else if(index==2 || index==6 || index==10) saoKiepSat=cung[11];
+        else saoKiepSat=cung[5];
+    }
+    public void anHoacai(){
+
+        int index=convertFromNamSinh(yearOfAnimal(year,month,day));
+        if(index==5 || index==9 || index==11) saoHoaCai=cung[1];
+        else if(index==11 || index==3 || index==7) saoHoaCai=cung[7];
+        else if(index==2 || index==6 || index==10) saoHoaCai=cung[10];
+        else saoHoaCai=cung[4];
+    }
+    public void anLuuha(){
+        int index=yearOfAnimal(year,month,day);
+        if(index==R.string.giapdan || index==R.string.giapty || index==R.string.giapthin || index==R.string.giapngo || index==R.string.giapthan || index==R.string.giaptuat){
+           saoLuuHa=cung[9];
+        }
+        else if(index==R.string.atsuu || index==R.string.athoi || index==R.string.atmao || index==R.string.atty || index==R.string.atdau || index==R.string.atmui)
+        {
+           saoLuuHa=cung[10];
+        }
+        else if(index==R.string.binhty || index==R.string.binhdan || index==R.string.binhthin || index==R.string.binhngo || index==R.string.binhthan || index==R.string.binhtuat){
+            saoLuuHa=cung[7];
+        }
+        else if(index==R.string.dinhhoi || index==R.string.dinhmao || index==R.string.dinhty || index==R.string.dinhmui || index==R.string.dinhdau || index==R.string.dinhsuu){
+            saoLuuHa=cung[4];
+        }
+        else if(index==R.string.mauthan || index==R.string.mauty || index==R.string.maudan || index==R.string.mauthin || index==R.string.maungo || index==R.string.mautuat){
+            saoLuuHa=cung[5];
+        }
+        else if(index==R.string.kydau || index==R.string.kyhoi || index==R.string.kymui || index==R.string.kymao || index==R.string.kysuu || index==R.string.kyty){
+           saoLuuHa=cung[6];
+        }
+        else if(index==R.string.canhty || index==R.string.canhtuat || index==R.string.canhdan || index==R.string.canhthin || index==R.string.canhngo || index==R.string.canhthan){
+            saoLuuHa=cung[8];
+        }
+        else if(index==R.string.tansuu || index==R.string.tanhoi || index==R.string.tanmao || index==R.string.tanty || index==R.string.tandau || index==R.string.tanmui) {
+            saoLuuHa=cung[3];
+        }
+        else if(index==R.string.nhamdan || index==R.string.nhamty || index==R.string.nhamthin || index==R.string.nhamngo || index==R.string.nhamthan || index==R.string.nhamtuat){
+           saoLuuHa=cung[11];
+        }
+        else{
+            saoLuuHa=cung[2];
+        }
+    }
+    public void anThientru(){
+        int index=yearOfAnimal(year,month,day);
+        if(index==R.string.giapdan || index==R.string.giapty || index==R.string.giapthin || index==R.string.giapngo || index==R.string.giapthan || index==R.string.giaptuat){
+            saoThienTru=cung[5];
+        }
+        else if(index==R.string.atsuu || index==R.string.athoi || index==R.string.atmao || index==R.string.atty || index==R.string.atdau || index==R.string.atmui)
+        {
+            saoThienTru=cung[6];
+        }
+        else if(index==R.string.binhty || index==R.string.binhdan || index==R.string.binhthin || index==R.string.binhngo || index==R.string.binhthan || index==R.string.binhtuat){
+            saoThienTru=cung[0];
+        }
+        else if(index==R.string.dinhhoi || index==R.string.dinhmao || index==R.string.dinhty || index==R.string.dinhmui || index==R.string.dinhdau || index==R.string.dinhsuu){
+            saoThienTru=cung[5];
+        }
+        else if(index==R.string.mauthan || index==R.string.mauty || index==R.string.maudan || index==R.string.mauthin || index==R.string.maungo || index==R.string.mautuat){
+            saoThienTru=cung[6];
+        }
+        else if(index==R.string.kydau || index==R.string.kyhoi || index==R.string.kymui || index==R.string.kymao || index==R.string.kysuu || index==R.string.kyty){
+            saoThienTru=cung[8];
+        }
+        else if(index==R.string.canhty || index==R.string.canhtuat || index==R.string.canhdan || index==R.string.canhthin || index==R.string.canhngo || index==R.string.canhthan){
+            saoThienTru=cung[2];
+        }
+        else if(index==R.string.tansuu || index==R.string.tanhoi || index==R.string.tanmao || index==R.string.tanty || index==R.string.tandau || index==R.string.tanmui) {
+            saoThienTru=cung[6];
+        }
+        else if(index==R.string.nhamdan || index==R.string.nhamty || index==R.string.nhamthin || index==R.string.nhamngo || index==R.string.nhamthan || index==R.string.nhamtuat){
+            saoThienTru=cung[9];
+        }
+        else{
+            saoThienTru=cung[10];
+        }
+    }
+    public void anLuunienvantinh(){
+        int index=yearOfAnimal(year,month,day);
+        if(index==R.string.giapdan || index==R.string.giapty || index==R.string.giapthin || index==R.string.giapngo || index==R.string.giapthan || index==R.string.giaptuat){
+            saoLuuNienVanTinh=cung[5];
+        }
+        else if(index==R.string.atsuu || index==R.string.athoi || index==R.string.atmao || index==R.string.atty || index==R.string.atdau || index==R.string.atmui)
+        {
+            saoLuuNienVanTinh=cung[6];
+        }
+        else if(index==R.string.binhty || index==R.string.binhdan || index==R.string.binhthin || index==R.string.binhngo || index==R.string.binhthan || index==R.string.binhtuat){
+            saoLuuNienVanTinh=cung[8];
+        }
+        else if(index==R.string.dinhhoi || index==R.string.dinhmao || index==R.string.dinhty || index==R.string.dinhmui || index==R.string.dinhdau || index==R.string.dinhsuu){
+            saoLuuNienVanTinh=cung[9];
+        }
+        else if(index==R.string.mauthan || index==R.string.mauty || index==R.string.maudan || index==R.string.mauthin || index==R.string.maungo || index==R.string.mautuat){
+            saoLuuNienVanTinh=cung[8];
+        }
+        else if(index==R.string.kydau || index==R.string.kyhoi || index==R.string.kymui || index==R.string.kymao || index==R.string.kysuu || index==R.string.kyty){
+            saoLuuNienVanTinh=cung[9];
+        }
+        else if(index==R.string.canhty || index==R.string.canhtuat || index==R.string.canhdan || index==R.string.canhthin || index==R.string.canhngo || index==R.string.canhthan){
+            saoLuuNienVanTinh=cung[11];
+        }
+        else if(index==R.string.tansuu || index==R.string.tanhoi || index==R.string.tanmao || index==R.string.tanty || index==R.string.tandau || index==R.string.tanmui) {
+            saoLuuNienVanTinh=cung[0];
+        }
+        else if(index==R.string.nhamdan || index==R.string.nhamty || index==R.string.nhamthin || index==R.string.nhamngo || index==R.string.nhamthan || index==R.string.nhamtuat){
+            saoLuuNienVanTinh=cung[2];
+        }
+        else{
+            saoLuuNienVanTinh=cung[3];
+        }
+    }
+    public void anBacsi(){
+        int index=convertCungToNumber(saoLocTon);
+        saoBacSi=cung[index];
+    }
+    public void anDauquan(){
+        int index=convertCungToNumber(saoThaiTue);
+        index=antiClockwise(index,chineseMonth+1);
+        index=counterClockwise(index,sogio(gioSinh(time))+1);
+        saoDauQuan=cung[index];
+
+    }
+    public void anThienkhong(){
+        int index=convertCungToNumber(saoThaiTue);
+        index=counterClockwise(index,2);
+        saoThienKhong=cung[index];
+
+    }
+    public boolean fallInTheRange(int year1, int month1, int day1, int year2, int month2, int day2){
+        Date birthday=convertDate(year,month,day);
+        SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
+        boolean result=false;
+        try{
+            Date date1=convertDate(year1,month1,day1);
+            Date date2=convertDate(year2,month2,day2);
+            if((birthday.after(date1)|| birthday.equals(date1)) && (birthday.before(date2) || birthday.equals(date2))){
+                result=true;
+            }
+        }catch(Exception e){
+        }
+        return result;
+    }
+    public void anTuantriet(){
+      if(fallInTheRange(1984,2,2,1994,2,9)){
+          //giap ty den quy dau
+          saoTuan=cung[10];
+          saoTuan1=cung[11];
+      }else if(fallInTheRange(1994,2,10,2004,1,21))
+      {
+          //giap tuat den quy mui
+          saoTuan=cung[8];
+          saoTuan1=cung[9];
+      }
+        else if(fallInTheRange(1944,1,25,1954,2,2)|| fallInTheRange(2004,1,2,2014,1,30))
+      {
+          saoTuan=cung[6];
+          saoTuan1=cung[7];
+      }
+        else if(fallInTheRange(1954,2,3,1964,2,12)){
+          saoTuan=cung[4];
+          saoTuan=cung[5];
+      }else if(fallInTheRange(1964,2,13,1974,1,22)){
+          saoTuan=cung[3];
+          saoTuan=cung[2];
+      }else{
+          saoTuan=cung[0];
+          saoTuan1=cung[1];
+      }
+
+        //an sao triet
+        int index=yearOfAnimal(year,month,day);
+        if(index==R.string.giapdan || index==R.string.giaptuat ||index==R.string.giapthin || index==R.string.giapthan || index==R.string.giapngo || index==R.string.giapty
+                || index==R.string.kyty || index==R.string.kysuu || index==R.string.kymao || index==R.string.kymui || index==R.string.kydau || index==R.string.kyhoi)
+        {
+            saoTriet=cung[8];
+            saoTriet1=cung[9];
+        }
+        else if(index==R.string.atmui || index==R.string.atdau || index==R.string.atty || index==R.string.atmao || index==R.string.athoi || index==R.string.atsuu
+                || index==R.string.canhthan || index==R.string.canhngo || index==R.string.canhthin || index==R.string.canhdan || index==R.string.canhtuat || index==R.string.canhty){
+            saoTriet=cung[6];
+            saoTriet1=cung[7];
+        }
+        else if(index==R.string.binhtuat || index==R.string.binhthan || index==R.string.binhngo || index==R.string.binhthin || index==R.string.binhdan || index==R.string.binhty
+                || index==R.string.tanmui || index==R.string.tandau || index==R.string.tanty || index==R.string.tanmao || index==R.string.tanhoi || index==R.string.tansuu){
+            saoTriet=cung[4];
+            saoTriet1=cung[5];
+
+        }
+        else if(index==R.string.dinhsuu || index==R.string.dinhdau || index==R.string.dinhmui || index==R.string.dinhty || index==R.string.dinhhoi || index==R.string.dinhmao
+                || index==R.string.mauthan || index==R.string.mautuat || index==R.string.maungo || index==R.string.mauthin || index==R.string.maudan || index==R.string.mauty){
+            saoTriet=cung[2];
+            saoTriet1=cung[3];
+        }else
+        {
+            saoTriet=cung[0];
+            saoTriet1=cung[1];
+        }
+    }
+    public String saoTuViQuality(){
+        int index=convertCungToNumber(saoTuVi);
+        if(index==5 || index==6 || index==2 || index==8)
+            return "Mieu dia";
+        else if(index==10 || index==4) return "Vuong dia";
+        else if(index==7 || index==1) return "Dac dia";
+        else return "Binh hoa";
+    }
 
 }
+
+

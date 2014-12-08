@@ -2874,6 +2874,96 @@ public class Activity3 extends Activity {
         else return "Binh hoa";
     }
 
+    public String saoLiemTrinhQuality(){
+        int index=convertCungToNumber(saoLiemTrinh);
+        if(index==4 || index==10)
+            return "Mieu dia";
+        else if(index==0 || index==2 || index==6 || index==8) return "Vuong dia";
+        else if(index==1 || index==7) return "Dac dia";
+        else return "Ham dia";
+    }
+
+    public String saoThienDongQuality() {
+        int index = convertCungToNumber(saoThienDong);
+        if (index==2 || index==8)
+            return "Mieu dia";
+        else if (index== 0) return "Vuong dia";
+        else if (index==3 || index==5 || index==11) return "Dac dia";
+        else return "Ham dia";
+    }
+
+    public String saoVuKhucQuality() {
+        int index = convertCungToNumber(saoVuKhuc);
+        if (index==1 || index==4 || index==7 || index==10)
+            return "Mieu dia";
+        else if (index==0 || index==2 || index==6 || index==8) return "Vuong dia";
+        else if (index==3 || index==9) return "Dac dia";
+        else return "Ham dia";
+    }
+
+    public String saoThaiDuongQuality() {
+        int index = convertCungToNumber(saoThaiDuong);
+        if (index==5 || index==6)
+            return "Mieu dia";
+        else if (index==2 || index==3 || index==4) return "Vuong dia";
+        else if (index==1 || index==7) return "Dac dia";
+        else return "Ham dia";
+    }
+
+    public String saoThienCoQuality() {
+        int index = convertCungToNumber(saoThienCo);
+        if (index==3 || index==4 || index==9 || index==10)
+            return "Mieu dia";
+        else if (index==5 || index==8) return "Vuong dia";
+        else if (index==0 || index==1 || index==6 || index==7) return "Dac dia";
+        else return "Ham dia";
+    }
+
+    public String saoThienPhuQuality() {
+        int index = convertCungToNumber(saoThienPhu);
+        if (index==0 || index==2 || index==6 || index==8)
+            return "Mieu dia";
+        else if (index==4 || index==10) return "Vuong dia";
+        else if (index==5 || index==7 || index==11) return "Dac dia";
+        else return "Ham dia";
+    }
+
+    public String saoThaiAmQuality() {
+        int index = convertCungToNumber(saoThaiAm);
+        if (index==9 || index==10 || index==11)
+            return "Mieu dia";
+        else if (index==0 || index==8) return "Vuong dia";
+        else if (index==1 || index==7) return "Dac dia";
+        else return "Ham dia";
+    }
+
+    public String saoThamLangQuality() {
+        int index = convertCungToNumber(saoThamLang);
+        if (index==1 || index==7)
+            return "Mieu dia";
+        else if (index==4 || index==10) return "Vuong dia";
+        else if (index==2 || index==8) return "Dac dia";
+        else return "Ham dia";
+    }
+
+    public String saoCuMonQuality() {
+        int index = convertCungToNumber(saoCumon);
+        if (index==3 || index==9)
+            return "Mieu dia";
+        else if (index==0 || index==2 || index==6) return "Vuong dia";
+        else if (index==8 || index==11) return "Dac dia";
+        else return "Ham dia";
+    }
+
+    public String saoThienTuongQuality() {
+        int index = convertCungToNumber(saoThienTuong);
+        if (index==2 || index==8)
+            return "Mieu dia";
+        else if (index==0 || index==4 || index==6 || index==10) return "Vuong dia";
+        else if (index==1 || index==5 || index==7 || index==11) return "Dac dia";
+        else return "Ham dia";
+    }
+
 }
 
 

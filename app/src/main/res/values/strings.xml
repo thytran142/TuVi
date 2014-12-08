@@ -127,19 +127,19 @@
     <string name="giohoi">Time of the pig</string>
     <string name="duong">Yang</string>
     <string name="am">Yin</string>
-    <string name="general1">Đàn ông sinh năm Ngọ, Mùi mà cung mệnh an tại cung Tý hay Sửu: Suốt đời vất vả
-    , chẳng mấy khi được xứng ý toại lòng. </string>
-    <string name="general2">Đảm đang khôn ngoan. </string>
-    <string name="general3"> Ra ngoài được nhiều người yêu mến vị nể. </string>
-    <string name="general4">Suốt đời được an nhàn. </string>
-    <string name="general5">Rất khôn ngoan sắc sảo, thường là con vợ lẽ hay con nàng hầu. Nếu là con vợ cả tất hay đau yếu
-    , sức khoẻ suy kém. Lúc thiếu thời vất vả, thường lang thang phiêu bạt bất chi </string>
-    <string name="general6">Tuy nhiên do có các sao đi kèm là Thiên Địa không hội hợp hay tuần triệt án ngữ, nên rất sáng sủa, sống lâu. </string>
-    <string name="general7"> Cung mệnh vô chính diệu, tuy nhiên có Tuần triệt nên được cứu giải, cơm no áo ấm suốt đời. </string>
-    <string name="general8">Cung mệnh vô chính diệu, lại không có các ngôi sao khác cứu giúp nên suốt đời cùng khổ và giảm thọ. </string>
-    <string name="general9">Cung mệnh tại Tý, Ngọ lại vô chính diệu, nên có thể khổ sở nhiều, như đoá hoa mới nở đã bị sương gió vùi dập phũ phàng. </string>
-    <string name="general10">Tuy nhiên, có sao Hoá lộc án ngữ, nên giàu mà giảm thọ. </string>
-    <string name="general11">Do không có hoạ lộc toạ thủ, thì nghèo và sống lâu.  </string>
+    <string name="general1">Men born on the year of the horse or the goat with the life fate situated on the Mouse or Buffalo sign : There
+    are a lot of difficulties in life you must face and there won't be much time you will be satisfied by the result.
+    However if you can overcome the hard time then you will succeed. </string>
+    <string name="general2"> Smart and hardworking.</string>
+    <string name="general3"> Respected and loved by other people.</string>
+    <string name="general4"> Lead a leisure life.</string>
+    <string name="general5"> Very smart and sharp. Face a lot of difficulties when young.</string>
+    <string name="general6"> However there is the star of Thien dia khong on the same spot so you can live a long life.</string>
+    <string name="general7"> You will have enough money for a normal style life.</string>
+    <string name="general8"> You may not have a very good health. Be sure to have a healthy lifestyle.</string>
+    <string name="general9"> Face lots of difficulties when young like a pure flower getting smashed by the wind.</string>
+    <string name="general10"> Will get rich but don't have a very good health. </string>
+    <string name="general11"> You may not be rich but you will live a long life. </string>
 
     <!--Should copy the string to vietnamese string first then translate this file to prevent duplicate-->
 

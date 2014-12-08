@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 
 /**
@@ -156,6 +157,7 @@ public class Activity3 extends Activity {
     public String saoTuan1="";
     public String saoTriet="";
     public String saoTriet1="";
+    public ArrayList<Integer> generalString=new ArrayList<Integer>();
     //THIS IS VARIABLE FOR THE LUNAR CALENDAR CONVERT
     private int gregorianYear;
     private int gregorianMonth;
@@ -217,7 +219,7 @@ public class Activity3 extends Activity {
         temp=antiClockwise(temp,sogio(gioSinh(time)));
         cungMenh=cung[temp];
         anCungKhac(temp+1);
-        TextView ancungkhac=(TextView)findViewById(R.id.ancungText);
+
         anCungThan(chineseMonth,sogio(gioSinh(time)));
         lapcuc(cungMenh,yearOfAnimal(year,month,day));
         anTuvitinhhe(cuc,chineseDate);
@@ -257,40 +259,7 @@ public class Activity3 extends Activity {
         anDauquan();
         anThienkhong();
         anTuantriet();
-        ancungkhac.setText("An cung menh o "+cungMenh+", an cung phu mau o "+cungPhuMau+", an cung Phuc duc o "+cungPhucDuc
-                + ", an cung Dien Trach o "+cungDienTrach+ ", an cung Quan loc o "+ cungQuanloc+ ", an cung No boc o "+cungNoBoc
-                +", an cung Thien di o "+cungThienDi+", an cung tat ach o "+cungTatAch+", an cung tai bach o "+cungTaiBach
-                +", an cung Tu tuc o "+cungTuTuc+", an cung The thiep o "+cungTheThiep+". An cung than tai "+cungThan+". Cuc: "+cuc+". Sao Tu vi an tai: "+saoTuVi +". Sao Liem Trinh an tai: "+saoLiemTrinh
-
-        +". Sao Thien dong an tai: "+saoThienDong+ ". Sao Vu khuc an tai "+saoVuKhuc + ". Sao Thai Duong an tai: "+saoThaiDuong
-        +". Sao Thien co an tai: "+saoThienCo+". Sao Thien Phu an tai: "+saoThienPhu+", sao thai am an tai: "+saoThaiAm+", sao Tham lang an tai: "+saoThamLang
-        +", sao Cu Mon an tai: "+saoCumon + ", sao Thien Tuong an tai: "+saoThienTuong+", sao Thien Luong: "+saoThienLuong
-        +", sao That sat:  "+saoThatSat+", sao Pha quan: "+saoPhaQuan+". Thai tue: "+saoThaiTue
-        +", Thieu Duong: "+saoThieuDuong+", Tang mon: "+saoTangMon+", Thieu am: "+saoThieuAm+", Quan phu: "+saoQuanPhu
-        +", Tu Phu: "+saoTuPhu +", Tue Pha: "+saoTuePha+", Long Duc: "+saoLongDuc+", Bach to:"+saoBachTo
-        +", Phuc Duc: "+saoPhucDuc+", Dieu Khach: "+saoDieuKhach+",Truc Phu: "+saoTrucPhu+". Loc ton: "+saoLocTon
-        +", Luc si: "+saoLucSi+ ", Thanh Long: "+saoThanhLong+", Tieu Hao: "+saoTieuHao+", Tuong Quan: "+saoTuongQuan
-        +", Tau Thu: "+saoTauThu+", Phi Liem: "+saoPhiLiem+", Hi Than: "+saoHiThan+", Benh phu: "+saoBenhPhu+",Dai hao: "+saoDaiHao
-        +", Phuc binh: "+saoPhucBinh+", Quan phu: "+saoQuanPhu2+". Truong Sinh: "+saoTruongSinh+", Moc duc: "+saoMocDuc
-        +", Quan doi: "+saoQuanDoi +", Lam quan: "+saoLamQuan+", De Vuong: "+saoDeVuong+",Benh: "+saoBenh+", Tu: "+saoTu
-        +", Mo: "+saoMo+", Tuyet: "+saoTuyet+", Thai: "+saoThai+", Duong: "+saoDuong+", Suy: "+saoSuy
-        +", Kinh Duong: "+saoKinhDuong+", Da la: "+saoDala+", Dia kiep: "+saoDiaKiep+", Dia khong: "+saoDiaKhong
-        +", Hoa tinh: "+saoHoaTinh+", Linh tinh: "+saoLinhTinh+". Ta phu: "+saoTaPhu+",Huu bat: "+saoHuuBat
-        +". Van Xuong: "+saoVanXuong+". Van Khuc: "+saoVanKhuc+". Long Tri: "+saoLongTri+". Phuong Cac: "+saoPhuongCac
-        +". Thien Khoi: "+saoThienKhoi+". Thien Viet: "+saoThienViet+". Thien khoc: "+saoThienKhoc + ",Thien hu: "+saoThienHu
-        +". Tam Thai: "+saoTamThai+". Bat toa: "+saoBatToa+". An Quang: "+saoAnQuang+". Thien Qui: "+saoThienQui
-        +". Thien Duc: "+saoThienDuc+". Nguyet Duc: "+saoNguyetDuc+". Thien Hinh: "+saoThienHinh+".Thien Rieu, Thien Y: "+saoThienRieu
-        +". Hong loan: "+saoHongLoan+". Thien hi: "+saoThienHi +". Quoc an: "+saoQuocAn+". Duong Phu: "+saoDuongPhu
-        +".Thien giai: "+saoThienGiai+". Dia giai: "+saoDiaGiai + ".Giai Than: "+saoGiaiThan
-        +"\n Sao Thai phu: "+ saoThaiPhu+". Sao Phong Cao: "+saoPhongCao+". Thien tai: "+saoThienTai+". Thien Tho: "+saoThienTho
-       +"\n Thien Thuong: "+saoThienThuong+", Thien Su: "+saoThienSu
-        +"\n Thien La: "+saoThienLa+". Dia vong: "+saoDiaVong
-        +"\n Hoa Loc: "+saoHoaLoc+". Hoa Quyen "+saoHoaQuyen +". Hoa KHoa: "+saoHoaKhoa + ". Hoa Ky: "+saoHoaKy
-        +"\n Co than:"+ saoCoThan+". Qua tu: "+saoQuaTu
-        +"\n Thien Quan: "+saoThienQuan+".Thien Phuc: "+saoThienPhuc
-        +"\n Dao hoa: "+saoDaoHoa
-        +"\n Thien ma: "+saoThienMa+". Pha toai: "+saoPhaToai+". Kiep sat: "+saoKiepSat+".Hoa Cai: "+saoHoaCai +". Luu ha: "+saoLuuHa+". Thien Tru: "+saoThienTru
-        +"\n Dau quan: "+saoDauQuan+".Thien khong: "+saoThienKhong+". Bac si: "+saoBacSi+".Tuan tai: "+saoTuan+","+saoTuan1+". Triet tai: "+saoTriet+","+saoTriet1);
+        TextView generalText=(TextView)findViewById(R.id.generalPredict);
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -3111,7 +3080,74 @@ public class Activity3 extends Activity {
         else return "Ham dia";
 
     }
+    public void generalPrediction(){
+        if(gender.equalsIgnoreCase("Male")){
+            int index=convertFromNamSinh(yearOfAnimal(year,month,day));
+            if(index==6 || index==7){
+                if(convertCungToNumber(cungMenh)==0 || convertCungToNumber(cungMenh)==1){
+                    generalString.add(R.string.general1);
+                }
+            }
+        }
+        if(gender.equalsIgnoreCase("Female")){
+            int index=convertCungToNumber(cungMenh);
+            int index1=convertCungToNumber(saoMo);
+            if(index==index1){
+                generalString.add(R.string.general2);
+                if(index==9 ){
+                    generalString.add(R.string.general3);
+                }else if(index==0 || index==6) generalString.add(R.string.general4);
+            }
+        }
+        //Menh vo chinh dieu
+        int index=convertCungToNumber(cungMenh);
+        if(index!=convertCungToNumber(saoThienLuong) && index!=convertCungToNumber(saoThatSat) && index!= convertCungToNumber(saoLiemTrinh)
+                && index!=convertCungToNumber(saoPhaQuan) && index!=convertCungToNumber(saoThienDong) && index!=convertCungToNumber(saoVuKhuc) && index!=convertCungToNumber(saoThienPhu)
+                && index!=convertCungToNumber(saoThaiDuong) && index!=convertCungToNumber(saoThaiAm) && index!=convertCungToNumber(saoThamLang)
+                && index!=convertCungToNumber(saoThienCo) && index!=convertCungToNumber(saoCumon) && index!=convertCungToNumber(saoTuVi)
+                && index!=convertCungToNumber(saoThienTuong))
+        {
+            //cung menh vo chinh dieu
+            generalString.add(R.string.general5);
+            //check if tuan triet an ngu hay ThienKhong , Thien Giai , giai than, dia giai
+            if(index==convertCungToNumber(saoThienKhong) || index==convertCungToNumber(saoThienGiai) || index==convertCungToNumber(saoGiaiThan) || index==convertCungToNumber(saoDiaGiai))
+            {
+                generalString.add(R.string.general6);
+            }
+        }
+        int index1=convertCungToNumber(cungThan);
+        if(index==index1){
+            //menh than dong cung
+            if((index==convertCungToNumber(saoMo)) || (index!=convertCungToNumber(saoThienLuong) && index!=convertCungToNumber(saoThatSat) && index!= convertCungToNumber(saoLiemTrinh)
+                    && index!=convertCungToNumber(saoPhaQuan) && index!=convertCungToNumber(saoThienDong) && index!=convertCungToNumber(saoVuKhuc) && index!=convertCungToNumber(saoThienPhu)
+                    && index!=convertCungToNumber(saoThaiDuong) && index!=convertCungToNumber(saoThaiAm) && index!=convertCungToNumber(saoThamLang)
+                    && index!=convertCungToNumber(saoThienCo) && index!=convertCungToNumber(saoCumon) && index!=convertCungToNumber(saoTuVi)
+                    && index!=convertCungToNumber(saoThienTuong))){
+                //cung mo hay la vo chinh dieu
+                if(index==convertCungToNumber(saoTuan) || index==convertCungToNumber(saoTuan1) || index==convertCungToNumber(saoTriet) || index==convertCungToNumber(saoTriet1)){
+                    generalString.add(R.string.general7);
+                }else
+                    generalString.add(R.string.general8);
+            }
+            else if((index==0 || index==6) || (index!=convertCungToNumber(saoThienLuong) && index!=convertCungToNumber(saoThatSat) && index!= convertCungToNumber(saoLiemTrinh)
+                    && index!=convertCungToNumber(saoPhaQuan) && index!=convertCungToNumber(saoThienDong) && index!=convertCungToNumber(saoVuKhuc) && index!=convertCungToNumber(saoThienPhu)
+                    && index!=convertCungToNumber(saoThaiDuong) && index!=convertCungToNumber(saoThaiAm) && index!=convertCungToNumber(saoThamLang)
+                    && index!=convertCungToNumber(saoThienCo) && index!=convertCungToNumber(saoCumon) && index!=convertCungToNumber(saoTuVi)
+                    && index!=convertCungToNumber(saoThienTuong)))
+            {
+                generalString.add(R.string.general9);
+                if(index==convertCungToNumber(saoHoaLoc)){
+                    generalString.add(R.string.general10);
+                }else
+                    generalString.add(R.string.general11);
+            }
+        }
+        if((index==convertCungToNumber(saoTriet) || index==convertCungToNumber(saoTriet1)) && (index1==convertCungToNumber(saoTuan) || index1==convertCungToNumber(saoTuan1)))
+        {
+            //menh triet than tuan
 
+        }
+  }
 
 }
 

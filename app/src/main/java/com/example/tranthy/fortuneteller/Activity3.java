@@ -259,7 +259,14 @@ public class Activity3 extends Activity {
         anDauquan();
         anThienkhong();
         anTuantriet();
+        generalPrediction();
         TextView generalText=(TextView)findViewById(R.id.generalPredict);
+        for(int i=0;i<generalString.size();i++){
+            generalText.append(this.getString(generalString.get(i)));
+            generalText.append("\n");
+        }
+
+
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -3118,6 +3125,7 @@ public class Activity3 extends Activity {
         int index1=convertCungToNumber(cungThan);
         if(index==index1){
             //menh than dong cung
+            generalString.add(R.string.general28);
             if((index==convertCungToNumber(saoMo)) || (index!=convertCungToNumber(saoThienLuong) && index!=convertCungToNumber(saoThatSat) && index!= convertCungToNumber(saoLiemTrinh)
                     && index!=convertCungToNumber(saoPhaQuan) && index!=convertCungToNumber(saoThienDong) && index!=convertCungToNumber(saoVuKhuc) && index!=convertCungToNumber(saoThienPhu)
                     && index!=convertCungToNumber(saoThaiDuong) && index!=convertCungToNumber(saoThaiAm) && index!=convertCungToNumber(saoThamLang)
@@ -3190,6 +3198,7 @@ public class Activity3 extends Activity {
             }
         }
         if(index1==convertCungToNumber(cungTheThiep)){
+            generalString.add(R.string.general27);
             if(index1==convertCungToNumber(saoThaiAm)){
                 generalString.add(R.string.general20);
             }
@@ -3210,8 +3219,31 @@ public class Activity3 extends Activity {
                 generalString.add(R.string.general24);
             }
             if(index1==convertCungToNumber(saoLuuHa) || index1==convertCungToNumber(saoDiaKiep)){
-
+                generalString.add(R.string.general25);
             }
+        }
+        if(index1==convertCungToNumber(cungQuanloc))
+        {
+            generalString.add(R.string.general26);
+            if((index1==convertCungToNumber(saoTuan) || index1==convertCungToNumber(saoTuan1)
+                    || index1==convertCungToNumber(saoTriet) || index1==convertCungToNumber(saoTriet1))
+                    && (index1==convertCungToNumber(saoDiaKiep) || index1==convertCungToNumber(saoHoaKy))){
+                generalString.add(R.string.general29);
+            }
+            if((index1==convertCungToNumber(saoTuan) || index1==convertCungToNumber(saoTuan1)
+                    || index1==convertCungToNumber(saoTriet) || index1==convertCungToNumber(saoTriet1))
+                    && (index1==convertCungToNumber(saoThatSat)) || index1==convertCungToNumber(saoKiepSat)){
+                generalString.add(R.string.general30);
+                {
+                    if(index1==convertCungToNumber(saoTangMon) || index1==convertCungToNumber(saoPhiLiem)){
+                        generalString.add(R.string.general31);
+                    }
+                }
+            }
+
+        }
+        if(index1==convertCungToNumber(cungPhucDuc)){
+            generalString.add(R.string.general32);
         }
   }
 

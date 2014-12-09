@@ -111,8 +111,8 @@
     <string name="name">Your name</string>
     <string name="you_was_born"> You were born</string>
     <string name="in_year_of"> in the year of</string>
-    <string name="year_belong_to">your year of birth belong to</string>
-    <string name="fortune_teller_for"> your prediction is</string>
+    <string name="year_belong_to">Your year of birth belongs to </string>
+    <string name="fortune_teller_for"> My prediction for </string>
     <string name="gioty">Time of the mouse</string>
     <string name="giosuu">Time of the buffalo</string>
     <string name="giodan">Time of the tiger</string>
@@ -128,8 +128,8 @@
     <string name="duong">Yang</string>
     <string name="am">Yin</string>
 
-    <string name="general1">Men born on the year of the horse or the goat with the life fate situated on the Mouse or Buffalo sign : There
-    are a lot of difficulties in life you must face and there won't be much time you will be satisfied by the result.
+    <string name="general1">Men born on the year of the horse or the goat with the life fate situated on the Mouse or Buffalo sign \: There
+    are a lot of difficulties in life you must face and there won\'t be much time you will be satisfied by the result.
     However if you can overcome the hard time then you will succeed. </string>
     <string name="general2"> Smart and hardworking.</string>
     <string name="general3"> Respected and loved by other people.</string>
@@ -139,7 +139,7 @@
     <string name="general7"> You will have enough money for a normal style life.</string>
     <string name="general8"> You may not have a very good health. Be sure to have a healthy lifestyle.</string>
     <string name="general9"> Face lots of difficulties when young like a pure flower getting smashed by the wind.</string>
-    <string name="general10"> Will get rich but don't have a very good health. </string>
+    <string name="general10"> Will get rich but don\'t have a very good health. </string>
     <string name="general11"> You may not be rich but you will live a long life. </string>
     <string name="general12"> Cung mệnh có sao tuần triệt án ngữ là mệnh triệt thân tuần, nhưng do vô chính diệu nên uốt đời  được xứng ý toại lòng, được tăng thêm tuổi thọ , về già lại được sung sướng. </string>
     <string name="general13">Cung mệnh có sao Địa không, cung Thân có sao địa kiếp, nên gọi là Mệnh không thân kiếp, người này rất
@@ -152,14 +152,42 @@
     <string name="general16">Cung mệnh có Địa Kiếp toạ thủ, cung thân có địa không toạ thủ, bạn rất khôn ngoan sắc sảo. Nhưng trong đời
     vui ít buồn nhiềi, mưu sự thành bại thất thường mà chẳng được lâu bền. </string>
     <string name="general17">Cung mệnh của bạn vô chính diệu, trong trường hợp này lúc thiếu thời bạn rất vất vả gian nan. </string>
-    <string name="general18">Thân cư thiên di, bạn lập nghiệp ở phương xa, rất thịnh vượng. </string>
+    <string name="general18">Thân cư thiên di, bạn lập nghiệp ở phương xa, rất thịnh vượng.
+    Bạn cũng là 1 mẫu người thích hoạt động thích cuộc sống có sự thay đổi cũng như di chuyển. Bời vậy bạn không
+        phải là mẫu người trong gia đình, mà là ngoài xã hội. Bạn giao thiệp rộng nên thường là người có năng khiếu trong lĩnh vực ngoại giao và tổ chức.
+        Thường bạn sẽ được làm những nghề có tính cách di động, được đi đây đi đó, tiếp xúc nhiều người. Hầu hết mọi người thân cư thiên di thường ra đời sớm và tự
+        lập sớm hơn bạn bè cùng lứa tuổi, có nhiều cơ hội đi đây đó sống xa nha.
+    </string>
     <string name="general19">Tuy nhiên, do thiên di có tuần triệt, chết ở xa nhà. </string>
     <string name="general20">Thân cư thê thiếp(phu quân), có sao Thái Âm(mặt trăng) toạ thủ nên rất sợ vợ, phải nhờ vả nhà vợ. </string>
     <string name="general21">Thân cư thê thiếp (phu quân), có sao Tuần Triệt án ngữ, nên trắc trở về hôn phối. </string>
-    <string name="general22">Thân cư tài bạch, nên bạn là người rất chăm chỉ làm việc để tích luỹ tiền bạc. </string>
+    <string name="general22">Thân cư tài bạch, nên bạn là người rất chăm chỉ làm việc để tích luỹ tiền bạc.Bạn xem tiền bạc là yếu
+    tố chính trong đời, bươn chải lo tâm khổ tứ cũng chỉ vì tiền bạc. Bạn rất nhanh nhẹn tính toán nhanh những vấn đề
+    về tiền bạc. Bạn là người tạo ra lợi nhuận nhanh nhất và với bạn nghề nghiệp không quan trọng, miễn sao kiếm được
+    nhiều tiền bạc mà thôi. </string>
     <string name="general23">Có danh giá trước có tiền tài sau. </string>
     <string name="general24">Buôn bán mà trở nên giàu có.</string>
     <string name="general25">Nếu kiếm ăn bằng nghề đánh cá hay buôn bán qua lại trên sông nước thì khó trảnh khỏi tai nạn. </string>
+    <string name="general26">Người thân cư quan lộc là người ngay từ khi trong trường học đã có ý tưởng rõ ràng về ngành học
+    mà họ lựa chọn. Bạn không thích làm nghề có tính cách tạm bợ, và bạn sẽ theo đuổi cả đời nghề do bạn chọn. </string>
+    <string name="general27">Thân cư phu thê, nên bạn có nhiều nét đặc biệt về cuộc đời nhất
+    là lĩnh vực tình cảm. Bạn thường gặp vợ hay chồng mình trong 1 hoàn cảnh rất đặc biệt. 2 người gặp nhau
+    như đã có tình cảm với nhau và quen biết nhau từ kiếp trước, nay gặp lại nhau để xây tiếp lâu đài tình ái dang dở.
+    2 bạn thường có cuộc sống ràng buộc nhau rất mật thiết. Thường vợ hay chồng bạn sẽ làm cùng chung 1 cơ sở thương mại với nhau.
+    Ngoài ra, bạn sẽ có thêm 1 nghề tay trái nữa, lúc đầu bạn không để ý và xem nó là 1 thú vui, dần dần trở thành 1 nghề thành công trong cuộc đời của bạn. </string>
+    <string name="general28">Bạn có thân mệnh đồng cung, ít tin quan niệm "Nhân định thắng thiên",
+    thường khi gặp khó khăn trắc trở sẽ nhắm mắt buông tay quay mặt cho số phận xoay vần.  Cuộc đời bạn cũng không có
+    nhiều biến đổi lớn lao. Nếu sinh ra bạn giàu có, thì suốt đời giàu có và nếu nghèo thì nghèo suốt đời, vì không
+    giống những người khác có tiền vận và hậu vận khác nhau. </string>
+    <string name="general29">Thân cư quan lộc, nhưng bạn có sao Tuần, Triệt hay sao Hoá Kỵ Địa kiếp hội hợp, nên nếu bạn
+    là đàn ông thường hay muộn đường công danh.</string>
+    <string name="general30">Thân cư quan lộc, lại có tuần triệt và sao Sát tinh hội hợp , nếu bạn là con gái hãy cẩn thận để giữ gìn trinh tiết.  </string>
+    <string name="general31">Bạn lại có sao Tang Môn hay Bạch Hổ hội hợp, nên tất phải goá bụi cô đơn. Nếu không muộn đường chồng con,
+    thì cũng chịu lấy kế lấy lẽ nếu không không thể tránh được mấy độ buồn thương. </string>
+    <string name="general32">Thân cư phúc đức, nên bạn là người có tinh thần gia đình gia tộc rất mạnh. Bạn thích cuộc sống đại gia đình và giữ được
+    những liên hệ mật thiết với tất cả bà con trong dòng họ dù gần hay xa. Bạn là mẫu người rất nặng tình quê hương, thường lớn lên và
+    sống suốt đời tại nơi bạn sinh ra chứ không muốn đi xa. </string>
+    <string name="general">Luận giải tổng quát về Thân và mệnh</string>
 </resources>
 
 

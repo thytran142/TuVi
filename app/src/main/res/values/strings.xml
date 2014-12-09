@@ -131,50 +131,40 @@
     <string name="general1">Men born on the year of the horse or the goat with the life fate situated on the Mouse or Buffalo sign \: There
     are a lot of difficulties in life you must face and there won\'t be much time you will be satisfied by the result.
     However if you can overcome the hard time then you will succeed. </string>
-    <string name="general2"> Smart and hardworking.</string>
-    <string name="general3"> Respected and loved by other people.</string>
-    <string name="general4"> Lead a leisure life.</string>
-    <string name="general5"> Very smart and sharp. Face a lot of difficulties when young.</string>
-    <string name="general6"> However there is the star of Thien dia khong on the same spot so you can live a long life.</string>
+    <string name="general2"> You are smart and hardworking.</string>
+    <string name="general3"> You are respected and loved by other people.</string>
+    <string name="general4"> You will lead a leisure life.</string>
+    <string name="general5"> You are very smart and sharp. You face a lot of difficulties when young.</string>
+    <string name="general6"> However there is the star of "Thien dia khong" on the same spot so you can live a long life.</string>
     <string name="general7"> You will have enough money for a normal style life.</string>
     <string name="general8"> You may not have a very good health. Be sure to have a healthy lifestyle.</string>
-    <string name="general9"> Face lots of difficulties when young like a pure flower getting smashed by the wind.</string>
-    <string name="general10"> Will get rich but don\'t have a very good health. </string>
+    <string name="general9"> You face lots of difficulties when young like a pure flower getting smashed by the wind.</string>
+    <string name="general10"> Will get rich but you don\'t have a very good health. </string>
     <string name="general11"> You may not be rich but you will live a long life. </string>
-    <string name="general12"> Cung mệnh có sao tuần triệt án ngữ là mệnh triệt thân tuần, nhưng do vô chính diệu nên uốt đời  được xứng ý toại lòng, được tăng thêm tuổi thọ , về già lại được sung sướng. </string>
-    <string name="general13">Cung mệnh có sao Địa không, cung Thân có sao địa kiếp, nên gọi là Mệnh không thân kiếp, người này rất
-    khôn ngoan sắc sảo, nhưng đời vui ít buồn nhiều, mưu sự thành bại thất thường, làm việc gì cũng chẳng được lâu bền. </string>
+    <string name="general12"> You will achieve what you want. You will live a long life full of happiness. </string>
+    <string name="general13"> You are very smart and sharp. However be careful! You may not succeed very well. Don\'t let thing discouraged you so easily. </string>
 
     <!--Should copy the string to vietnamese string first then translate this file to prevent duplicate-->
-    <string name="general14">Tuy nhiên do có sao đại hao, tiểu hao lại là cung mệnh vô chính diệu, nên tuy ít học, cũng lập
-    được công danh, sự nghiệp khá hiển hách. </string>
-    <string name="general15"> Do cung mệnh hay cung thân của bạn có sao Thiên Đồng, hay Thiên Lương hay Phá Quân toạ thủ, nên không sống lâu được. </string>
-    <string name="general16">Cung mệnh có Địa Kiếp toạ thủ, cung thân có địa không toạ thủ, bạn rất khôn ngoan sắc sảo. Nhưng trong đời
-    vui ít buồn nhiềi, mưu sự thành bại thất thường mà chẳng được lâu bền. </string>
-    <string name="general17">Cung mệnh của bạn vô chính diệu, trong trường hợp này lúc thiếu thời bạn rất vất vả gian nan. </string>
-    <string name="general18">Thân cư thiên di, bạn lập nghiệp ở phương xa, rất thịnh vượng.
-    Bạn cũng là 1 mẫu người thích hoạt động thích cuộc sống có sự thay đổi cũng như di chuyển. Bời vậy bạn không
-        phải là mẫu người trong gia đình, mà là ngoài xã hội. Bạn giao thiệp rộng nên thường là người có năng khiếu trong lĩnh vực ngoại giao và tổ chức.
-        Thường bạn sẽ được làm những nghề có tính cách di động, được đi đây đi đó, tiếp xúc nhiều người. Hầu hết mọi người thân cư thiên di thường ra đời sớm và tự
-        lập sớm hơn bạn bè cùng lứa tuổi, có nhiều cơ hội đi đây đó sống xa nha.
+    <string name="general14"> Even though your school path may not be long, you will still succeed in your career field. </string>
+    <string name="general15"> Because your life sign has the star "Thien Dong", "Thien Luong" or "Pha Quan" on it, you may have some problems with your health. </string>
+    <string name="general16"> Your "menh" has the star of "Dia kiep" situated on it and your "than" has the star of "Dia khong", you are a smart and sharp person. However you will have more sad than happy moments. You need to have a strong mind to face your problems.</string>
+    <string name="general17"> Your "menh" doesn\'t have any big star situated on it. In this situation you will face lots of difficulties when you are young. </string>
+    <string name="general18"> Your "than" is in the same position with your "thien di", this means you will build your career far from home and it will be very successful. You are someone  active who love to travel and move to new places. Because of that reason you
+        are not family-oriented but instead a social person. You have a large social networking and you are someone who have communication and organization skills. You will be able to work on career field who need to travel a lot and meet people.
+        Most people like you will get a taste of working life earlier than other people around your age. Have lots of opportunity to travel.
     </string>
-    <string name="general19">Tuy nhiên, do thiên di có tuần triệt, chết ở xa nhà. </string>
-    <string name="general20">Thân cư thê thiếp(phu quân), có sao Thái Âm(mặt trăng) toạ thủ nên rất sợ vợ, phải nhờ vả nhà vợ. </string>
-    <string name="general21">Thân cư thê thiếp (phu quân), có sao Tuần Triệt án ngữ, nên trắc trở về hôn phối. </string>
-    <string name="general22">Thân cư tài bạch, nên bạn là người rất chăm chỉ làm việc để tích luỹ tiền bạc.Bạn xem tiền bạc là yếu
-    tố chính trong đời, bươn chải lo tâm khổ tứ cũng chỉ vì tiền bạc. Bạn rất nhanh nhẹn tính toán nhanh những vấn đề
-    về tiền bạc. Bạn là người tạo ra lợi nhuận nhanh nhất và với bạn nghề nghiệp không quan trọng, miễn sao kiếm được
-    nhiều tiền bạc mà thôi. </string>
-    <string name="general23">Có danh giá trước có tiền tài sau. </string>
-    <string name="general24">Buôn bán mà trở nên giàu có.</string>
-    <string name="general25">Nếu kiếm ăn bằng nghề đánh cá hay buôn bán qua lại trên sông nước thì khó trảnh khỏi tai nạn. </string>
-    <string name="general26">Người thân cư quan lộc là người ngay từ khi trong trường học đã có ý tưởng rõ ràng về ngành học
-    mà họ lựa chọn. Bạn không thích làm nghề có tính cách tạm bợ, và bạn sẽ theo đuổi cả đời nghề do bạn chọn. </string>
-    <string name="general27">Thân cư phu thê, nên bạn có nhiều nét đặc biệt về cuộc đời nhất
-    là lĩnh vực tình cảm. Bạn thường gặp vợ hay chồng mình trong 1 hoàn cảnh rất đặc biệt. 2 người gặp nhau
-    như đã có tình cảm với nhau và quen biết nhau từ kiếp trước, nay gặp lại nhau để xây tiếp lâu đài tình ái dang dở.
-    2 bạn thường có cuộc sống ràng buộc nhau rất mật thiết. Thường vợ hay chồng bạn sẽ làm cùng chung 1 cơ sở thương mại với nhau.
-    Ngoài ra, bạn sẽ có thêm 1 nghề tay trái nữa, lúc đầu bạn không để ý và xem nó là 1 thú vui, dần dần trở thành 1 nghề thành công trong cuộc đời của bạn. </string>
+    <string name="general19"> Since your "thien di" has "tuan triet" star on it, you will not pass away in your hometown. </string>
+    <string name="general20"> Your "Than" category is situated in your "the thiep"(husband/wife) category and there is the star of "Thai am" on it so you will need lots of help from your husband/wife. You may also be someone who are scared of your husband/wife. </string>
+    <string name="general21"> Your "Than" category is situated in your "the thiep"(husband/wife) category and there is the star of "Tuan triet" on it. Be careful! You may face some difficulties with your marital life. </string>
+    <string name="general22"> Your "Than" category is situated on the same place as your "Tai Bach" category, this means you are a hardworking person who want to save lots of money. Your number one concern in life will be money, you work hard to earn money to feed yourself. You have fast management skill with money. You
+    make money very fast but career for you is not an important factor as long as you can earn money you will work on whatever field.</string>
+    <string name="general23"> You will earn fame before money.</string>
+    <string name="general24"> You get rich by making business.</string>
+    <string name="general25"> You should try to avoid career in the maritime field as you may have some accidents with working on water.</string>
+    <string name="general26"> Your "Than" and "Quan Loc" category are together, this means you have a clear goal when you are/were studying on what career you are going to choose. You will be faithful to that career until the end.</string>
+    <string name="general27"> "Than" and "Phu The" categories are together so you have some interesting things happening in your love life. You and your love met/will meet under a very special circumstance, you will feel
+    like you have known him/her for long time already, you and your love have a strong bond and mostly it happens that you will work on the same field/area. Also, you may have a left-hand
+    job. At first you may just do it for pure pleasure but in the long run it will become a successful career in your life.</string>
     <string name="general28">Bạn có thân mệnh đồng cung, ít tin quan niệm "Nhân định thắng thiên",
     thường khi gặp khó khăn trắc trở sẽ nhắm mắt buông tay quay mặt cho số phận xoay vần.  Cuộc đời bạn cũng không có
     nhiều biến đổi lớn lao. Nếu sinh ra bạn giàu có, thì suốt đời giàu có và nếu nghèo thì nghèo suốt đời, vì không

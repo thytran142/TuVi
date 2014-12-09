@@ -181,36 +181,29 @@
     <string name="general32"> Your "than" sign is situated on "Phuc Duc" sign so you have a strong feeling for family and strong sense of belonging to your nation. You like to have a life
     with a big family and have strong bonds with all your family members close or far. Since you have a strong love for your birth country you will likely live there for the rest of your life.</string>
     <string name="general"> Prediction for your "Than" and "Menh" sign.</string>
-    <string name="cungMenhintroduction">Mệnh trong tử vi là tư tưởng, chí hướng, tính cách và khả năng của bạn.
-    Thông thường từ lúc lọt lòng mẹ đến năm 30 tuổi, bạn phải căn cứ vào cung Mệnh để xem xét mọi sự tốt xấu và suy đoán
-    vận hạn của bạn. </string>
-    <string name="cungMenhTuvi1">Cung mệnh của bạn có sao Tử vi với vị trí tốt, nên thân hình bạn đẫy đà,
-    cao, da hồng hào, mặt đầy đặn, có trí thông minh, suốt đời được hưởng phúc, tuổi thọ cũng gia tăng. </string>
-    <string name="cungMenhTuvi2">Cung mệnh của bạn có sao Tử vi với vị trí bình hoà, nên thân mình vừa phải,
-    kém thông minh nhưng trọn đời no cơm ấm áo, và chắc chắn sẽ sống lâu. </string>
-    <string name="cungMenhTuvi3">Tính tình bạn nhân hậu, thẳng thắn, về già lại rất khiêm cung. </string>
-    <string name="cungMenhTuvi4"> Bạn có nhiều mưu cơ, thủ đoạn, đôi khi dám làm cả những việc bất ngờ. </string>
-    <string name="cungMenhTuvi5">Cung mệnh bạn có sao tử vi, ngoài ra còn nhiều ngôi sao tốt đẹp khác bên cạnh,
-    nên bạn có uy quyền rất hiển hách, phúc thọ song toàn, được hưởng giàu sang trọn đời. </string>
-    <string name="cungMenhTuvi6">Cung mệnh của bạn gặp sao Tuần triệt án ngữ, nên bạn sớm không hợp tính với 1 trong
-    2 người cha hay mẹ, hay không hợp với anh chị em, lúc thiếu thời thường không xứng ý toại lòng, thường đau yếu nhiều bệnh tật.
-    Bạn lại phải xa quê hương bôn ba những chốn nguy hiểm, đôi khi phải ở xa. </string>
-    <string name="cungMenhTuvi7">Tuy nhiên, cung mệnh của bạn có sao Địa Không Địa kiếp, là những ngôi sao xấu xa
-    đứng bên cạnh Tử vi, nên suốt đời bạn suy nghĩ nhiều lao tâm khổ tứ, công danh trắc trở không được như ý muốn. </string>
-    <string name="cungMenhTuvi8">Cung mệnh của bạn nằm tại vị trí của Mão hay dậu, có ngôi sao
-    Tham Lang đứng bên, nên bạn thường nhìn đời bằng đôi mắt bi quan, đôi khi lại muốn lánh mình ra khỏi cảnh
-    hồng trần, để học đạo và tu dưỡng thân tâm. Nếu bạn biết tu hành sớm, có thể bạn sẽ được yên thân và hưởng phúc. </string>
-    <string name="cungMenhTuvi9">Cung mệnh của bạn, lại có sao Thiên Phú hay tả phụ hữu bật đứng cạnh, nên
-    bạn chắc chắn được hưởng giàu sang trọn đời. </string>
-    <string name="cungMenhTuvi10">Cung mệnh lại có sao Kình Dương, nên nếu bạn theo con đường buôn bán chắc chắn rất giàu có. </string>
-    <string name="cungMenhTuvi11">Cung mệnh an tại vị trí Tỵ hay Hợi, có sao Thất sát đồng cung, gặp thêm
-    sao tuần triệt đứng cạnh, nên suốt đời cực khổ, chỉ có hư danh bề ngoài mà thôi, thường phải nhờ đến cha mẹ mới có hư danh. </string>
-    <string name="cungMenhTuvi12">Cung mệnh đồng vị trí với 2 ngôi sao Tả Phụ, Hữu bật nên bạn
-    được hưởng phú quý, lời nói có nhiều người nghe theo. </string>
-    <string name="cungMenhLiemTrinh1">Cung mệnh có ngôi sao Liêm Trinh, nên thân hình bạn cao lớn,
-    xương to, da thô, mặt hơi dài, sớm có nếp nhăn, vẻ mặt không được tươi thuận, mắt lồi, lông mày rậm. </string>
-    <string name="cungMenhLiemTrinh2">Cung mệnh bạn có ngôi sao Liêm trinh ở vị trí rất tốt, nên bạn là người
-    liêm khiết thằng thắn, can đảm, nghiêm nghị nhưng nóng nảy. Bạn sẽ được hưởng giàu sang và sống lâu. </string>
+    <string name="cungMenhintroduction"> "Menh" sign in astrology represents your thoughts, your direction in life, your character and capability. The "Menh" sign is anything
+    that happens in those areas mentioned above from the moment of your birth til 30 years old.</string>
+    <string name="cungMenhTuvi1"> Your "Menh" sign has good stars and is situated in a good place. Hence, if you are a woman, you have a hot and curvy body. If you
+    are a man you are tall. You are smart and you will have lots of good luck. You also live a long life.</string>
+    <string name="cungMenhTuvi2"> Your "Menh" sign is situated in a not suitable area. You may not be very smart but you will live a long life with enough money to lead a standard life.</string>
+    <string name="cungMenhTuvi3"> Your character is straighforward and lenient.</string>
+    <string name="cungMenhTuvi4"> You are someone who dare to do what you say and have lots of ideas and strategies. </string>
+    <string name="cungMenhTuvi5"> Your "Menh" sign has lots of good star on it. You will have all: power, money and health. You will live a full happy life.</string>
+    <string name="cungMenhTuvi6"> Your "Menh" sign has "Tuan Triet" star on it, bad alert! You may have some troubles with your parents or siblings. When you are young you may face
+    lots of difficulties and need to move far from home. You also need to pay special attention to your health since you may fall sick easily.</string>
+    <string name="cungMenhTuvi7"> However, Your "Menh" sign has the star "Dia khong" and "Dia Kiep", which are bad stars. Hence you will be struggling with lots of problems with your career
+    and you will always have to think for solutions.</string>
+    <string name="cungMenhTuvi8"> Your "Menh" sign is situated in the Cat and the Chicken position, also there is the star of "Tham Lang" next. You tend to
+    look at life with subjective eyes. Sometimes you want to get isolated from the city life to go to a quiet place. Meditation may
+    be a good thing for you.</string>
+    <string name="cungMenhTuvi9"> Your "Menh" sign has "Thien phu", "Ta phu" or "Huu bat" stars next to it so you are sure to have a rich life.</string>
+    <string name="cungMenhTuvi10"> Your "Menh" sign has the star of "Kinh duong" on it, so if you follow commerce careers you will succeed and become rich.</string>
+    <string name="cungMenhTuvi11"> Your "Menh" sign is situated on the Snake or Pig position. It has "That sat" and "Dong cung" star on it and "Tuan triet" star next to it. Hence you
+    may not make lots of money although you may have fame/gain some position with your career field.</string>
+    <string name="cungMenhTuvi12"> Your "Menh" sign is in the same spot as "Ta phu" and "Huu bat" stars so your life will be wealthy and your words will be very powerful.</string>
+    <string name="cungMenhLiemTrinh1"> Your "Menh" sign has "Liem Trinh" star on it so you will have a tall body, heavy bones, dark elbows and strong face features.</string>
+    <string name="cungMenhLiemTrinh2"> Your "Menh" sign has the star of "Liem Trinh" and is situated on a good place. Hence, you are righteous,
+    straightforward, courageous, strict and hot tempered. You will get wealth and live a long life.</string>
     <string name="cungMenhLiemTrinh3">Ngoài ra, cung Mệnh còn có sao Văn Xương Văn Khúc, nên bạn là người có tài thao lược và biết quyền biến. </string>
     <string name="cungMenhLiemTrinh4">Tuy nhiên, do cung Mệnh bạn lại có các sao xấu tụ hợp như sao Sát tinh, nên suốt đời
     bạn chẳng khi được xứng ý toại lòng, vì công danh trắc trở hay tiền tài khó kiếm. </string>

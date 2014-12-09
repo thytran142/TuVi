@@ -184,4 +184,61 @@
     những liên hệ mật thiết với tất cả bà con trong dòng họ dù gần hay xa. Bạn là mẫu người rất nặng tình quê hương, thường lớn lên và
     sống suốt đời tại nơi bạn sinh ra chứ không muốn đi xa. </string>
     <string name="general">Luận giải tổng quát về Thân và mệnh</string>
+        <string name="cungMenhintroduction">Mệnh trong tử vi là tư tưởng, chí hướng, tính cách và khả năng của bạn.
+    Thông thường từ lúc lọt lòng mẹ đến năm 30 tuổi, bạn phải căn cứ vào cung Mệnh để xem xét mọi sự tốt xấu và suy đoán
+    vận hạn của bạn.</string>
+    <string name="cungMenhTuvi1">Cung mệnh của bạn có sao Tử vi với vị trí tốt, nên thân hình bạn đẫy đà,
+    cao, da hồng hào, mặt đầy đặn, có trí thông minh, suốt đời được hưởng phúc, tuổi thọ cũng gia tăng. </string>
+    <string name="cungMenhTuvi2">Cung mệnh của bạn có sao Tử vi với vị trí bình hoà, nên thân mình vừa phải,
+    kém thông minh nhưng trọn đời no cơm ấm áo, và chắc chắn sẽ sống lâu. </string>
+    <string name="cungMenhTuvi3">Tính tình bạn nhân hậu, thẳng thắn, về già lại rất khiêm cung. </string>
+    <string name="cungMenhTuvi4"> Bạn có nhiều mưu cơ, thủ đoạn, đôi khi dám làm cả những việc bất ngờ. </string>
+    <string name="cungMenhTuvi5">Cung mệnh bạn có sao tử vi, ngoài ra còn nhiều ngôi sao tốt đẹp khác bên cạnh,
+    nên bạn có uy quyền rất hiển hách, phúc thọ song toàn, được hưởng giàu sang trọn đời. </string>
+    <string name="cungMenhTuvi6">Cung mệnh của bạn gặp sao Tuần triệt án ngữ, nên bạn sớm không hợp tính với 1 trong
+    2 người cha hay mẹ, hay không hợp với anh chị em, lúc thiếu thời thường không xứng ý toại lòng, thường đau yếu nhiều bệnh tật.
+    Bạn lại phải xa quê hương bôn ba những chốn nguy hiểm, đôi khi phải ở xa. </string>
+    <string name="cungMenhTuvi7">Tuy nhiên, cung mệnh của bạn có sao Địa Không Địa kiếp, là những ngôi sao xấu xa
+    đứng bên cạnh Tử vi, nên suốt đời bạn suy nghĩ nhiều lao tâm khổ tứ, công danh trắc trở không được như ý muốn. </string>
+    <string name="cungMenhTuvi8">Cung mệnh của bạn nằm tại vị trí của Mão hay dậu, có ngôi sao
+    Tham Lang đứng bên, nên bạn thường nhìn đời bằng đôi mắt bi quan, đôi khi lại muốn lánh mình ra khỏi cảnh
+    hồng trần, để học đạo và tu dưỡng thân tâm. Nếu bạn biết tu hành sớm, có thể bạn sẽ được yên thân và hưởng phúc. </string>
+    <string name="cungMenhTuvi9">Cung mệnh của bạn, lại có sao Thiên Phú hay tả phụ hữu bật đứng cạnh, nên
+    bạn chắc chắn được hưởng giàu sang trọn đời. </string>
+    <string name="cungMenhTuvi10">Cung mệnh lại có sao Kình Dương, nên nếu bạn theo con đường buôn bán chắc chắn rất giàu có. </string>
+    <string name="cungMenhTuvi11">Cung mệnh an tại vị trí Tỵ hay Hợi, có sao Thất sát đồng cung, gặp thêm
+    sao tuần triệt đứng cạnh, nên suốt đời cực khổ, chỉ có hư danh bề ngoài mà thôi, thường phải nhờ đến cha mẹ mới có hư danh. </string>
+    <string name="cungMenhTuvi12">Cung mệnh đồng vị trí với 2 ngôi sao Tả Phụ, Hữu bật nên bạn
+    được hưởng phú quý, lời nói có nhiều người nghe theo. </string>
+    <string name="cungMenhLiemTrinh1">Cung mệnh có ngôi sao Liêm Trinh, nên thân hình bạn cao lớn,
+    xương to, da thô, mặt hơi dài, vẻ mặt không được tươi thuận, lông mày rậm. </string>
+    <string name="cungMenhLiemTrinh2">Cung mệnh bạn có ngôi sao Liêm trinh ở vị trí rất tốt, nên bạn là người
+    liêm khiết thằng thắn, can đảm, nghiêm nghị nhưng nóng nảy. Bạn sẽ được hưởng giàu sang và sống lâu. </string>
+    <string name="cungMenhLiemTrinh3">Ngoài ra, cung Mệnh còn có sao Văn Xương Văn Khúc, nên bạn là người có tài thao lược và biết quyền biến. </string>
+    <string name="cungMenhLiemTrinh4">Tuy nhiên, do cung Mệnh bạn lại có các sao xấu tụ hợp như sao Sát tinh, nên suốt đời
+    bạn chẳng khi được xứng ý toại lòng, vì công danh trắc trở hay tiền tài khó kiếm. </string>
+    <string name="cungMenhLiemTrinh5">Sao Liêm trinh nằm ở cung Mệnh của bạn có vị trí xấu, nên bạn là người khắc nghiệt,
+    nguy hiểm, có óc kinh doanh, rất khéo tay, thích đua chen, thường thiên về kỹ nghệ hay máy móc hay thủ công.
+    Suốt đời bạn vất vả, có nhiều bệnh tật sức khoẻ suy kém, lại khó tránh thoát tù tội hay tai nạn khó lo ngại.
+    Nếu bạn không xa quê hương lập nghiệp thì khó sống lâu được. </string>
+    <string name="cungMenhLiemTrinh6">Tuy nhiên, may mắn bạn có sao Hoá Kỵ đồng cung hay do cung mệnh đóng ở vị trí Tỵ hay Hợi,
+    nên bạn được cơm no ấm áo, chẳng nên lo ngại nhiều về bệnh tật hay những tai nạn xảy ra trong đời. </string>
+    <string name="cungMenhThienDong1">Cung mệnh có sao Thiên đồng, nên thân hình bạn nở nang, hơi thấp, chân tay ngắn,
+    da trắng mặt vuông vắn đầy đặn. </string>
+    <string name="cungMenhThienDong2">Cung mệnh có sao Thiên đồng ở vị trí tốt, nên bạn là người thông minh tính khoan hoà,
+    nhân hậu, từ thiện, nhưng không quả quyết và kiên trì. Bạn hay thay đổi ý kiến công việc. Tuy vậy, bạn vẫn được giàu sang và phúc thọ song toàn. </string>
+    <string name="cungMenhThienDong3">Bên cạnh đó, do cung Mệnh ở vị trí Tỵ hay hợi, có sao Thiên đồng, bạn là người thích phiêu lưu,
+    nay đây mai đó và hay thay đổi chỗ ở. </string>
+    <string name="cungMenhThienDong4"> Tuy nhiên, Thiên đồng ở mệnh, vị trí Tỵ hay Hợi với người có tuổi Canh hay Đinh không tốt, nên
+    suốt đời chẳng mấy khi được xứng ý toại lòng. </string>
+    <string name="cungMenhThienDong5">Nếu như cung Mệnh có sao Thiên đồng ở vị trí tốt, nhưng cũng có sao xấu như Thất Sát hay Thiên Hình đồng cung,
+    thì suốt đời tuy bạn được cơm no ấm áo, nhưng lao tâm khổ tứ, sức khoẻ suy kém, thường có bệnh tật ở mắt hay bộ tiêu hoá. </string>
+    <string name="cungMenhThienDong6">Cung mệnh có sao Thiên đồng ở vị trí xấu, bạn là người kém thông minh,
+    hay nông nổi, tuy nhiên bạn nhân hậu nhưng lại hay thay đổi thất thường, không quả quyết cũng không có định kiến, làm việc gì
+    cũng chóng chán, lại thích chơi bời ăn uống, tuy sống lâu nhưng vất vả, thường xa quê hương bôn ba, luôn lo lắng vì
+    sinh kế, lại hay mắc tiếng thị phi. Bạn nên buôn bán. </string>
+    <string name="cungMenhThienDong7">Bạn thường hay ăn nói khoác lác, không cẩn trọng trong lời nói nên dể mất lòng người khác. </string>
+    <string name="cungMenhThienDong8">Cung mệnh bạn ở vị trí Ngọ tuy không tốt đối với sao Thiên Đồng nhưng bạn là người có đầu óc kinh doanh. </string>
+    <string name="cungMenhThienDong9">Cung mệnh ở vị trí Ngọ hay tuất, tuy không tốt đối với sao Thiên Đồng, nhưng bạn tuổi Đinh, nên rất
+    hợp trong trường hợp này, chắc chắn khá giả. </string>
 </resources>

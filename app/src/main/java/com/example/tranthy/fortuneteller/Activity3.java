@@ -158,6 +158,7 @@ public class Activity3 extends Activity {
     public String saoTriet="";
     public String saoTriet1="";
     public ArrayList<Integer> generalString=new ArrayList<Integer>();
+    public ArrayList<Integer> cungMenhString  =new ArrayList<Integer>();
     //THIS IS VARIABLE FOR THE LUNAR CALENDAR CONVERT
     private int gregorianYear;
     private int gregorianMonth;
@@ -3246,6 +3247,111 @@ public class Activity3 extends Activity {
             generalString.add(R.string.general32);
         }
   }
+        public void cungMenhPrediction(){
+            int index=convertCungToNumber(cungMenh);
+            int temp=convertCungToNumber(saoTuVi);
+            //xet sao tu vi truoc
+            if(index==temp){
+                //cung menh co sao tu vi
+                String quality=saoTuViQuality();
+                if(quality.equalsIgnoreCase("Mieu dia") || quality.equalsIgnoreCase("Mieu dia") || quality.equalsIgnoreCase("Dac dia")){
+                    cungMenhString.add(R.string.cungMenhTuvi1);
+                }
+                if(quality.equalsIgnoreCase("Binh hoa")){
+                    cungMenhString.add(R.string.cungMenhTuvi2);
+                }
+                if(quality.equalsIgnoreCase("Mieu dia") || quality.equalsIgnoreCase("Binh hoa")){
+                    cungMenhString.add(R.string.cungMenhTuvi3);
+                }
+                if(quality.equalsIgnoreCase("Vuong dia") || quality.equalsIgnoreCase("Dac dia")){
+                    cungMenhString.add(R.string.cungMenhTuvi4);
+                }
+                if(index==convertCungToNumber(saoThienPhu) || index==convertCungToNumber(saoVuKhuc) || index==convertCungToNumber(saoThienTuong)
+                        || index==convertCungToNumber(saoVanXuong) || index==convertCungToNumber(saoVanKhuc) || index==convertCungToNumber(saoThienKhoi)
+                        || index==convertCungToNumber(saoThienViet) || index==convertCungToNumber(saoHoaKhoa) || index==convertCungToNumber(saoHoaQuyen)
+                        || index==convertCungToNumber(saoHoaLoc) || index==convertCungToNumber(saoLongTri) || index==convertCungToNumber(saoPhuongCac)){
+                    cungMenhString.add(R.string.cungMenhTuvi5);
+                }
+                if(index==convertCungToNumber(saoTuan) || index==convertCungToNumber(saoTuan1) || index==convertCungToNumber(saoTriet) || index==convertCungToNumber(saoTriet1)){
+                    cungMenhString.add(R.string.cungMenhTuvi6);
+                }
+                if(index==convertCungToNumber(saoDiaKhong) || index==convertCungToNumber(saoDiaKiep)){
+                    cungMenhString.add(R.string.cungMenhTuvi7);
+                }
+                if((index==3 || index==9) && index==convertCungToNumber(saoThamLang)){
+                    cungMenhString.add(R.string.cungMenhTuvi8);
+                 }
+                if(index==convertCungToNumber(saoThienPhu) || index==convertCungToNumber(saoHuuBat) || index==convertCungToNumber(saoTaPhu)){
+                    cungMenhString.add(R.string.cungMenhTuvi9);
+                }
+                if(index==convertCungToNumber(saoKinhDuong)){
+                    cungMenhString.add(R.string.cungMenhTuvi10);
+                }
+                if((index==5 || index==11) && index==convertCungToNumber(saoThatSat) && (index==convertCungToNumber(saoTuan)
+                || index==convertCungToNumber(saoTuan1) || index==convertCungToNumber(saoTriet) || index==convertCungToNumber(saoTriet1))){
+                    cungMenhString.add(R.string.cungMenhTuvi11);
+                }
+                if(index==convertCungToNumber(saoTaPhu) && index==convertCungToNumber(saoHuuBat)){
+                    cungMenhString.add(R.string.cungMenhTuvi12);
+                }
+            }//end cung menh co sao tu vi
+            temp=convertCungToNumber(saoLiemTrinh);
+            if(index==temp){
+                cungMenhString.add(R.string.cungMenhLiemTrinh1);
+                String quality=saoLiemTrinhQuality();
+                if(quality.equalsIgnoreCase("Mieu dia") || quality.equalsIgnoreCase("Vuong dia") || quality.equalsIgnoreCase("Dac dia")){
+                    cungMenhString.add(R.string.cungMenhLiemTrinh2);
+                }
+                if(quality.equalsIgnoreCase("Dac dia") && (index==convertCungToNumber(saoVanXuong) || index==convertCungToNumber(saoVanKhuc))){
+                    cungMenhString.add(R.string.cungMenhLiemTrinh3);
+                }
+                if((quality.equalsIgnoreCase("Dac dia") || quality.equalsIgnoreCase("Mieu dia") || quality.equalsIgnoreCase("Vuong dia"))
+                        && (index==convertCungToNumber(saoKiepSat) || index==convertCungToNumber(saoThatSat) || index==convertCungToNumber(saoHoaKy) || index==convertCungToNumber(saoThienHinh))){
+                    cungMenhString.add(R.string.cungMenhLiemTrinh4);
+                }
+                if(quality.equalsIgnoreCase("Ham dia")){
+                    cungMenhString.add(R.string.cungMenhLiemTrinh5);
+                    if((index==5 || index==11) && index==convertCungToNumber(saoHoaKy)){
+                        cungMenhString.add(R.string.cungMenhLiemTrinh6);
+                    }
+                }
+            }//end cung menh co sao liem trinh
+            temp=convertCungToNumber(saoThienDong);
+            if(index==temp){
+                cungMenhString.add(R.string.cungMenhThienDong1);
+                String quality=saoThienDongQuality();
+                if(quality.equalsIgnoreCase("Mieu dia") || quality.equalsIgnoreCase("Vuong dia") || quality.equalsIgnoreCase("Dac dia")){
+                    cungMenhString.add(R.string.cungMenhThienDong2);
+                    if(index==convertCungToNumber(saoThienHinh) || index==convertCungToNumber(saoThatSat)){
+                        cungMenhString.add(R.string.cungMenhThienDong5);
+                    }
+                 }
+                if(quality.equalsIgnoreCase("Dac dia") && (index==5 || index==11)){
+                    cungMenhString.add(R.string.cungMenhThienDong3);
+                    int nam=yearOfAnimal(year,month,day);
+                    if(nam==R.string.dinhdau || nam==R.string.dinhhoi || nam==R.string.dinhmao || nam==R.string.dinhmui || nam==R.string.dinhsuu || nam==R.string.dinhty
+                            || nam==R.string.canhdan || nam==R.string.canhngo || nam==R.string.canhthan || nam==R.string.canhthin || nam==R.string.canhtuat || nam==R.string.canhty)
+                    {
+                        cungMenhString.add(R.string.cungMenhThienDong4);
+                    }
+               }
+                if(quality.equalsIgnoreCase("Ham dia")){
+                    cungMenhString.add(R.string.cungMenhThienDong6);
+                    if(index==4 || index==10 || index==1){
+                        cungMenhString.add(R.string.cungMenhThienDong7);
+                    }
+                    if(index==6){
+                        cungMenhString.add(R.string.cungMenhThienDong8);
+                    }
+                    int nam=yearOfAnimal(year,month,day);
+                    if((index==6 || index==10)
+
+                            &&(nam==R.string.dinhty || nam==R.string.dinhsuu || nam==R.string.dinhmui || nam==R.string.dinhmao || nam==R.string.dinhdau || nam==R.string.dinhhoi) ){
+
+                    }
+                }
+            }//end cung menh co sao Thien Dong
+        }
 
 }
 

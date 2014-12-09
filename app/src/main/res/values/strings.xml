@@ -128,7 +128,7 @@
     <string name="duong">Yang</string>
     <string name="am">Yin</string>
 
-    <string name="general1">Men born on the year of the horse or the goat with the life fate situated on the Mouse or Buffalo sign \: There
+    <string name="general1">Men born on the year of the horse or the goat with the "Menh" sign situated on the Mouse or Buffalo sign \: There
     are a lot of difficulties in life you must face and there won\'t be much time you will be satisfied by the result.
     However if you can overcome the hard time then you will succeed. </string>
     <string name="general2"> You are smart and hardworking.</string>
@@ -146,31 +146,29 @@
 
     <!--Should copy the string to vietnamese string first then translate this file to prevent duplicate-->
     <string name="general14"> Even though your school path may not be long, you will still succeed in your career field. </string>
-    <string name="general15"> Because your life sign has the star "Thien Dong", "Thien Luong" or "Pha Quan" on it, you may have some problems with your health. </string>
-    <string name="general16"> Your "menh" has the star of "Dia kiep" situated on it and your "than" has the star of "Dia khong", you are a smart and sharp person. However you will have more sad than happy moments. You need to have a strong mind to face your problems.</string>
-    <string name="general17"> Your "menh" doesn\'t have any big star situated on it. In this situation you will face lots of difficulties when you are young. </string>
-    <string name="general18"> Your "than" is in the same position with your "thien di", this means you will build your career far from home and it will be very successful. You are someone  active who love to travel and move to new places. Because of that reason you
+    <string name="general15"> Because your "Menh" sign has the star "Thien Dong", "Thien Luong" or "Pha Quan" on it, you may have some problems with your health. </string>
+    <string name="general16"> Your "Menh" sign has the star of "Dia kiep" situated on it and your "than" has the star of "Dia khong", you are a smart and sharp person. However you will have more sad than happy moments. You need to have a strong mind to face your problems.</string>
+    <string name="general17"> Your "Menh" sign doesn\'t have any big star situated on it. In this situation you will face lots of difficulties when you are young. </string>
+    <string name="general18"> Your "Than" sign is in the same position with your "thien di", this means you will build your career far from home and it will be very successful. You are someone  active who love to travel and move to new places. Because of that reason you
         are not family-oriented but instead a social person. You have a large social networking and you are someone who have communication and organization skills. You will be able to work on career field who need to travel a lot and meet people.
         Most people like you will get a taste of working life earlier than other people around your age. Have lots of opportunity to travel.
     </string>
-    <string name="general19"> Since your "thien di" has "tuan triet" star on it, you will not pass away in your hometown. </string>
-    <string name="general20"> Your "Than" category is situated in your "the thiep"(husband/wife) category and there is the star of "Thai am" on it so you will need lots of help from your husband/wife. You may also be someone who are scared of your husband/wife. </string>
-    <string name="general21"> Your "Than" category is situated in your "the thiep"(husband/wife) category and there is the star of "Tuan triet" on it. Be careful! You may face some difficulties with your marital life. </string>
-    <string name="general22"> Your "Than" category is situated on the same place as your "Tai Bach" category, this means you are a hardworking person who want to save lots of money. Your number one concern in life will be money, you work hard to earn money to feed yourself. You have fast management skill with money. You
+    <string name="general19"> Since your "Thien di" sign has "tuan triet" star on it, you will not pass away in your hometown. </string>
+    <string name="general20"> Your "Than" sign is situated in your "the thiep"(husband/wife) category and there is the star of "Thai am" on it so you will need lots of help from your husband/wife. You may also be someone who are scared of your husband/wife. </string>
+    <string name="general21"> Your "Than" sign is situated in your "the thiep"(husband/wife) category and there is the star of "Tuan triet" on it. Be careful! You may face some difficulties with your marital life. </string>
+    <string name="general22"> Your "Than" sign is situated on the same place as your "Tai Bach" category, this means you are a hardworking person who want to save lots of money. Your number one concern in life will be money, you work hard to earn money to feed yourself. You have fast management skill with money. You
     make money very fast but career for you is not an important factor as long as you can earn money you will work on whatever field.</string>
     <string name="general23"> You will earn fame before money.</string>
     <string name="general24"> You get rich by making business.</string>
     <string name="general25"> You should try to avoid career in the maritime field as you may have some accidents with working on water.</string>
-    <string name="general26"> Your "Than" and "Quan Loc" category are together, this means you have a clear goal when you are/were studying on what career you are going to choose. You will be faithful to that career until the end.</string>
+    <string name="general26"> Your "Than" and "Quan Loc" signs are together, this means you have a clear goal when you are/were studying on what career you are going to choose. You will be faithful to that career until the end.</string>
     <string name="general27"> "Than" and "Phu The" categories are together so you have some interesting things happening in your love life. You and your love met/will meet under a very special circumstance, you will feel
     like you have known him/her for long time already, you and your love have a strong bond and mostly it happens that you will work on the same field/area. Also, you may have a left-hand
     job. At first you may just do it for pure pleasure but in the long run it will become a successful career in your life.</string>
-    <string name="general28">Bạn có thân mệnh đồng cung, ít tin quan niệm "Nhân định thắng thiên",
-    thường khi gặp khó khăn trắc trở sẽ nhắm mắt buông tay quay mặt cho số phận xoay vần.  Cuộc đời bạn cũng không có
-    nhiều biến đổi lớn lao. Nếu sinh ra bạn giàu có, thì suốt đời giàu có và nếu nghèo thì nghèo suốt đời, vì không
-    giống những người khác có tiền vận và hậu vận khác nhau. </string>
+    <string name="general28"> Your "Than" and "Menh" signs are in the same spot, you believe in destiny and you may easily give up when things get hard. Your life doesn\'t have much things going on. If you are born rich
+    you will stay rich but you are born poor it will be very difficult to become rich.</string>
     <string name="general29">Thân cư quan lộc, nhưng bạn có sao Tuần, Triệt hay sao Hoá Kỵ Địa kiếp hội hợp, nên nếu bạn
-    là đàn ông thường hay muộn đường công danh.</string>
+    là đàn ông thường hay muộn đường công danh. "Than" and "Quan Loc" sign</string>
     <string name="general30">Thân cư quan lộc, lại có tuần triệt và sao Sát tinh hội hợp , nếu bạn là con gái hãy cẩn thận để giữ gìn trinh tiết.  </string>
     <string name="general31">Bạn lại có sao Tang Môn hay Bạch Hổ hội hợp, nên tất phải goá bụi cô đơn. Nếu không muộn đường chồng con,
     thì cũng chịu lấy kế lấy lẽ nếu không không thể tránh được mấy độ buồn thương. </string>

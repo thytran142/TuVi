@@ -273,6 +273,109 @@
     position in your career field \(it can be even related to the government\).</string>
     <string name="cungMenhThaiDuong14"> Your \"Menh\" has \"Thai am\" star shinning on a good place. You are sure to have wealth and you are good at keeping your asset.</string>
     <string name="cungMenhThaiDuong15"> Your \"Menh\" has \"Cu mon\" star shinning all day on it. Is it guaranteed that you will have both power and success.</string>
+
+
+
+    <string name="cungMenhThaiDuong16">Cung mệnh có sao Thái Dương và sao Hoá Kỵ cùng vị trí, nên bạn thường hay bị đau mắt. </string>
+    <string name="cungMenhThienCo1">Cung mệnh có vị trí tốt đối với sao Thiên Cơ, nên thân hình bạn cao, xương lộ
+    da trắng, mặt dài nhưng đều đặn, thông minh, khôn ngoan, có óc kinh doanh, có mưu trí, biết quyền biến, tính nhân hậu, từ thiện,
+    được hưởng giàu sang và sống lâu. </string>
+    <string name="cungMenhThienCo2">Cung mệnh có sao Thiên cơ ở vị trí tốt, lại có những ngôi sao như Tả Phụ, Hữu Bật, Thiên Hình Hay Thiên Y, bạn chắc chắn
+    chuyên về y khoa hay dược khoa. </string>
+    <string name="cungMenhThienCo3">Cung mệnh có sao Thiên Cơ ở vị trí tốt, lại có những ngôi sao như Tả Phụ, Hữu Bật, Thiên Hình hay Linh Tinh, nên bạn là người
+    rất khéo tay, thường chuyên về kỹ thuật, máy móc hay thủ công. </string>
+    <string name="cungMenhThienCo4">Cung mệnh có sao Thiên cơ ở vị trí tốt, quan trọng hơn bạn có sao Đại Hao Tiểu hao, nên bạn là
+    người đa tài, được hưởng phú quý đến tột bực. </string>
+    <string name="cungMenhThienCo5">Cung mệnh có sao Thiên cơ ở vị trí tốt,tuy nhiên lại có sao Tuần Triệt án ngữ, là những sao xấu,
+    nên bạn phải xa quê hương bôn ba, suốt đời vất vả, chân tay thường có tật, khó tránh được tai nạn xe cộ hay dao súng. Chỉ có tu hành mới được yên thân, hưởng phúc và sống lâu. </string>
+    <string name="cungMenhThienCo6">Cung mệnh có sao Thiên cơ ở vị trí không tốt, nên thân hình bạn nở nang da trắng, mặt tròn,
+    kém thông minh. Bạn có óc kinh doanh, nhưng tính gian xảo, nên thường buôn bán ngược xuôi hay làm nghề thủ công để kiếm ăn. Tuy vậy bạn được cơm no áo ấm và sống lâu. </string>
+    <string name="cungMenhThienCo7">Cung mệnh có sao Thiên cơ ở vị trí không tốt,lại gặp sao xấu là Tuần Triệt án ngữ, nên hoá ra tốt đẹp.
+    Bạn sẽ khá giả, nhưng phải lập nghiệp ở xa quê hương, hay mắc tai nạn xe cộ. </string>
+    <string name="cungMenhThienCo8">Cung mệnh có sao Thiên cơ ở vị trí không tốt,lại gặp sao xấu như Sát Tinh, Hoá Kỵ và Thiên Hình,
+    nên bạn tất có tàn tật hay bệnh khó chữa, hay lang thang phiêu bạt, lại hay mắc những tai nạn khủng khiếp, nếu không sẽ cô đơn. </string>
+    <string name="cungMenhThienCo9">Cung mệnh của bạn ở vị trí Thìn hay Tuất, có sao Thiên Lương đồng cung, nên bạn là người
+    học rộng tài cao, hay bàn xét về chính lược hay chiến lược tại nơi làm việc. </string>
+    <string name="cungMenhThienPhu1">Cung mệnh của bạn có sao Thiên Phủ, nên bạn có thân hình đầy đặn,
+    da trắng, vẻ mặt thanh tú, đều và đẹp, tính khoan hồng nhân hậu, ưa việc từ thiện, biết suy tính và có
+    nhiều mưu cơ để giải quyết việc khó khăn. Suốt đời bạn sẽ được hưởng phúc và sống lâu. </string>
+    <string name="cungMenhThienPhu2">Cung mệnh của bạn có sao Thiên Phủ, nhưng gặp sao xấu là sao Tuần hay Triệt, hoặc các
+    sao Địa Không, Địa Kiếp, nên bạn có thân hình cao gầy, da kém vẻ tươi nhuận, tính ương ngạnh, thích ăn hoang tiêu rộng, chơi
+    bời phóng túng, thích phiêu lưu nay đây mai đó, hay mưu toan chuyện viển vông. Nên suốt đời bạn lâm cảnh túng thiếu,
+    chẳng mấy khi xứng ý toại lòng, tuổi thọ cũng bị chiết giảm. </string>
+    <string name="cungMenhThienPhu3">Cung mệnh của bạn có Thiên Phủ là sao tốt, nhưng lại gặp sao Thất Sát là 1 ngôi sao xấu,
+    bạn là người gian trá hay đánh lừa và nói dối. </string>
+    <string name="cungMenhThienPhu4">Cung mệnh ở vị trí Dần có sao Thiên Phủ và Tử vi cùng vị trí, lại thêm các
+    sao Khoa bảng như sao Hoá Khoa, Hoá Quyền hay Hoá lộc, nên bạn là người văn chức, nhưng gặp thời loạn nên kiêm nhiếp cả
+    quân sự, khiến mọi người rất kính nể. </string>
+    <string name="cungMenhThienPhu5">Cung mệnh có sao Thiên Phủ, lại thêm sao tốt như Văn Xương Văn Khúc, Tả Phụ hay
+    Hữu Bật, chứng tỏ bạn là người tài cao học rộng, vinh hiển và danh giá hơn người. </string>
+    <string name="cungMenhThaiAm1">Cung mệnh bạn có sao Thái Âm - mặt trăng, lại ở vị trí tốt với sao này, nên thân
+    hình bạn cao lớn, da trắng, mặt vuông vắn đầy đặn, mắt sáng, rất thông minh, tính khoan hoà, nhân hậu, từ thiện, thích
+    văn chương , mỹ thuật, được hưởng giàu sang và sống lâu. </string>
+    <string name="cungMenhThaiAm2">Cung mệnh của bạn đã ở vị trí tốt đối với sao Thái âm, nhưng thêm sao sáng sủa tốt đẹp
+    như sao Văn tinh hay sao Đào hoa, Hồng loan, nên bạn tất được hưởng phú quý đến tột bực và nổi tiếng là giàu có. </string>
+    <string name="cungMenhThaiAm3">Cung mệnh bạn có vị trí tốt , thế mà lai gặp Tuần triệt, giống như bị 1 cục đá lớn che mất
+    ánh sáng của mặt trăng, nên bạn suốt đời cực khổ, lập nghiệp phương xa, hay đau yếu thường có bệnh ở bộ tiêu hoá,
+    mắt rất kém, tuổi thọ cũng bị giảm. </string>
+    <string name="cungMenhThaiAm4">Cung mệnh bạn có vị trí đắc địa đặc biệt với sao Thái Âm, nên tuy bạn gặp sao Tuần triệt án ngữ giống
+    như viên đá cản đường che ánh sáng của mặt trăng,bạn phải sớm xa quê hương, đau mắt, cũng thường có bệnh ở bộ tiêu hoá, nhưng bạn
+    được hưởng phú quý trọn đời và phúc thọ song toàn. </string>
+    <string name="cungMenhThaiAm5">Cung mệnh bạn ở vị trí đắc địa, tức là tốt và đặc biệt với sao Thái Âm, nhưng bạn không có sao Tuần triệt án ngữ, nên
+    bạn không phải lo âu nhiều về bệnh tật, vẫn có tài lộc nhưng công danh không quý hiển được. </string>
+    <string name="cungMenhThaiAm6">Cung mệnh có vị trí không tốt với sao Thái Âm - mặt trăng,nên thân hình bạn hơi nhỏ,
+    cao, mặt dài kém thông minh, tính ương ngạnh, thích giao du chơi bời, ưa ngâm hoa vịnh nguyệt, không tham cầu danh lợi.
+    Suốt đời bạn ít khi được xứng ý toại lòng, rất vất vả, thường phải ly tổ bôn ba, lại hay đau yếu, mắt kém, khó tránh được tai nạn
+    nếu trong người không có kỳ tật, tất không thể sống lâu. </string>
+    <string name="cungMenhThaiAm7">Cung mệnh có vị trí Mão hay Tỵ, tuy không nên đối với sao Thái Âm, nhưng bạn không phải lo lắng vì suốt đời sẽ được
+    cơm no áo ấm, chẳng đáng lo ngại nhiều về sự chẳng lành xảy ra trong đời. </string>
+    <string name="cungMenhThaiAm8">Cung mệnh của bạn có vị trí tuy không tốt với sao Thái Âm, nhưng bù lại bạn có nhiều sao Văn tinh sáng sủa hội chiếu, nên bạn có danh tài,
+    và được tăng thêm tuổi thọ. </string>
+    <string name="cungMenhThaiAm9">Cung mệnh của bạn ở vị trí không tốt với sao Thái âm, tuy nhiên lại thêm sao xấu như Tuần Triệt cản đường, hoá ra đối với bạn lại tốt đẹp.
+    Tuy bạn phải xa quê hương để lập nghiệp, nhưng bạn được hưởng giàu sang, khoẻ mạnh và sống lâu. </string>
+    <string name="cungMenhThaiAm10">Cung mệnh của bạn đã ở vị trí không tốt với sao Thái Âm, lại thêm sao Sát Tinh, sao Thiên Riêu hay Hoá Kỵ hội chiếu, nên suốt đời bạn cùng khổ
+    cô đơn, phải lang thang phiêu bạt, thường hay đau yếu, thường có bệnh ở bộ tiêu hoá, mắt kém. </string>
+    <string name="cungMenhThaiAm11">Cung mệnh của bạn an tại vị trí Hợi, rất tốt đẹp với sao Thái Âm. Đây là trường hợp đặc biệt, ví như mặt trăng sáng vằng vặc ở giữa trời.
+    Chắc chắn bạn sẽ được hưởng phú quý đến tột bực, lại nắm giữ quyền hành lớn, thường đứng ở trên cao mà sai khiến người khác. </string>
+    <string name="cungMenhThaiAm12">Cung mệnh của bạn an tại vị trí Tý , rất tốt đẹp với sao Thái Âm. Đây là trường hợp đặc biệt,nên bạn sẽ được hưởng giàu sang sống lâu. Bạn rất
+    quý hiển, không những thế bạn còn có tài can gián được cấp trên. </string>
+    <string name="cungMenhThaiAm13">Cung mệnh của bạn có vị trí xấu với sao Thái Âm, lại bị sao Thiên Lương ở vị trí đối lập chiếu đến, nên nếu bạn là đàn bà, thì là người
+    dâm đãng và nghèo hèn. </string>
+    <string name="cungMenhThaiAm14">Cung mệnh của bạn có vị trí tốt với sao Thái Âm, lại đồng vị trí với sao Hoá Lộc, lại gặp Tả phụ Hữu bật hội hợp thì bạn là 1 bậc triệu phú. </string>
+    <string name="cungMenhThamLang1">Cung mệnh của bạn có vị trí tốt với sao Tham Lang, nên thân hình bạn cao lớn đẫy đà, da trắng, mặt đầy đặn, lông tóc râu rậm rạp,
+    có ẩn tinh như nốt ruồi. Bạn khá thông minh, tính trung hậu, nhưng hiếu thắng và tự đắc, ưa hoạt động , có óc kinh doanh, có tài tổ chức, hay mưu tính việc to lớn.
+    Bạn có 1 khuyết điểm là làm việc thường mong chóng xong, siêng năng buổi đầu nhưng về sau lười biếng hay chán nản, bỏ dỡ. Tuy nhiên cung Mệnh ở vị trí này, bạn tất sẽ
+    được hưởng giàu sang và sống lâu. </string>
+    <string name="cungMenhThamLang2">Vị trí cung mệnh với sao Tham Lang cho thấy bạn có tuổi thơ vất vả, ít khi được hài lòng, nhưng 30 tuổi trở đi, thật phú quý song toàn, càng về già bạn càng sung sướng an nhàn. Nhất là ở vị trí này, bạn chắc chắn được sống lâu. Ngoài ra, nếu bạn là 1 cô gái, thì
+    bạn có 1 tính ghen tuông rất khủng khiếp. </string>
+    <string name="cungMenhThamLang3">Ngoài ra cung Mệnh của bạn còn có sao sáng sủa tốt đẹp khác hội hợp nên chắc chắn bạn được hưởng phú quý đến tột bực, có uy quyền hiển hách, danh tiếng lừng lẫy và sống lâu. </string>
+    <string name="cungMenhThamLang4">Cung Mệnh của bạn còn có sao Hoá Kỵ đồng cung hay ở ví trí đối diện chiếu, nên bạn buôn bán kinh doanh mà trở nên giàu có. </string>
+    <string name="cungMenhThamLang5">Cung Mệnh của bạn ở vị trí không tốt với sao Tham Lang, nên thân hình bạn cao vừa tầm, hơi gầy, da thô xấu, mặt dài, không được đầy đặn, tiếng nói to, thiếu thông minh. </string>
+    <string name="cungMenhThamLang6">Dựa vào vị trí cung Mệnh của bạn và sao Tham Lang, nên bạn hơi gian hiểm, tham lam, có nhiều dục vọng,cũng có kinh doanh nhưng không
+    quả quyết, không bền chí, thường chuyên về kỹ nghệ, thủ công, hay đi buôn, suốt đời lao khổ, sức khoẻ suy kém, có nhiều bệnh tật, hoặc ở mắt hoặc ở bộ tiêu hoá, hoặc ở
+    bộ sinh dục, hay mắc tai nạn, nếu không xa quê hương tất không sống lâu được. </string>
+    <string name="cungMenhThamLang7">Dựa vào vị trí cung Mệnh của bạn với sao Tham Lang, bạn là người yếu thế, làm gì cũng thất bại hay gặp sự chẳng lành. Chỉ có tu hành mới được
+    yên thân và hưởng phúc thọ. </string>
+    <string name="cungMenhThamLang8">Dù ở vị trí nào, nếu sao Tham Lang trên cung Mệnh cùng vị trí với sao Hoá Kỵ hay sao Thiên Riêu, thì bạn hay bị bắt bớ giam cầm, thật khó tránh khỏi tai nạn sông nước. </string>
+    <string name="cungMenhThamLang9">Cung Mệnh có sao Vũ khúc đồng cung, ở vị trí Mùi hay Sửu, bạn về già có uy quyền, được nhiều người lui tới thần phục. </string>
+    <string name="cungMenhThamLang10">Cung mệnh của bạn có sao Linh Tinh đồng cung, nên bạn là người có tài thao lược, hiển đạt võ nghiệp và được hưởng giàu sang. </string>
+    <string name="cungMenhThamLang11">Cung mệnh của bạn có sao Địa Không hay Địa Kiếp đồng cung, nên bạn Phúc thọ không song toàn, nếu giàu sẽ chết sớm mà nghèo sẽ sống lâu. </string>
+    <string name="cungMenhThamLang12">Cung mệnh của bạn an tại vị trí Dần hay Thân, gặp sao Trường Sinh, nên bạn tất sống lâu như ông Bành Tổ. </string>
+    <string name="cungMenhCuMon1">Cung mệnh của bạn có sao Cự Môn, nên thân hình bạn đẫy đà, thấp, da trắng, mặt vuông vắn đầy đặn, mắt lộ. </string>
+    <string name="cungMenhCuMon2">Cung mệnh ở vị trí tốt với sao Cự Môn, nên bạn là người thông minh nhân hậu, vui vẻ, có mưu cơ, trí xét đoán sáng suốt, ăn nói đanh thép, được
+    hưởng giàu sang và sống lâu. </string>
+    <string name="cungMenhCuMon3">Cung mệnh có Cự Môn gặp thêm các sao Văn tinh, bạn là người có văn tài lỗi lạc, khẩu thuyết hùng hồn, thích hoạt động chính trị, thường
+    chuyên tư vấn, ngoại giao. </string>
+    <string name="cungMenhCuMon4">Cung mệnh có Cự Môn gặp sao Bạch Hổ, Thái Tuế hay Tả Phù hội hợp, nên bạn là người biết nhiều luật pháp, hay lý luận thường làm quan toà, hay thầy kiện. </string>
+    <string name="cungMenhCuMon5">Cung mệnh có Cự Môn ở vị trí Tý hay Ngọ, thêm Hoá Lộc hay Tuần Triệt, nên giống như 1 viên ngọc sáng đẹp. Bạn tất được hưởng phú quý. </string>
+    <string name="cungMenhCuMon6">Cung Mệnh có Cự Môn ở vị trí tốt, tuy nhiên do bạn bị các sao Sát Tinh hội chiếu, nên bạn tuy sống lâu, nhưng suốt đời chẳng mấy khi
+    được xứng ý toại lòng, thường sớm xa gia đình, sức khoẻ suy kém, có bệnh tật ở mắt hay bộ sinh dục, sớm mắc tai nạn, hay thị phi kiện cáo, khó tránh được sự giam hãm trói buộc. </string>
+    <string name="cungMenhCuMon7">Cung Mệnh của bạn có vị trí không tốt với sao Cự Môn, nên bạn kém thông minh, tham lam, khắc nghiệt, đa nghi, không cẩn ngôn, hay nói khoác lác,
+    không thích giao thiệp rộng nên ít bạn bè, suốt đời vất vả, có nhiều bệnh tật, hay mắc thị phi, kiện cáo, tù tội , hay mắc tai nạn, không sớm xa quê thì không sống lâu được. </string>
+    <string name="cungMenhCuMon8">Cung mệnh của bạn có vị trí tuy không tốt, nhưng đặc biệt với trường hợp của bạn tuổi Quý hay Tân, thì lại thành sáng sủa tốt đẹp do có sự
+    ứng hợp. Cho nên bạn là người thông minh, được hưởng giàu sang và chẳng đáng lo ngại nhiều về sự không may đến trong đời. </string>
+    <string name="cungMenhCuMon9">Cung mệnh của bạn có vị trí không tốt với Cự Môn, thêm tuổi bạn là Đinh hay Canh, nên càng mờ ám xấu xa,
+    vì có sự khắc hãm. Thật là bạn sẽ khổ sở khốn đốn đến cùng cực. </string>
 </resources>
 
 

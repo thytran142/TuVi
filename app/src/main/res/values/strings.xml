@@ -131,120 +131,115 @@
     <string name="general1">Men born on the year of the horse or the goat with the life fate situated on the Mouse or Buffalo sign \: There
     are a lot of difficulties in life you must face and there won\'t be much time you will be satisfied by the result.
     However if you can overcome the hard time then you will succeed. </string>
-    <string name="general2"> Smart and hardworking.</string>
-    <string name="general3"> Respected and loved by other people.</string>
-    <string name="general4"> Lead a leisure life.</string>
-    <string name="general5"> Very smart and sharp. Face a lot of difficulties when young.</string>
+    <string name="general2"> You are smart and hardworking.</string>
+    <string name="general3"> You are respected and loved by other people.</string>
+    <string name="general4"> You will lead a leisure life.</string>
+    <string name="general5"> You are ery smart and sharp. You may face lots of difficulties when young.</string>
     <string name="general6"> However there is the star of Thien dia khong on the same spot so you can live a long life.</string>
-    <string name="general7"> You will have enough money for a normal style life.</string>
-    <string name="general8"> You may not have a very good health. Be sure to have a healthy lifestyle.</string>
-    <string name="general9"> Face lots of difficulties when young like a pure flower getting smashed by the wind.</string>
-    <string name="general10"> Will get rich but don\'t have a very good health. </string>
+    <string name="general7"> You will have a standard life style.</string>
+    <string name="general8"> You may not have a very good health. Be sure to pay special attention to your lifestyle.</string>
+    <string name="general9"> You face lots of difficulties when young like a pure flower getting smashed by the wind.</string>
+    <string name="general10"> You Will get rich but you don\'t have a very good health. </string>
     <string name="general11"> You may not be rich but you will live a long life. </string>
-    <string name="general12"> Cung mệnh có sao tuần triệt án ngữ là mệnh triệt thân tuần, nhưng do vô chính diệu nên uốt đời  được xứng ý toại lòng, được tăng thêm tuổi thọ , về già lại được sung sướng. </string>
-    <string name="general13">Cung mệnh có sao Địa không, cung Thân có sao địa kiếp, nên gọi là Mệnh không thân kiếp, người này rất
-    khôn ngoan sắc sảo, nhưng đời vui ít buồn nhiều, mưu sự thành bại thất thường, làm việc gì cũng chẳng được lâu bền. </string>
+    <string name="general12"> Your \"Menh\" has \"Tuan triet\" star on it. It is a bad sign but there are no big star and \"Tuan triet\" is a small star so you won\'t face any problems. You will get
+    what you want and live a long happy life.</string>
+    <string name="general13"> Your \"Menh\" sign has \"Dia khong\" star, your \"Than\" sign has \"Dia kiep\" star. This combination shows that you are smart
+    and sharp. However you will experience more sadness than happiness in your life. There may be more failure than success so you have
+    to stay strong and keep things cool to go through it.</string>
 
-    <!--Should copy the string to vietnamese string first then translate this file to prevent duplicate-->
-    <string name="general14">Tuy nhiên do có sao đại hao, tiểu hao lại là cung mệnh vô chính diệu, nên tuy ít học, cũng lập
-    được công danh, sự nghiệp khá hiển hách. </string>
-    <string name="general15"> Do cung mệnh hay cung thân của bạn có sao Thiên Đồng, hay Thiên Lương hay Phá Quân toạ thủ, nên không sống lâu được. </string>
-    <string name="general16">Cung mệnh có Địa Kiếp toạ thủ, cung thân có địa không toạ thủ, bạn rất khôn ngoan sắc sảo. Nhưng trong đời
-    vui ít buồn nhiềi, mưu sự thành bại thất thường mà chẳng được lâu bền. </string>
-    <string name="general17">Cung mệnh của bạn vô chính diệu, trong trường hợp này lúc thiếu thời bạn rất vất vả gian nan. </string>
-    <string name="general18">Thân cư thiên di, bạn lập nghiệp ở phương xa, rất thịnh vượng.
-    Bạn cũng là 1 mẫu người thích hoạt động thích cuộc sống có sự thay đổi cũng như di chuyển. Bời vậy bạn không
-        phải là mẫu người trong gia đình, mà là ngoài xã hội. Bạn giao thiệp rộng nên thường là người có năng khiếu trong lĩnh vực ngoại giao và tổ chức.
-        Thường bạn sẽ được làm những nghề có tính cách di động, được đi đây đi đó, tiếp xúc nhiều người. Hầu hết mọi người thân cư thiên di thường ra đời sớm và tự
-        lập sớm hơn bạn bè cùng lứa tuổi, có nhiều cơ hội đi đây đó sống xa nha.
-    </string>
-    <string name="general19"> Since your "Thien di" sign has "tuan triet" star on it, you will not pass away in your hometown. </string>
-    <string name="general20"> Your "Than" sign is situated in your "the thiep"(husband/wife) category and there is the star of "Thai am" on it so you will need lots of help from your husband/wife. You may also be someone who are scared of your husband/wife. </string>
-    <string name="general21"> Your "Than" sign is situated in your "the thiep"(husband/wife) category and there is the star of "Tuan triet" on it. Be careful! You may face some difficulties with your marital life. </string>
-    <string name="general22"> Your "Than" sign is situated on the same place as your "Tai Bach" category, this means you are a hardworking person who want to save lots of money. Your number one concern in life will be money, you work hard to earn money to feed yourself. You have fast management skill with money. You
+    <string name="general14"> Since there is \"Dai hao\" and \"Tieu hao\" stars \(bad stars\) but there are no big star that shines on them you won\'t have bad luck.
+    Even though you may not be very smart and bright at school, you will still have money and become a successful person.</string>
+    <string name="general15"> Your \"Menh\" or your \"Than\" sign has \"Thien dong\", \"Thien luong\" or \"Pha quan\" stars shinning on it. Bad combination! Be careful with your health!</string>
+    <string name="general16"> Your \"Menh\" sign has \"Dia kiep\" star shinning on it, your \"Than\" sign has \"Dia khong\" star on it. This result shows that you are smart and sharp. However you will experience more sadness than happiness in your life. There may be more failure than success so you have
+    to stay strong and keep things cool to go through it.</string>
+    <string name="general17"> Your \"Menh\" sign has no big star shinning on it. In this situation you will have lots of hardship and labor during your youth.</string>
+    <string name="general18"> Your \"Than\" sign is situated on \"Thien di\" sign. This combination shows that you will build your career far from home and it will become very successful.
+        You are an active person who loves to travel and to move to new places so you are not very family-oriented. You loves to meet new people and have a huge network
+        connection. Most people in this situation experience life in their youth very early compared to other people around their age. They have more experience and lots of
+        opportunities to work far from home.</string>
+    <string name="general19"> Since your \"Thien di\" sign has \"Tuan triet\" star on it, you will not pass away in your hometown. </string>
+    <string name="general20"> Your \"Than\" sign is situated in your \"The thiep\"\(husband/wife\) category and there is the star of "Thai am" on it so you will need lots of help from your husband/wife. You may also be someone who are scared of your husband/wife. </string>
+    <string name="general21"> Your \"Than\" sign is situated in your \"The thiep\"\(husband/wife\) category and there is the star of "Tuan triet" on it. Be careful! You may face some difficulties with your marital life. </string>
+    <string name="general22"> Your \"Than\" sign is situated on the same place as your "Tai Bach" category, this means you are a hardworking person who want to save lots of money. Your number one concern in life will be money, you work hard to earn money to feed yourself. You have fast management skill with money. You
     make money very fast but career for you is not an important factor as long as you can earn money you will work on whatever field.</string>
     <string name="general23"> You will earn fame before money.</string>
     <string name="general24"> You get rich by making business.</string>
     <string name="general25"> You should try to avoid career in the maritime field as you may have some accidents with working on water.</string>
-    <string name="general26"> Your "Than" and "Quan Loc" signs are together, this means you have a clear goal when you are/were studying on what career you are going to choose. You will be faithful to that career until the end.</string>
-    <string name="general27"> "Than" and "Phu The" categories are together so you have some interesting things happening in your love life. You and your love met/will meet under a very special circumstance, you will feel
+    <string name="general26"> Your \"Than\" and \"Quan loc\" signs are together, this means you have a clear goal when you are/were studying on what career you are going to choose. You will be faithful to that career until the end.</string>
+    <string name="general27"> \"Than\" and \"Phu the\" signs are together so you have some interesting things happening in your love life. You and your love met/will meet under a very special circumstance, you will feel
     like you have known him/her for long time already, you and your love have a strong bond and mostly it happens that you will work on the same field/area. Also, you may have a left-hand
     job. At first you may just do it for pure pleasure but in the long run it will become a successful career in your life.</string>
-    <string name="general28"> Your "Than" and "Menh" signs are in the same spot, you believe in destiny and you may easily give up when things get hard. Your life doesn\'t have much things going on. If you are born rich
+    <string name="general28"> Your \"Than\" and \"Menh\" signs are in the same spot, you believe in destiny and you may easily give up when things get hard. Your life doesn\'t have much things going on. If you are born rich
     you will stay rich but you are born poor it will be very difficult to become rich.</string>
-    <string name="general29"> "Than" and "Quan Loc" sign Your "Than" and "Quan Loc" signs are together which give a good combination. However you have the star "Tuan triet", "Hoa ky"
+    <string name="general29"> "Than" and \"Quan loc\" sign Your "Than" and "Quan Loc" signs are together which give a good combination. However you have the star "Tuan triet", "Hoa ky"
     or "Dia kiep" there also, if you are a man your career success will come slow.</string>
-    <string name="general30"> "Than" and "Quan Loc" signs are together = good result. However you have "Tuan Triet" and "Sat Tinh"
+    <string name="general30"> "Than" and \"Quan loc\" signs are together = good result. However you have \"Tuan triet\" and \"Sat tinh\"
     star on there also. If you are a girl you should protect yourself from being cheated by bad guys.</string>
-    <string name="general31"> You have "Tang Mon" and "Bach Ho" star combined together, you may feel lonely, you may be slow on getting married or have troubles with your marital life but don\'t get discouraged so easily.
+    <string name="general31"> You have \"Tang mon\" and \"Bach ho\" stars combined together, you may feel lonely, you may be slow on getting married or have troubles with your marital life but don\'t get discouraged so easily.
     There are other good things in life besides a steady relationship.</string>
-    <string name="general32"> Your "than" sign is situated on "Phuc Duc" sign so you have a strong feeling for family and strong sense of belonging to your nation. You like to have a life
+    <string name="general32"> Your \"Tha\n" sign is situated on \"Phuc duc\" sign so you have a strong feeling for family and strong sense of belonging to your nation. You like to have a life
     with a big family and have strong bonds with all your family members close or far. Since you have a strong love for your birth country you will likely live there for the rest of your life.</string>
-    <string name="general"> Prediction for your "Than" and "Menh" sign.</string>
-    <string name="cungMenhintroduction"> "Menh" sign in astrology represents your thoughts, your direction in life, your character and capability. The "Menh" sign is anything
+    <string name="general"> Prediction for your \"Than\" and \"Menh\" sign.</string>
+    <string name="cungMenhintroduction"> \"Menh\" sign in astrology represents your thoughts, your direction in life, your character and capability. The "Menh" sign is anything
     that happens in those areas mentioned above from the moment of your birth til 30 years old.</string>
-    <string name="cungMenhTuvi1"> Your "Menh" sign has good stars and is situated in a good place. Hence, if you are a woman, you have a hot and curvy body. If you
+    <string name="cungMenhTuvi1"> Your \"Menh\" sign has good stars and is situated in a good place. Hence, if you are a woman, you have a hot and curvy body. If you
     are a man you are tall. You are smart and you will have lots of good luck. You also live a long life.</string>
-    <string name="cungMenhTuvi2"> Your "Menh" sign is situated in a not suitable area. You may not be very smart but you will live a long life with enough money to lead a standard life.</string>
-    <string name="cungMenhTuvi3"> Your character is straighforward and lenient.</string>
+    <string name="cungMenhTuvi2"> Your \"Menh\" sign is situated in a not suitable area. You may not be very smart but you will live a long life with enough money to lead a standard life.</string>
+    <string name="cungMenhTuvi3"> Your character is straigh forward and lenient.</string>
     <string name="cungMenhTuvi4"> You are someone who dare to do what you say and have lots of ideas and strategies. </string>
-    <string name="cungMenhTuvi5"> Your "Menh" sign has lots of good star on it. You will have all: power, money and health. You will live a full happy life.</string>
-    <string name="cungMenhTuvi6"> Your "Menh" sign has "Tuan Triet" star on it, bad alert! You may have some troubles with your parents or siblings. When you are young you may face
+    <string name="cungMenhTuvi5"> Your \"Menh\" sign has lots of good star on it. You will have all\: power, money and health. You will live a full happy life.</string>
+    <string name="cungMenhTuvi6"> Your \"Menh\" sign has \"Tuan triet\" star on it, bad alert! You may have some troubles with your parents or siblings. When you are young you may face
     lots of difficulties and need to move far from home. You also need to pay special attention to your health since you may fall sick easily.</string>
-    <string name="cungMenhTuvi7"> However, Your "Menh" sign has the star "Dia khong" and "Dia Kiep", which are bad stars. Hence you will be struggling with lots of problems with your career
+    <string name="cungMenhTuvi7"> However, Your \"Menh\" sign has the star \"Dia khong\" and \"Dia kiep\", which are bad stars. Hence you will be struggling with lots of problems with your career
     and you will always have to think for solutions.</string>
-    <string name="cungMenhTuvi8"> Your "Menh" sign is situated in the Cat and the Chicken position, also there is the star of "Tham Lang" next. You tend to
+    <string name="cungMenhTuvi8"> Your \"Menh\" sign is situated in the Cat and the Chicken position, also there is the star of "Tham Lang" next. You tend to
     look at life with subjective eyes. Sometimes you want to get isolated from the city life to go to a quiet place. Meditation may
     be a good thing for you.</string>
-    <string name="cungMenhTuvi9"> Your "Menh" sign has "Thien phu", "Ta phu" or "Huu bat" stars next to it so you are sure to have a rich life.</string>
-    <string name="cungMenhTuvi10"> Your "Menh" sign has the star of "Kinh duong" on it, so if you follow commerce careers you will succeed and become rich.</string>
-    <string name="cungMenhTuvi11"> Your "Menh" sign is situated on the Snake or Pig position. It has "That sat" and "Dong cung" star on it and "Tuan triet" star next to it. Hence you
+    <string name="cungMenhTuvi9"> Your \"Menh\" sign has \"Thien phu\", \"Ta phu\" or \"Huu bat\" stars next to it so you are sure to have a rich life.</string>
+    <string name="cungMenhTuvi10"> Your \"Menh\" sign has the star of \"Kinh duong\" on it, so if you follow commerce careers you will succeed and become rich.</string>
+    <string name="cungMenhTuvi11"> Your \"Menh\" sign is situated on the Snake or Pig position. It has \"That sat\" and \"Dong cung\" star on it and "Tuan triet" star next to it. Hence you
     may not make lots of money although you may have fame/gain some position with your career field.</string>
-    <string name="cungMenhTuvi12"> Your "Menh" sign is in the same spot as "Ta phu" and "Huu bat" stars so your life will be wealthy and your words will be very powerful.</string>
-    <string name="cungMenhLiemTrinh1"> Your "Menh" sign has "Liem Trinh" star on it so you will have a tall body, heavy bones, dark elbows and strong face features.</string>
-    <string name="cungMenhLiemTrinh2"> Your "Menh" sign has the star of "Liem Trinh" and is situated on a good place. Hence, you are righteous,
+    <string name="cungMenhTuvi12"> Your \"Menh\" sign is in the same spot as \"Ta phu\" and \"Huu bat\" stars so your life will be wealthy and your words will be very powerful.</string>
+    <string name="cungMenhLiemTrinh1"> Your \"Menh\" sign has \"Liem trinh\" star on it so you will have a tall body, heavy bones, dark elbows and strong face features.</string>
+    <string name="cungMenhLiemTrinh2"> Your \"Menh\" sign has the star of \"Liem trinh\" and is situated on a good place. Hence, you are righteous,
     straightforward, courageous, strict and hot tempered. You will get wealth and live a long life.</string>
-    <string name="cungMenhLiemTrinh3"> Besides, your "Menh" sign also has "Van xuong" "Van khuc" stars on it so you are someone with capability and flexibility.</string>
-    <string name="cungMenhLiemTrinh4"> However, because your "Menh" sign also has another bad star like "Sat Tinh" so you may not get what you want (money or career).
+    <string name="cungMenhLiemTrinh3"> Besides, your \"Menh\" sign also has \"Van xuong\" \"Van khuc\" stars on it so you are someone with capability and flexibility.</string>
+    <string name="cungMenhLiemTrinh4"> However, because your \"Menh\" sign also has another bad star like \"Sat tinh\" so you may not get what you want (money or career).
     </string>
-    <string name="cungMenhLiemTrinh5"> The "Liem Trinh" star, which is situated in your "Menh" sign, is placed at a bad position, hence you are someone that may be
+    <string name="cungMenhLiemTrinh5"> The \"Liem trin\h" star, which is situated in your \"Menh\" sign, is placed at a bad position. Hence you are someone that may be
     harsh and dangerous sometimes, you have the business mind, very handy, like competition. You will tend to follow a career in the technical, industrial
     or hand-craft field. You may be a little weak and have some health problems and can face some accidents if not careful enough. You should build a career far from home
     to have a long life.</string>
-    <string name="cungMenhLiemTrinh6"> However, you are lucky to have "Hoa ky" and "Dong cung" or "Menh" sign situated on the Snake or Pig position. You don\'t need to worry about accidents or health problems
+    <string name="cungMenhLiemTrinh6"> However, you are lucky to have \"Hoa ky\" and \"Dong cung\" or \"Menh\" sign situated on the Snake or Pig position. You don\'t need to worry about accidents or health problems
     and you will lead a good life.</string>
-    <string name="cungMenhThienDong1"> Your "Menh" sign has the star of "Thien dong". In result you have a curvy but kind of short body with white skin and square face.</string>
-    <string name="cungMenhThienDong2"> Your "Menh" sign has the star of "Thien Dong" situated on a good place. In result you are smart with a forgiving attitude, gentle, like to care about
+    <string name="cungMenhThienDong1"> Your \"Menh\" sign has the star of \"Thien dong\". In result you have a curvy but kind of short body with white skin and square face.</string>
+    <string name="cungMenhThienDong2"> Your \"Menh\" sign has the star of \"Thien Dong\" situated on a good place. In result you are smart with a forgiving attitude, gentle, like to care about
     others but you are not determined and perseverate. You will likely change your career field. However you will be sure to live a long life with wealth.</string>
-    <string name="cungMenhThienDong3"> Besides, since your "Menh" sign is in the position of the Snake or the Pig, with the star of "Thien Dong", it shows that you are someone who loves adventures and travel.</string>
-    <string name="cungMenhThienDong4"> However, with "Thien dong" star on "Menh" sign, in the position of the Snake or the Pig for someone born on contradicting year will give a negative result. You
+    <string name="cungMenhThienDong3"> Besides, since your \"Menh\" sign is in the position of the Snake or the Pig, with the star of \"Thien Dong\", it shows that you are someone who loves adventures and travel.</string>
+    <string name="cungMenhThienDong4"> However, with \"Thien dong\" star on \"Menh\" sign, in the position of the Snake or the Pig for someone born on contradicting year will give a negative result. You
     may not achieve what you want.</string>
-    <string name="cungMenhThienDong5"> If your "Menh" has the star of "Thien dong" situated on a good place, but has other bad stars like "That sat", "Thien hinh" or "Dong cung", then you will still
+    <string name="cungMenhThienDong5"> If your \"Menh\" has the star of \"Thien dong\" situated on a good place, but has other bad stars like \"That sat\", \"Thien hinh\" or \"Dong cung\", then you will still
     have enough money to live a standard life but your health will not be very good. You may be careful as you will likely have health problems related to the eyes or digestive system.</string>
-    <string name="cungMenhThienDong6"> Your "Menh" sign has "Thien Di" star in a bad position. Hence you may not be very smart, you act impulsively. You are gentle but you are someone
+    <string name="cungMenhThienDong6"> Your \"Menh\" sign has \"Thien di\" star in a bad position. Hence you may not be very smart, you act impulsively. You are gentle but you are someone
     who gets bored easily. You prefer to play than to work. You will likely live a long life but you will face lots of struggles. You will live a life far from home. Commerce
     will be a good field for you.</string>
     <string name="cungMenhThienDong7"> You usually like to exaggerate things, you may not be careful enough with your words so you tend to make other people unhappy.</string>
-    <string name="cungMenhThienDong8">Your "Menh" sign is situated in the Horse position, which is a bad thing for the "Thien dong" star but you still have a strong business mind.</string>
-    <string name="cungMenhThienDong9"> Your "Menh" is situated in the position of the Horse or Dog. It is not good with the star of "Thien dong" but with the year of birth you are born in it is a good result. Hence you will be sure to get wealth.</string>
-    <string name="cungMenhThienDong10">Cung mệnh ở vị trí Dần hay Thân, có sao Thiên Lương đồng thủ, nên rất sáng sủa,
-    tốt đẹp vì có sự phù hợp. Tất nhiên bạn sẽ được hưởng phú quý tột bật, phúc thọ song toàn. </string>
-    <string name="cungMenhThienDong11">Cung mệnh có sao Thái Âm đồng cung, thêm sao thất sát nữa, nên bạn chuyên về kỹ nghệ, hay kinh doanh buôn bán sẽ rất tốt. </string>
-    <string name="cungMenhThienDong12">Cung mệnh của bạn có sao Thái Âm Thiên đồng đồng cung, nên rất rực rỡ tốt đẹp, vì ở đây, Thái âm giống như
-    mặt trăng lơ lửng trên bầu trời, nên nếu bạn là 1 cô gái, bạn tất có vẻ mặt xinh tươi đáng yêu. </string>
-    <string name="cungMenhThienDong13">Tuy nhiên do cung mệnh của bạn còn có ngôi sao xấu như sao Tang Môn, hay sao Thiên khốc, thiên riêu,
-    nên bạn có lẽ cuộc đời nhiều nước mắt vì người thương. </string>
-    <string name="cungMenhVuKhuc1">Cung mệnh có sao Vũ khúc, nên thân hình nở nang cao vừa tầm, nặng cân đầu, mặt dài, vẻ mặt
-    uy nghi, thường cách biệt những người thân, thường không hợp tính với cha mẹ, hoặc vợ chồng hay con cái. </string>
-    <string name="cungMenhVuKhuc2">Cung mệnh có sao Vũ khúc ở vị trí tốt, nên bạn là người thông minh, có chí lớn, có tài tổ chức, có óc kinh doanh
-    và quả quyết, cương nghị, hiếu thắng nhưng thẳng thắn, suốt đời được hưởng giàu sang, sống lâu. </string>
-    <string name="cungMenhVuKhuc3">Cung mệnh ở vị trí Sửu hay Mùi,tuy là tốt với sao Vũ khúc,nên lúc thiếu thời bạn vẫn được cơm no áo ấm.
-    Tuy nhiên chẳng mấy khi được xứng ý toại lòng, vì công danh trắc trở, tiền tài bất thường, sự nghiệp như lâu đài xây trên bãi cát. Phải từ ngoài 30 tuổi
-    trở lên bạn mới hưởng phú quý song toàn, mới giữ của cải bền vững và về già trở nên giàu có. </string>
-    <string name="cungMenhVuKhuc4">Cung mệnh có vị trí Mão, tốt với sao vũ khúc, tuy được hưởng giàu sang nhưng trong mình thường có tật, lại hay mắc bệnh
-    thần kinh,hay bệnh khí huyết, và khó tránh khỏi tai nạn do dao súng, xe cộ điện lửa. </string>
+    <string name="cungMenhThienDong8">Your \"Menh\" sign is situated in the Horse position, which is a bad thing for the \"Thien dong\" star but you still have a strong business mind.</string>
+    <string name="cungMenhThienDong9"> Your \"Menh\" is situated in the position of the Horse or Dog. It is not good with the star of \"Thien dong\" but with the year of birth you are born in it is a good result. Hence you will be sure to get wealth.</string>
+    <string name="cungMenhThienDong10"> Your \"Menh\" sign is in the position of the Tiger or the Monkey, with \"Thien luong\" star on it so you will have a bright future with lots of wealth and health.</string>
+    <string name="cungMenhThienDong11"> Your \"Menh\" sign has the \"Thai duong\" and \"Dong cung\" stars, with the combination of "That sat" star so you will be working on the technological field or business selling and trading. It will be very good for you.</string>
+    <string name="cungMenhThienDong12"> Your \"Menh\" sign has the stars of \"Thai am\", \"Thien dong\" and \"Dong cung\" so they will shine very bright. If you are a girl, you will be a very pretty and lovely girl. </string>
+    <string name="cungMenhThienDong13"> However, because your \"Menh\" sign has bad stars on it like "Tang mon" or \"Thien khoc\" \"Thien rieu\" stars so you will drop lots of tears for your loved ones.</string>
+    <string name="cungMenhVuKhuc1"> Your \"Menh\" sign has the star of \"Vu khuc\" so you have a curvy body with average height. You usually live a life far from your family and have problems with your parents, your wife or your kids.</string>
+    <string name="cungMenhVuKhuc2"> Your \"Menh\" sign has the star of \"Vu khuc\" in a good position. Hence you are smart, strong-willed, have organization skill,
+    a business mind, determined, straightforward, You will live a long life full of wealth.</string>
+    <string name="cungMenhVuKhuc3"> Your \"Menh\" sign is situated in the Buffalo or Goat position. Although it is a good place but you will have problems with your career, the income
+    will be irregular. You will only be able to get rich after 30 years old.</string>
+    <string name="cungMenhVuKhuc4"> Your \"Menh\" sign is situated in the Cat position, good with \"Vu khuc\" star so you will get wealth however you will have health problems related to the head area.</string>
     <string name="cungMenhVuKhuc5">Cung mênh có vị trí Dậu, tốt với sao Vũ Khúc, tuy được hưởng giàu sang nhưng bạn hay mắc bệnh nội thương trong người khó chữa,
-    hay mắc tai nạn xe cộ. Nếu bạn sinh ở hướng tây bắc, thì số mệnh cực kỳ tốt, có uy quyền hiển hách, khuất phục được những côn đồ gian ác, được nhiều người kính trọng. </string>
+    hay mắc tai nạn xe cộ. Nếu bạn sinh ở hướng tây bắc, thì số mệnh cực kỳ tốt, có uy quyền hiển hách, khuất phục được những côn đồ gian ác, được nhiều người kính trọng.
+
+    </string>
     <string name="cungMenhVuKhuc6">Cung mệnh có vị trí không tốt với sao Vũ khúc, nên bạn kém thông minh, có tính tham lận và không được
     lương thiện, suốt đời chẳng mấy khi được xứng ý toại lòng, vì công danh trắc trở, tiền tài khó kiếm, thường hay phải bỏ nhà lập nghiệp ở phương xa, hay đi làm
     thợ, nếu có của cải của tiền nhân để lại, rồi cũng phá tán hết, và dĩ nhiên không sống thọ. </string>
